@@ -124,7 +124,7 @@ In order to solve the problem of the vanishing/exploding gradient, this architec
 
 
 
-![alt_text](images/skip_connection.png "image_tooltip")
+![alt_text](images/skip_connections.png "image_tooltip")
 
 
 The advantage of adding this type of skip connection is because if any layer hurts the performance of architecture then it will be skipped by regularization. So, this results in training a very deep neural network without the problems caused by vanishing/exploding gradients.  The authors of the paper experimented on 100-1000 layers on the CIFAR-10 dataset.
@@ -134,10 +134,7 @@ There is a similar approach called “highway networks”, these networks also u
 Final architecture of Residual Network.
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[![alt text][image]][https://github.com/mohdahmad242/DOA-classification/blob/main/images/skip_connections.png]
+![alt_text](images/resnet.png "image_tooltip")
 
 ### **Losses used in training of Resnet:**
 
@@ -167,20 +164,28 @@ Final architecture of Residual Network.
     * This way our model was generalized for different SNR values. 
 * Mean absolute error: 
 
-        
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
+![alt_text](images/mae.png "image_tooltip")
 
 
 * Accuracy:
 
-    	
+![alt_text](images/accuracy.png "image_tooltip")
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
+# Results
+***
+Accuracy vs DOA (SNR - 0dB)           |  Accuracy vs DOA (SNR - 30dB)
+:-------------------------:|:-------------------------:
+![](https://github.com/mohdahmad242/DOA-classification/blob/main/DOA/DOA_graphs/Accuracy%20vs%20DOA%20(SNR%20-%200dB).png) | ![](https://github.com/mohdahmad242/DOA-classification/blob/main/DOA/DOA_graphs/Accuracy%20vs%20DOA%20(SNR%20-%2030dB).png)
+Accuracy vs SNR (DOA - 3)          |  Accuracy vs SNR (DOA - 6)
+:-------------------------:|:-------------------------:
+![](https://github.com/mohdahmad242/DOA-classification/blob/main/DOA/DOA_graphs/Accuracy%20vs%20SNR%20(DOA%20-%203).png) | ![](https://github.com/mohdahmad242/DOA-classification/blob/main/DOA/DOA_graphs/Accuracy%20vs%20SNR%20(DOA%20-%206).png)
+MAE vs DOA (SNR - 0dB)           |  MAE vs DOA (SNR - 30dB)
+:-------------------------:|:-------------------------:
+![](https://github.com/mohdahmad242/DOA-classification/blob/main/DOA/DOA_graphs/MAE%20vs%20DOA%20(SNR%20-%200dB).png) | ![](https://github.com/mohdahmad242/DOA-classification/blob/main/DOA/DOA_graphs/MAE%20vs%20DOA%20(SNR%20-%2030dB).png)
+MAE vs SNR (DOA - 3)         |  MAE vs SNR (DOA - 6)
+:-------------------------:|:-------------------------:
+![](https://github.com/mohdahmad242/DOA-classification/blob/main/DOA/DOA_graphs/MAE%20vs%20SNR%20(DOA%20-%203).png) | ![](https://github.com/mohdahmad242/DOA-classification/blob/main/DOA/DOA_graphs/MAE%20vs%20SNR%20(DOA%20-%206).png)
+| MAE vs DOA (SNR - 30dB) DL Only |
+:-------------------------:|
+![](https://github.com/mohdahmad242/DOA-classification/blob/main/DOA/DOA_graphs/MAE%20vs%20DOA%20(SNR%20-%2030dB)_DL_only.png)
 
