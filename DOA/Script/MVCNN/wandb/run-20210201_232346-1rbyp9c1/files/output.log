@@ -1,0 +1,359 @@
+GeForce GTX 1080 Ti
+Epoch 1 - Traningloss: 5.208574279858048
+Validationloss: 5.201420950889587
+Trainig Acc: 0.52375
+Validation Acc: 0.49500000000000005
+Epoch 2 - Traningloss: 5.200588542185012
+Validationloss: 5.318211197853088
+Trainig Acc: 0.59875
+Validation Acc: 0.545
+Epoch 3 - Traningloss: 5.062645814980671
+Validationloss: 6.041125845909119
+Trainig Acc: 0.9724999999999999
+Validation Acc: 0.575
+Epoch 4 - Traningloss: 4.864360223150557
+Validationloss: 7.99799497127533
+Trainig Acc: 1.0675000000000001
+Validation Acc: 0.52
+Epoch 5 - Traningloss: 4.735183375656225
+Validationloss: 7.543586230278015
+Trainig Acc: 1.25625
+Validation Acc: 0.52
+Epoch 6 - Traningloss: 4.650633896991706
+Validationloss: 7.074242091178894
+Trainig Acc: 1.5375
+Validation Acc: 0.51
+Epoch 7 - Traningloss: 4.572195611941587
+Validationloss: 5.77862331867218
+Trainig Acc: 1.8575000000000002
+Validation Acc: 0.835
+Epoch 8 - Traningloss: 4.514873334556628
+Validationloss: 4.90197720527649
+Trainig Acc: 1.9574999999999998
+Validation Acc: 1.125
+Epoch 9 - Traningloss: 4.467645672476216
+Validationloss: 4.966289281845093
+Trainig Acc: 2.1225
+Validation Acc: 1.165
+Epoch 10 - Traningloss: 4.422698661779902
+Validationloss: 4.8031717300415036
+Trainig Acc: 2.3074999999999997
+Validation Acc: 1.415
+Epoch 11 - Traningloss: 4.385812571094294
+Validationloss: 4.74268000125885
+Trainig Acc: 2.435
+Validation Acc: 2.04
+Epoch 12 - Traningloss: 4.348746618647485
+Validationloss: 4.43182647228241
+Trainig Acc: 2.59
+Validation Acc: 2.02
+Epoch 13 - Traningloss: 4.3118426875703655
+Validationloss: 4.538653111457824
+Trainig Acc: 2.65625
+Validation Acc: 2.465
+Epoch 14 - Traningloss: 4.277571587046241
+Validationloss: 4.5020452499389645
+Trainig Acc: 3.0225
+Validation Acc: 2.21
+Epoch 15 - Traningloss: 4.2397157766257125
+Validationloss: 4.3168353796005245
+Trainig Acc: 3.1199999999999997
+Validation Acc: 3.06
+Epoch 16 - Traningloss: 4.1955752494228875
+Validationloss: 4.28588707447052
+Trainig Acc: 3.3649999999999998
+Validation Acc: 3.36
+Epoch 17 - Traningloss: 4.150854244353665
+Validationloss: 4.2812111377716064
+Trainig Acc: 3.5875
+Validation Acc: 3.39
+Epoch 18 - Traningloss: 4.106594319556169
+Validationloss: 4.2231461763381954
+Trainig Acc: 4.0525
+Validation Acc: 4.265
+Epoch 19 - Traningloss: 4.047324660477365
+Validationloss: 4.189530324935913
+Trainig Acc: 4.46125
+Validation Acc: 4.105
+Epoch 20 - Traningloss: 3.9756517015445003
+Validationloss: 4.548377728462219
+Trainig Acc: 4.9262500000000005
+Validation Acc: 3.6350000000000002
+Epoch 21 - Traningloss: 3.9182112824385333
+Validationloss: 4.280321884155273
+Trainig Acc: 5.39125
+Validation Acc: 4.035
+Epoch 22 - Traningloss: 3.862634345984003
+Validationloss: 4.221827507019043
+Trainig Acc: 5.765
+Validation Acc: 4.075
+Epoch 23 - Traningloss: 3.81116514145189
+Validationloss: 4.162857007980347
+Trainig Acc: 6.07875
+Validation Acc: 4.74
+Epoch 24 - Traningloss: 3.7596466905751806
+Validationloss: 4.237306237220764
+Trainig Acc: 6.281249999999999
+Validation Acc: 4.955
+Epoch 25 - Traningloss: 3.71866395063461
+Validationloss: 4.064942622184754
+Trainig Acc: 6.6925
+Validation Acc: 5.41
+Epoch 26 - Traningloss: 3.6757571879465867
+Validationloss: 4.310843014717102
+Trainig Acc: 6.9025
+Validation Acc: 4.645
+Epoch 27 - Traningloss: 3.6348803620429555
+Validationloss: 4.119133985042572
+Trainig Acc: 7.2575
+Validation Acc: 5.595
+Epoch 28 - Traningloss: 3.5964343502263354
+Validationloss: 4.173698163032531
+Trainig Acc: 7.359999999999999
+Validation Acc: 5.255
+Epoch 29 - Traningloss: 3.555932069280345
+Validationloss: 4.126475691795349
+Trainig Acc: 7.83375
+Validation Acc: 6.194999999999999
+Epoch 30 - Traningloss: 3.5245560764507124
+Validationloss: 4.25940215587616
+Trainig Acc: 7.7700000000000005
+Validation Acc: 5.67
+Epoch 31 - Traningloss: 3.494654626603339
+Validationloss: 3.940730798244476
+Trainig Acc: 8.008750000000001
+Validation Acc: 6.965000000000001
+Epoch 32 - Traningloss: 3.4635788483224856
+Validationloss: 4.332138800621033
+Trainig Acc: 8.205
+Validation Acc: 5.06
+Epoch 33 - Traningloss: 3.439117342043834
+Validationloss: 4.056056118011474
+Trainig Acc: 8.276250000000001
+Validation Acc: 6.345000000000001
+Epoch 34 - Traningloss: 3.4156336480644858
+Validationloss: 4.05650315284729
+Trainig Acc: 8.51
+Validation Acc: 6.115
+Epoch 35 - Traningloss: 3.3961602684798513
+Validationloss: 4.04535540342331
+Trainig Acc: 8.60125
+Validation Acc: 6.4399999999999995
+Epoch 36 - Traningloss: 3.382730774059417
+Validationloss: 3.9007682681083677
+Trainig Acc: 8.6825
+Validation Acc: 7.1499999999999995
+Epoch 37 - Traningloss: 3.360702021106793
+Validationloss: 3.973924684524536
+Trainig Acc: 8.66
+Validation Acc: 6.67
+Epoch 38 - Traningloss: 3.3436536424478907
+Validationloss: 4.067642569541931
+Trainig Acc: 8.90125
+Validation Acc: 6.4350000000000005
+Epoch 39 - Traningloss: 3.3247569624785407
+Validationloss: 3.990264892578125
+Trainig Acc: 9.07375
+Validation Acc: 6.67
+Epoch 40 - Traningloss: 3.3102461805768835
+Validationloss: 3.8526350140571592
+Trainig Acc: 9.23875
+Validation Acc: 8.025
+Epoch 41 - Traningloss: 3.3034811111012843
+Validationloss: 3.8906901478767395
+Trainig Acc: 9.285
+Validation Acc: 6.69
+Epoch 42 - Traningloss: 3.283253208087508
+Validationloss: 3.8247069716453552
+Trainig Acc: 9.45
+Validation Acc: 8.135
+Epoch 43 - Traningloss: 3.266920410144101
+Validationloss: 3.9602936506271362
+Trainig Acc: 9.610000000000001
+Validation Acc: 7.2700000000000005
+Epoch 44 - Traningloss: 3.2571758191297007
+Validationloss: 3.815147364139557
+Trainig Acc: 9.735000000000001
+Validation Acc: 8.309999999999999
+Epoch 45 - Traningloss: 3.241989597393449
+Validationloss: 3.7399808168411255
+Trainig Acc: 9.9275
+Validation Acc: 8.275
+Epoch 46 - Traningloss: 3.2368224988317795
+Validationloss: 3.8652414441108705
+Trainig Acc: 9.98125
+Validation Acc: 7.76
+Epoch 47 - Traningloss: 3.2232586213737537
+Validationloss: 3.7081159949302673
+Trainig Acc: 10.0525
+Validation Acc: 8.505
+Epoch 48 - Traningloss: 3.2055617381053367
+Validationloss: 3.731533110141754
+Trainig Acc: 10.1675
+Validation Acc: 8.64
+Epoch 49 - Traningloss: 3.196237971068947
+Validationloss: 3.861107385158539
+Trainig Acc: 10.418750000000001
+Validation Acc: 8.6
+Epoch 50 - Traningloss: 3.189239252904418
+Validationloss: 4.001827335357666
+Trainig Acc: 10.40875
+Validation Acc: 7.93
+Epoch 51 - Traningloss: 3.174829401028384
+Validationloss: 3.8379238724708555
+Trainig Acc: 10.71
+Validation Acc: 8.975
+Epoch 52 - Traningloss: 3.1682057623650617
+Validationloss: 3.670580744743347
+Trainig Acc: 10.46375
+Validation Acc: 9.905
+Epoch 53 - Traningloss: 3.1529902622198605
+Validationloss: 3.6619391322135924
+Trainig Acc: 10.735
+Validation Acc: 10.035
+Epoch 54 - Traningloss: 3.151290971002761
+Validationloss: 3.823007845878601
+Trainig Acc: 10.555
+Validation Acc: 9.34
+Epoch 55 - Traningloss: 3.140573996647148
+Validationloss: 3.71761177778244
+Trainig Acc: 11.04625
+Validation Acc: 9.58
+Epoch 56 - Traningloss: 3.130901209108389
+Validationloss: 3.6511387705802916
+Trainig Acc: 10.82625
+Validation Acc: 10.205
+Epoch 57 - Traningloss: 3.1246831067808114
+Validationloss: 3.7999666333198547
+Trainig Acc: 10.991249999999999
+Validation Acc: 9.865
+Epoch 58 - Traningloss: 3.1096645176031026
+Validationloss: 3.590892767906189
+Trainig Acc: 11.14
+Validation Acc: 10.38
+Epoch 59 - Traningloss: 3.1069735751789844
+Validationloss: 3.7034880399703978
+Trainig Acc: 11.335
+Validation Acc: 10.915
+Epoch 60 - Traningloss: 3.0993871734400464
+Validationloss: 3.7456730365753175
+Trainig Acc: 11.1475
+Validation Acc: 9.44
+Epoch 61 - Traningloss: 3.0936248408760996
+Validationloss: 3.510586380958557
+Trainig Acc: 11.379999999999999
+Validation Acc: 10.875
+Epoch 62 - Traningloss: 3.0815192271190086
+Validationloss: 3.694262456893921
+Trainig Acc: 11.57625
+Validation Acc: 10.209999999999999
+Epoch 63 - Traningloss: 3.0772419370663395
+Validationloss: 3.6266310811042786
+Trainig Acc: 11.44875
+Validation Acc: 11.28
+Epoch 64 - Traningloss: 3.069325984663265
+Validationloss: 3.7505836844444276
+Trainig Acc: 11.58
+Validation Acc: 10.075000000000001
+Epoch 65 - Traningloss: 3.0668267338139237
+Validationloss: 3.559421622753143
+Trainig Acc: 11.7175
+Validation Acc: 11.31
+Epoch 66 - Traningloss: 3.052318533514715
+Validationloss: 3.662934112548828
+Trainig Acc: 11.8225
+Validation Acc: 10.99
+Epoch 67 - Traningloss: 3.053144140607992
+Validationloss: 3.654051923751831
+Trainig Acc: 11.63375
+Validation Acc: 10.5
+Epoch 68 - Traningloss: 3.046190006717755
+Validationloss: 3.641110336780548
+Trainig Acc: 11.78
+Validation Acc: 11.185
+Epoch 69 - Traningloss: 3.038308840648384
+Validationloss: 3.7098466396331786
+Trainig Acc: 12.0125
+Validation Acc: 10.835
+Epoch 70 - Traningloss: 3.0355702889193394
+Validationloss: 3.7464895248413086
+Trainig Acc: 12.022499999999999
+Validation Acc: 10.955
+Epoch 71 - Traningloss: 3.029836921934869
+Validationloss: 3.6679090023040772
+Trainig Acc: 11.91625
+Validation Acc: 10.945
+Epoch 72 - Traningloss: 3.0186681458904485
+Validationloss: 3.574036145210266
+Trainig Acc: 12.12375
+Validation Acc: 12.125
+Epoch 73 - Traningloss: 3.016868445523985
+Validationloss: 3.6710744500160217
+Trainig Acc: 12.11875
+Validation Acc: 11.355
+Epoch 74 - Traningloss: 3.013439316658457
+Validationloss: 3.655715799331665
+Trainig Acc: 12.1
+Validation Acc: 11.635
+Epoch 75 - Traningloss: 3.005953972506675
+Validationloss: 3.5497734785079955
+Trainig Acc: 12.27125
+Validation Acc: 12.545
+Epoch 76 - Traningloss: 2.993810515494863
+Validationloss: 3.5762134313583376
+Trainig Acc: 12.15375
+Validation Acc: 12.235
+Epoch 77 - Traningloss: 2.995346067817348
+Validationloss: 3.625170636177063
+Trainig Acc: 12.34
+Validation Acc: 11.344999999999999
+Epoch 78 - Traningloss: 2.986196906703293
+Validationloss: 3.567045497894287
+Trainig Acc: 12.33
+Validation Acc: 11.899999999999999
+Epoch 79 - Traningloss: 2.9904224113294275
+Validationloss: 3.627093231678009
+Trainig Acc: 12.26375
+Validation Acc: 11.885
+Epoch 80 - Traningloss: 2.979161172915416
+Validationloss: 3.7634307861328127
+Trainig Acc: 12.4475
+Validation Acc: 10.43
+Epoch 81 - Traningloss: 2.972337001448224
+Validationloss: 3.705892527103424
+Trainig Acc: 12.46
+Validation Acc: 10.43
+Epoch 82 - Traningloss: 2.9610119761934706
+Validationloss: 3.5309855818748472
+Trainig Acc: 12.58625
+Validation Acc: 12.345
+Epoch 83 - Traningloss: 2.961138445860261
+Validationloss: 3.6312837839126586
+Trainig Acc: 12.4825
+Validation Acc: 11.37
+Epoch 84 - Traningloss: 2.9601917114986738
+Validationloss: 3.6247527956962586
+Trainig Acc: 12.584999999999999
+Validation Acc: 11.899999999999999
+Epoch 85 - Traningloss: 2.9558769897290857
+Validationloss: 3.6541218400001525
+Trainig Acc: 12.57
+Validation Acc: 12.34
+Epoch 86 - Traningloss: 2.945730247315328
+Validationloss: 3.7296544432640077
+Trainig Acc: 13.0675
+Validation Acc: 11.785
+Epoch 87 - Traningloss: 2.945113022615955
+Validationloss: 3.5900437951087953
+Trainig Acc: 12.8175
+Validation Acc: 11.76
+Epoch 88 - Traningloss: 2.9408770716114407
+Validationloss: 3.5588128328323365
+Trainig Acc: 12.945
+Validation Acc: 12.559999999999999
+Traceback (most recent call last):
+  File "train.py", line 189, in <module>
+    train()
+  File "train.py", line 152, in train
+    losss = criterion(auto_outputs.cuda(), labels.type(torch.LongTensor).cuda())
+KeyboardInterrupt

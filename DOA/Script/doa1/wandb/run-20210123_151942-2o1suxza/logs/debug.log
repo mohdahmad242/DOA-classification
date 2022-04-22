@@ -1,0 +1,15 @@
+2021-01-23 15:19:42,566 INFO    MainThread:32269 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-23 15:19:42,567 INFO    MainThread:32269 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-23 15:19:42,568 INFO    MainThread:32269 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-23 15:19:42,568 INFO    MainThread:32269 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-23 15:19:42,568 INFO    MainThread:32269 [wandb_init.py:_log_setup():318] Logging user logs to /home/iiitd/Desktop/Ahmad/doa1/wandb/run-20210123_151942-2o1suxza/logs/debug.log
+2021-01-23 15:19:42,568 INFO    MainThread:32269 [wandb_init.py:_log_setup():319] Logging internal logs to /home/iiitd/Desktop/Ahmad/doa1/wandb/run-20210123_151942-2o1suxza/logs/debug-internal.log
+2021-01-23 15:19:45,118 INFO    MainThread:32269 [wandb_run.py:_console_start():1308] atexit reg
+2021-01-23 15:19:45,119 INFO    MainThread:32269 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.REDIRECT
+2021-01-23 15:19:45,119 INFO    MainThread:32269 [wandb_run.py:_redirect():1178] Redirecting console.
+2021-01-23 15:19:45,119 INFO    MainThread:32269 [redirect.py:install():205] install start
+2021-01-23 15:19:45,121 INFO    MainThread:32269 [redirect.py:install():220] install stop
+2021-01-23 15:19:45,121 INFO    MainThread:32269 [redirect.py:install():205] install start
+2021-01-23 15:19:45,124 INFO    MainThread:32269 [redirect.py:install():220] install stop
+2021-01-23 15:19:45,124 INFO    MainThread:32269 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-01-23 17:34:21,643 INFO    MainThread:32269 [wandb_run.py:finish():983] finishing run ahmadkhan242/SNR_NS_15_50000_unet/2o1suxza

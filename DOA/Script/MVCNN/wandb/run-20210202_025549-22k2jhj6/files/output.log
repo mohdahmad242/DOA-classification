@@ -1,0 +1,131 @@
+GeForce GTX 1080 Ti
+Epoch 1 - Traningloss: 5.22001570085936
+Validationloss: 5.200983285903931
+Trainig Acc: 0.5375
+Validation Acc: 0.555
+Epoch 2 - Traningloss: 5.168988288203372
+Validationloss: 5.462941980361938
+Trainig Acc: 0.82625
+Validation Acc: 0.64
+Epoch 3 - Traningloss: 4.835328826421423
+Validationloss: 5.77031831741333
+Trainig Acc: 1.0775
+Validation Acc: 0.6649999999999999
+Epoch 4 - Traningloss: 4.583975948864901
+Validationloss: 8.92943115234375
+Trainig Acc: 1.6275000000000002
+Validation Acc: 0.545
+Epoch 5 - Traningloss: 4.3645974955981295
+Validationloss: 8.178523635864257
+Trainig Acc: 2.4074999999999998
+Validation Acc: 0.59
+Epoch 6 - Traningloss: 4.156563846370842
+Validationloss: 8.897879886627198
+Trainig Acc: 3.1625
+Validation Acc: 0.49
+Epoch 7 - Traningloss: 3.956088548974146
+Validationloss: 8.240803718566895
+Trainig Acc: 4.07625
+Validation Acc: 0.67
+Epoch 8 - Traningloss: 3.7979675908631916
+Validationloss: 9.374209213256837
+Trainig Acc: 5.220000000000001
+Validation Acc: 0.645
+Epoch 9 - Traningloss: 3.6563419571405724
+Validationloss: 7.817482566833496
+Trainig Acc: 6.425
+Validation Acc: 0.695
+Epoch 10 - Traningloss: 3.473858066751987
+Validationloss: 7.7649962425231935
+Trainig Acc: 8.09875
+Validation Acc: 0.69
+Epoch 11 - Traningloss: 3.3083093468146987
+Validationloss: 6.0429009914398195
+Trainig Acc: 9.165
+Validation Acc: 0.915
+Epoch 12 - Traningloss: 3.1597625062435486
+Validationloss: 6.668230390548706
+Trainig Acc: 9.9825
+Validation Acc: 0.935
+Epoch 13 - Traningloss: 3.067676019064988
+Validationloss: 7.337943506240845
+Trainig Acc: 11.123750000000001
+Validation Acc: 0.795
+Epoch 14 - Traningloss: 3.006331214421912
+Validationloss: 7.028866958618164
+Trainig Acc: 11.705
+Validation Acc: 0.7000000000000001
+Epoch 15 - Traningloss: 2.977193443081047
+Validationloss: 6.972532749176025
+Trainig Acc: 11.85375
+Validation Acc: 0.815
+Epoch 16 - Traningloss: 2.9228099177155316
+Validationloss: 7.356900310516357
+Trainig Acc: 12.54875
+Validation Acc: 0.97
+Epoch 17 - Traningloss: 2.875336290914801
+Validationloss: 8.329124355316162
+Trainig Acc: 12.94875
+Validation Acc: 0.72
+Epoch 18 - Traningloss: 2.836760877053949
+Validationloss: 8.593103313446045
+Trainig Acc: 13.59875
+Validation Acc: 0.8250000000000001
+Epoch 19 - Traningloss: 2.805425927608828
+Validationloss: 7.993684577941894
+Trainig Acc: 13.86375
+Validation Acc: 0.7849999999999999
+Epoch 20 - Traningloss: 2.7829300602780114
+Validationloss: 9.17293701171875
+Trainig Acc: 14.11125
+Validation Acc: 0.8
+Epoch 21 - Traningloss: 2.7475272915031335
+Validationloss: 8.778316307067872
+Trainig Acc: 14.671249999999999
+Validation Acc: 0.7799999999999999
+Epoch 22 - Traningloss: 2.743526093567474
+Validationloss: 8.311283493041993
+Trainig Acc: 14.69
+Validation Acc: 0.795
+Epoch 23 - Traningloss: 2.6914801688133916
+Validationloss: 8.280998229980469
+Trainig Acc: 15.36875
+Validation Acc: 0.895
+Epoch 24 - Traningloss: 2.686141723318945
+Validationloss: 9.062497806549072
+Trainig Acc: 15.310000000000002
+Validation Acc: 0.59
+Epoch 25 - Traningloss: 2.6545962381966506
+Validationloss: 8.02771029472351
+Trainig Acc: 15.7475
+Validation Acc: 0.86
+Epoch 26 - Traningloss: 2.638430948498883
+Validationloss: 8.178164005279541
+Trainig Acc: 16.1375
+Validation Acc: 0.9450000000000001
+Epoch 27 - Traningloss: 2.637707486937318
+Validationloss: 8.315094089508056
+Trainig Acc: 16.22375
+Validation Acc: 0.8500000000000001
+Epoch 28 - Traningloss: 2.6015308567240267
+Validationloss: 8.343466758728027
+Trainig Acc: 16.77125
+Validation Acc: 0.74
+Epoch 29 - Traningloss: 2.5911394131334524
+Validationloss: 8.033669185638427
+Trainig Acc: 16.90875
+Validation Acc: 0.88
+Traceback (most recent call last):
+  File "train.py", line 187, in <module>
+    train()
+  File "train.py", line 139, in train
+    for features, labels in train_loader:
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 403, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 47, in fetch
+    return self.collate_fn(data)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/utils/data/_utils/collate.py", line 83, in default_collate
+    transposed = zip(*batch)
+KeyboardInterrupt

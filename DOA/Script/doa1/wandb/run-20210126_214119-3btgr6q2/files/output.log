@@ -1,0 +1,14 @@
+300000
+GeForce GTX 1080 Ti
+Epoch 1 - Traningloss: -658.7537280005866
+Validationloss: -733.4249422752251
+Traceback (most recent call last):
+  File "pretraining.py", line 157, in <module>
+    train()
+  File "pretraining.py", line 132, in train
+    optimizer.step()
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 15, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/optim/adam.py", line 111, in step
+    p.addcdiv_(exp_avg, denom, value=-step_size)
+KeyboardInterrupt

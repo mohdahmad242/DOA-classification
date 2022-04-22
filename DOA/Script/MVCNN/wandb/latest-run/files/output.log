@@ -1,0 +1,191 @@
+GeForce GTX 1080 Ti
+Epoch 1 - Traningloss: 4.705871705037014
+Validationloss: 5.086122632026672
+Trainig Acc: 2.435
+Validation Acc: 1.3299999999999998
+Epoch 2 - Traningloss: 3.020104658831457
+Validationloss: 5.279445767402649
+Trainig Acc: 14.1425
+Validation Acc: 1.06
+Epoch 3 - Traningloss: 2.0776616782899113
+Validationloss: 5.496334266662598
+Trainig Acc: 28.595
+Validation Acc: 1.17
+Epoch 4 - Traningloss: 1.6478297368736023
+Validationloss: 5.7156733751296995
+Trainig Acc: 39.6475
+Validation Acc: 1.1199999999999999
+Epoch 5 - Traningloss: 1.3902695710491981
+Validationloss: 5.937544798851013
+Trainig Acc: 47.89
+Validation Acc: 1.18
+Epoch 6 - Traningloss: 1.1986147518370562
+Validationloss: 7.018463611602783
+Trainig Acc: 54.9075
+Validation Acc: 0.48
+Epoch 7 - Traningloss: 1.0327422869433263
+Validationloss: 6.710065197944641
+Trainig Acc: 61.0575
+Validation Acc: 0.79
+Epoch 8 - Traningloss: 0.9002542955100916
+Validationloss: 6.794561862945557
+Trainig Acc: 65.995
+Validation Acc: 0.8500000000000001
+Epoch 9 - Traningloss: 0.8108576479231476
+Validationloss: 7.219123697280883
+Trainig Acc: 69.5725
+Validation Acc: 0.6799999999999999
+Epoch 10 - Traningloss: 0.712920505529756
+Validationloss: 7.100215411186218
+Trainig Acc: 72.955
+Validation Acc: 0.63
+Epoch 11 - Traningloss: 0.6330241708998467
+Validationloss: 8.875649213790894
+Trainig Acc: 76.37
+Validation Acc: 0.79
+Epoch 12 - Traningloss: 0.5697085642890566
+Validationloss: 9.039888668060303
+Trainig Acc: 78.61
+Validation Acc: 0.73
+Epoch 13 - Traningloss: 0.5243149339013798
+Validationloss: 7.779671549797058
+Trainig Acc: 80.2825
+Validation Acc: 0.66
+Epoch 14 - Traningloss: 0.5023313705708571
+Validationloss: 8.035385179519654
+Trainig Acc: 80.9225
+Validation Acc: 0.69
+Epoch 15 - Traningloss: 0.46587936285954373
+Validationloss: 8.717852544784545
+Trainig Acc: 82.72
+Validation Acc: 0.88
+Epoch 16 - Traningloss: 0.4335266203637336
+Validationloss: 9.4121169090271
+Trainig Acc: 83.58
+Validation Acc: 0.8200000000000001
+Epoch 17 - Traningloss: 0.38380620006922705
+Validationloss: 8.65521855354309
+Trainig Acc: 85.515
+Validation Acc: 0.84
+Epoch 18 - Traningloss: 0.4195498562162849
+Validationloss: 11.44645071029663
+Trainig Acc: 84.39999999999999
+Validation Acc: 0.65
+Epoch 19 - Traningloss: 0.32499582647897635
+Validationloss: 9.565415096282958
+Trainig Acc: 87.61250000000001
+Validation Acc: 0.62
+Epoch 20 - Traningloss: 0.3357279979309459
+Validationloss: 9.066585397720337
+Trainig Acc: 87.21
+Validation Acc: 0.79
+Epoch 21 - Traningloss: 0.325099074347004
+Validationloss: 8.832196044921876
+Trainig Acc: 87.625
+Validation Acc: 0.62
+Epoch 22 - Traningloss: 0.32618383816473046
+Validationloss: 9.220392084121704
+Trainig Acc: 87.7575
+Validation Acc: 0.69
+Epoch 23 - Traningloss: 0.27220173132647374
+Validationloss: 8.827980899810791
+Trainig Acc: 89.78
+Validation Acc: 0.69
+Epoch 24 - Traningloss: 0.2746120395174452
+Validationloss: 8.00487198829651
+Trainig Acc: 89.7175
+Validation Acc: 0.62
+Epoch 25 - Traningloss: 0.2789886253085106
+Validationloss: 9.763290643692017
+Trainig Acc: 89.4975
+Validation Acc: 0.54
+Epoch 26 - Traningloss: 0.24659669707725002
+Validationloss: 11.292458629608154
+Trainig Acc: 90.63250000000001
+Validation Acc: 0.33999999999999997
+Epoch 27 - Traningloss: 0.2631143778562546
+Validationloss: 8.674821376800537
+Trainig Acc: 90.2025
+Validation Acc: 0.51
+Epoch 28 - Traningloss: 0.25251941259499566
+Validationloss: 8.983400249481202
+Trainig Acc: 90.46499999999999
+Validation Acc: 0.69
+Epoch 29 - Traningloss: 0.24814944002468875
+Validationloss: 9.108181953430176
+Trainig Acc: 90.5775
+Validation Acc: 1.09
+Epoch 30 - Traningloss: 0.2324910865278001
+Validationloss: 11.668210411071778
+Trainig Acc: 91.1825
+Validation Acc: 0.8500000000000001
+Epoch 31 - Traningloss: 0.22082958432139865
+Validationloss: 10.87682385444641
+Trainig Acc: 91.73750000000001
+Validation Acc: 0.6799999999999999
+Epoch 32 - Traningloss: 0.21182495127817627
+Validationloss: 10.532392930984496
+Trainig Acc: 92.125
+Validation Acc: 0.86
+Epoch 33 - Traningloss: 0.20973403585754383
+Validationloss: 9.232025194168092
+Trainig Acc: 92.35
+Validation Acc: 0.5599999999999999
+Epoch 34 - Traningloss: 0.19779169825231954
+Validationloss: 9.792958974838257
+Trainig Acc: 92.6275
+Validation Acc: 0.43
+Epoch 35 - Traningloss: 0.18900822748424143
+Validationloss: 9.715753555297852
+Trainig Acc: 92.7975
+Validation Acc: 0.33999999999999997
+Epoch 36 - Traningloss: 0.19224163083134183
+Validationloss: 9.264247703552247
+Trainig Acc: 92.7225
+Validation Acc: 0.3
+Epoch 37 - Traningloss: 0.16364946885473408
+Validationloss: 9.264596319198608
+Trainig Acc: 93.72749999999999
+Validation Acc: 0.31
+Epoch 38 - Traningloss: 0.18271709893159804
+Validationloss: 9.470683717727661
+Trainig Acc: 93.1525
+Validation Acc: 0.44
+Epoch 39 - Traningloss: 0.16441646099660048
+Validationloss: 9.83930401802063
+Trainig Acc: 93.94500000000001
+Validation Acc: 0.47000000000000003
+Epoch 40 - Traningloss: 0.18516125715082618
+Validationloss: 8.993963098526
+Trainig Acc: 93.0075
+Validation Acc: 0.49
+Epoch 41 - Traningloss: 0.16098422008999594
+Validationloss: 9.96740689277649
+Trainig Acc: 93.78999999999999
+Validation Acc: 0.5599999999999999
+Epoch 42 - Traningloss: 0.1525521716399557
+Validationloss: 9.909112691879272
+Trainig Acc: 94.3725
+Validation Acc: 0.8500000000000001
+Epoch 43 - Traningloss: 0.1720676751700556
+Validationloss: 9.681941604614257
+Trainig Acc: 93.67
+Validation Acc: 0.64
+Epoch 44 - Traningloss: 0.1627909448353728
+Validationloss: 9.51191725730896
+Trainig Acc: 93.94500000000001
+Validation Acc: 0.4
+Epoch 45 - Traningloss: 0.15879480479059704
+Validationloss: 9.649165105819701
+Trainig Acc: 94.045
+Validation Acc: 0.6
+Epoch 46 - Traningloss: 0.1499333521410538
+Validationloss: 9.788718318939209
+Trainig Acc: 94.255
+Validation Acc: 0.9900000000000001
+Traceback (most recent call last):
+  File "train.py", line 189, in <module>
+    train()
+  File "train.py", line 173, in train
+    loss = criterion(auto_outputs.cuda(), labels.type(torch.LongTensor).cuda())
+KeyboardInterrupt

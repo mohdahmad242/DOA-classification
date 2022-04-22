@@ -1,0 +1,91 @@
+GeForce GTX 1080 Ti
+Epoch 1 - Traningloss: 5.196464529534651
+Validationloss: 5.197591463724772
+Trianing Acc: 0.7601851851851852
+Validaion Acc: 0.8083333333333333
+Epoch 2 - Traningloss: 5.190826847654948
+Validationloss: 5.1970780690511065
+Trianing Acc: 0.9796296296296296
+Validaion Acc: 0.8916666666666666
+Epoch 3 - Traningloss: 5.187373256231371
+Validationloss: 5.196036100387573
+Trianing Acc: 1.1685185185185185
+Validaion Acc: 0.8166666666666665
+Epoch 4 - Traningloss: 5.187034306367992
+Validationloss: 5.196197589238484
+Trianing Acc: 1.1675925925925927
+Validaion Acc: 0.9083333333333334
+Epoch 5 - Traningloss: 5.183174564940105
+Validationloss: 5.197228709856669
+Trianing Acc: 1.3009259259259258
+Validaion Acc: 0.7583333333333333
+Epoch 6 - Traningloss: 5.182229053352682
+Validationloss: 5.192206303278605
+Trianing Acc: 1.363888888888889
+Validaion Acc: 1.1083333333333334
+Epoch 7 - Traningloss: 5.181397716016001
+Validationloss: 5.196378191312154
+Trianing Acc: 1.4083333333333332
+Validaion Acc: 0.9166666666666666
+Epoch 8 - Traningloss: 5.178438073650921
+Validationloss: 5.194795489311218
+Trianing Acc: 1.4462962962962962
+Validaion Acc: 1.0999999999999999
+Epoch 9 - Traningloss: 5.17618798305638
+Validationloss: 5.191108226776123
+Trianing Acc: 1.4268518518518518
+Validaion Acc: 1.0250000000000001
+Epoch 10 - Traningloss: 5.172796084417551
+Validationloss: 5.190298517545064
+Trianing Acc: 1.6194444444444445
+Validaion Acc: 1.3333333333333335
+Epoch 11 - Traningloss: 5.171115988238728
+Validationloss: 5.186315019925435
+Trianing Acc: 1.613888888888889
+Validaion Acc: 1.425
+Epoch 12 - Traningloss: 5.171645164489746
+Validationloss: 5.189415017763774
+Trianing Acc: 1.6472222222222221
+Validaion Acc: 1.3166666666666667
+Epoch 13 - Traningloss: 5.170161561378371
+Validationloss: 5.191651741663615
+Trianing Acc: 1.7037037037037037
+Validaion Acc: 1.0250000000000001
+Epoch 14 - Traningloss: 5.169221410254167
+Validationloss: 5.186449885368347
+Trianing Acc: 1.798148148148148
+Validaion Acc: 1.3666666666666667
+Epoch 15 - Traningloss: 5.169485788209744
+Validationloss: 5.188844005266826
+Trianing Acc: 1.787962962962963
+Validaion Acc: 1.3
+Epoch 16 - Traningloss: 5.168630624834395
+Validationloss: 5.192267258961995
+Trianing Acc: 1.7185185185185186
+Validaion Acc: 1.175
+Epoch 17 - Traningloss: 5.167988569250604
+Validationloss: 5.1895116964976
+Trianing Acc: 1.8453703703703705
+Validaion Acc: 1.0999999999999999
+Epoch 18 - Traningloss: 5.165822392956341
+Validationloss: 5.186509847640991
+Trianing Acc: 1.9425925925925926
+Validaion Acc: 1.3583333333333332
+Epoch 19 - Traningloss: 5.164393506343896
+Validationloss: 5.18409788608551
+Trianing Acc: 1.9435185185185184
+Validaion Acc: 1.5083333333333333
+Epoch 20 - Traningloss: 5.16533000548304
+Validationloss: 5.185325821240743
+Trianing Acc: 1.911111111111111
+Validaion Acc: 1.425
+Epoch 21 - Traningloss: 5.164029492021172
+Validationloss: 5.185619155565898
+Trianing Acc: 1.952777777777778
+Validaion Acc: 1.55
+Traceback (most recent call last):
+  File "train.py", line 180, in <module>
+    train()
+  File "train.py", line 154, in train
+    training_loss += losss.item()
+KeyboardInterrupt

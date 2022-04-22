@@ -1,0 +1,25 @@
+GeForce GTX 1080 Ti
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    train()
+  File "train.py", line 145, in train
+    enn = autoencoder(features.float())
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/doa1/auto.py", line 104, in forward
+    x1 = self.down_conv_1(pooled_views)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 419, in forward
+    return self._conv_forward(input, self.weight)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 416, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: Given groups=1, weight of size [64, 3, 2, 2], expected input[64, 1, 8, 100] to have 3 channels, but got 1 channels instead

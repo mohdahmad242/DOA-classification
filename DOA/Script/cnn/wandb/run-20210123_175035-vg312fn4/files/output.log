@@ -1,0 +1,22 @@
+20000
+GeForce GTX 1080 Ti
+Traceback (most recent call last):
+  File "train.py", line 191, in <module>
+    train()
+  File "train.py", line 140, in train
+    enn = autoencoder(features.float())
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/cnn/auto.py", line 47, in forward
+    x1 = self.down_conv_1(image)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 419, in forward
+    return self._conv_forward(input, self.weight)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 416, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 210.00 MiB (GPU 0; 10.91 GiB total capacity; 508.03 MiB already allocated; 158.38 MiB free; 522.00 MiB reserved in total by PyTorch)

@@ -1,0 +1,18 @@
+2021-02-25 21:34:32,120 INFO    MainThread:7903 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-25 21:34:32,121 INFO    MainThread:7903 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-25 21:34:32,121 INFO    MainThread:7903 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-25 21:34:32,121 INFO    MainThread:7903 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-25 21:34:32,121 INFO    MainThread:7903 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f69e48c4358>
+2021-02-25 21:34:32,121 INFO    MainThread:7903 [wandb_init.py:_log_setup():318] Logging user logs to /home/iiitd/Desktop/Ahmad/doa1/wandb/run-20210225_213432-10vs8c42/logs/debug.log
+2021-02-25 21:34:32,121 INFO    MainThread:7903 [wandb_init.py:_log_setup():319] Logging internal logs to /home/iiitd/Desktop/Ahmad/doa1/wandb/run-20210225_213432-10vs8c42/logs/debug-internal.log
+2021-02-25 21:34:34,603 INFO    MainThread:7903 [wandb_run.py:_console_start():1308] atexit reg
+2021-02-25 21:34:34,605 INFO    MainThread:7903 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-02-25 21:34:34,605 INFO    MainThread:7903 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-02-25 21:34:34,605 INFO    MainThread:7903 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-02-25 21:34:34,608 INFO    MainThread:7903 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-25 21:34:34,621 INFO    MainThread:7903 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-25 21:42:25,109 INFO    MainThread:7903 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-25 21:43:40,945 INFO    MainThread:7903 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-26 05:40:54,284 INFO    MainThread:7903 [wandb_run.py:finish():983] finishing run ahmadkhan242/MVCNN_Full_train_parVal/10vs8c42
+2021-02-26 05:40:54,284 INFO    MainThread:7903 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-02-26 05:40:54,284 INFO    MainThread:7903 [jupyter.py:save_history():208] not saving jupyter history

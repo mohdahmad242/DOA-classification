@@ -1,0 +1,20 @@
+20000
+GeForce GTX 1080 Ti
+Traceback (most recent call last):
+  File "train.py", line 191, in <module>
+    train()
+  File "train.py", line 140, in train
+    enn = autoencoder(features.float())
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/cnn/auto.py", line 49, in forward
+    x2 = self.max_pool_2x2(x1)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/pooling.py", line 159, in forward
+    self.return_indices)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/_jit_internal.py", line 247, in fn
+    return if_false(*args, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py", line 576, in _max_pool2d
+    input, kernel_size, stride, padding, dilation, ceil_mode)
+RuntimeError: CUDA out of memory. Tried to allocate 1.01 GiB (GPU 0; 10.91 GiB total capacity; 9.41 GiB already allocated; 675.38 MiB free; 9.43 GiB reserved in total by PyTorch)

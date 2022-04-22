@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 84, in <module>
+    dataset = DOA_dataset(df1)
+  File "train.py", line 71, in __init__
+    new[i][0][j][k] = (transp[i][j][k].real - min_r)/(max_r-min_r)
+IndexError: index 50000 is out of bounds for axis 0 with size 50000

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "train.py", line 69, in <module>
+    dataset = DOA_dataset(df1)
+  File "train.py", line 51, in __init__
+    transp = np.transpose(df['SNS_data'], (2, 0, 1))
+KeyError: 'SNS_data'

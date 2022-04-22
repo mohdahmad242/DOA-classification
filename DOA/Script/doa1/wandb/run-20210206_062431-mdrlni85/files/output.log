@@ -1,0 +1,41 @@
+GeForce GTX 1080 Ti
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    train()
+  File "train.py", line 145, in train
+    enn = autoencoder(features.float())
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/doa1/auto.py", line 98, in forward
+    cnn1_out = self.cnn1(a)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/doa1/cnn1.py", line 106, in forward
+    x5 = self.RCNN3(x4)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/doa1/cnn1.py", line 73, in forward
+    x1 = self.RCNN(x)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/doa1/cnn1.py", line 57, in forward
+    x1 = self.conv(x)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 419, in forward
+    return self._conv_forward(input, self.weight)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/conv.py", line 416, in _conv_forward
+    self.padding, self.dilation, self.groups)
+RuntimeError: CUDA out of memory. Tried to allocate 200.00 MiB (GPU 0; 10.91 GiB total capacity; 9.98 GiB already allocated; 99.38 MiB free; 9.99 GiB reserved in total by PyTorch)

@@ -1,0 +1,8 @@
+300000
+GeForce GTX 1080 Ti
+Traceback (most recent call last):
+  File "pretraining.py", line 160, in <module>
+    train()
+  File "pretraining.py", line 125, in train
+    autoencoder.train()
+NameError: name 'autoencoder' is not defined

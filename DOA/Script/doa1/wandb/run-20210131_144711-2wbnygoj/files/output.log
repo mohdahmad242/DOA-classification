@@ -1,0 +1,54 @@
+300000
+GeForce GTX 1080 Ti
+Epoch 1 - Traningloss: 0.6310154851578988
+Validationloss: 0.6414258025460324
+Epoch 2 - Traningloss: 0.6270904562484596
+Validationloss: 0.6426324116981635
+Epoch 3 - Traningloss: 0.6267153509420241
+Validationloss: 0.6456449577363871
+Epoch 4 - Traningloss: 0.6265737388936264
+Validationloss: 0.6460935523954489
+Epoch 5 - Traningloss: 0.6264658504187778
+Validationloss: 0.6448347265437498
+Epoch 6 - Traningloss: 0.6264187883426793
+Validationloss: 0.6436141486895286
+Epoch 7 - Traningloss: 0.6263912843866936
+Validationloss: 0.6425303513720885
+Epoch 8 - Traningloss: 0.6263753335057841
+Validationloss: 0.6416200015504482
+Epoch 9 - Traningloss: 0.6263639878887701
+Validationloss: 0.6408846277301594
+Epoch 10 - Traningloss: 0.6263552595088833
+Validationloss: 0.6398568991887368
+Epoch 11 - Traningloss: 0.6263673871049383
+Validationloss: 0.638185450586222
+Epoch 12 - Traningloss: 0.6263523385423054
+Validationloss: 0.6378719675338874
+Epoch 13 - Traningloss: 0.6263433747946934
+Validationloss: 0.6376811235637988
+Epoch 14 - Traningloss: 0.626341959142007
+Validationloss: 0.637208398115837
+Epoch 15 - Traningloss: 0.6263388981186383
+Validationloss: 0.6368297833507344
+Epoch 16 - Traningloss: 0.6263358467563068
+Validationloss: 0.6364800919920711
+Epoch 17 - Traningloss: 0.6263353534784363
+Validationloss: 0.6360059400736275
+Epoch 18 - Traningloss: 0.6263333079374231
+Validationloss: 0.6357181718793966
+Epoch 19 - Traningloss: 0.6263340038710861
+Validationloss: 0.635253094010434
+Epoch 20 - Traningloss: 0.626331090136162
+Validationloss: 0.6349373086024139
+Epoch 21 - Traningloss: 0.626330232959223
+Validationloss: 0.6349173764051017
+Traceback (most recent call last):
+  File "pretraining.py", line 160, in <module>
+    train()
+  File "pretraining.py", line 134, in train
+    optimizer.step()
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/autograd/grad_mode.py", line 15, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/optim/adam.py", line 107, in step
+    denom = (exp_avg_sq.sqrt() / math.sqrt(bias_correction2)).add_(group['eps'])
+KeyboardInterrupt

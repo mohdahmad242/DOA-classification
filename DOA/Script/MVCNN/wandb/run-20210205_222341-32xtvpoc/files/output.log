@@ -1,0 +1,7 @@
+GeForce GTX 1080 Ti
+Traceback (most recent call last):
+  File "train.py", line 194, in <module>
+    train()
+  File "train.py", line 154, in train
+    auto_outputs = torch.reshape(auto_outputs.cuda(), (auto_outputs.shape[0], 181, 1))
+RuntimeError: shape '[64, 181, 1]' is invalid for input of size 23168

@@ -1,0 +1,91 @@
+2021-02-27 14:35:47,902 INFO    MainThread:24236 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-27 14:35:47,902 INFO    MainThread:24236 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-27 14:35:47,902 INFO    MainThread:24236 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-27 14:35:47,902 INFO    MainThread:24236 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-27 14:35:47,902 INFO    MainThread:24236 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f94c35a2438>
+2021-02-27 14:35:47,903 INFO    MainThread:24236 [wandb_init.py:_log_setup():318] Logging user logs to /home/iiitd/Desktop/Ahmad/doa1/wandb/run-20210227_143547-2kfgmlji/logs/debug.log
+2021-02-27 14:35:47,903 INFO    MainThread:24236 [wandb_init.py:_log_setup():319] Logging internal logs to /home/iiitd/Desktop/Ahmad/doa1/wandb/run-20210227_143547-2kfgmlji/logs/debug-internal.log
+2021-02-27 14:35:50,700 INFO    MainThread:24236 [wandb_run.py:_console_start():1308] atexit reg
+2021-02-27 14:35:50,700 INFO    MainThread:24236 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-02-27 14:35:50,700 INFO    MainThread:24236 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-02-27 14:35:50,701 INFO    MainThread:24236 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-02-27 14:35:50,703 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-27 14:35:50,770 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-27 14:35:50,771 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-27 14:35:51,770 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-27 14:35:51,771 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-27 14:36:12,453 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:43:10,691 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:43:31,655 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:43:31,660 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:45:44,698 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:45:44,702 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:45:52,319 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:45:52,335 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:47:40,165 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:47:40,326 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:47:41,273 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:47:41,802 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:48:43,829 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:48:43,830 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:48:45,241 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:48:45,374 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:48:55,630 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:48:55,631 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:48:57,508 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:48:57,638 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:49:22,631 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:49:22,633 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:49:23,785 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:49:23,914 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:49:55,149 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:49:55,152 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:49:56,647 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:49:56,815 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:50:26,951 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:50:26,953 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:50:27,948 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:50:28,093 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:50:37,881 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:50:38,024 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:51:03,471 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:51:03,472 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:51:04,196 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:51:04,347 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:51:38,782 INFO    MainThread:24236 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-28 04:51:38,960 INFO    MainThread:24236 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-28 04:52:04,244 INFO    MainThread:24236 [wandb_run.py:_atexit_cleanup():1278] got exitcode: 0
+2021-02-28 04:52:04,244 INFO    MainThread:24236 [wandb_run.py:_restore():1250] restore
+2021-02-28 04:52:04,564 INFO    MainThread:24236 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "0fd3a9519f2646728e8210a0055a3474"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 601
+      total_bytes: 601
+    }
+  }
+}
+
+2021-02-28 04:52:06,578 INFO    MainThread:24236 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "3126d2f323be4a95aa57139ae295130d"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 83429
+      total_bytes: 83429
+    }
+  }
+}
+
+2021-02-28 04:52:07,802 INFO    MainThread:24236 [wandb_run.py:_show_summary():1547] rendering summary
+2021-02-28 04:52:07,803 INFO    MainThread:24236 [wandb_run.py:_show_history():1585] rendering history
+2021-02-28 04:52:07,805 INFO    MainThread:24236 [wandb_run.py:_show_files():1614] logging synced files
+2021-02-28 04:52:07,808 INFO    MainThread:24236 [internal.py:handle_exit():139] Internal process exited

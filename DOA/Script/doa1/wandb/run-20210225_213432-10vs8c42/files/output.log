@@ -1,0 +1,1626 @@
+Epoch 1  
+Traningloss: 22.59040563350374 Trainig Acc: 6.6066666666666665
+0 dB SNR is validated
+Validationloss: 4.857530951499939 Validation Acc: 2.88
+
+
+10 dB SNR is validated
+Validationloss: 3.271847355365753 Validation Acc: 6.7
+
+
+20 dB SNR is validated
+Validationloss: 3.291544330120087 Validation Acc: 6.38
+
+
+30 dB SNR is validated
+Validationloss: 3.185526204109192 Validation Acc: 6.84
+
+
+40 dB SNR is validated
+Validationloss: 3.0813902616500854 Validation Acc: 7.64
+
+
+50 dB SNR is validated
+Validationloss: 3.0639458537101745 Validation Acc: 7.66
+
+
+Epoch 1  
+Traningloss: 14.208756218918346  ---- Trainig Acc: 20.485555555555557
+0 dB SNR is validated
+Validationloss: 3.4662336230278017  ---- Validation Acc: 9.719999999999999
+10 dB SNR is validated
+Validationloss: 2.360737073421478  ---- Validation Acc: 20.24
+20 dB SNR is validated
+Validationloss: 2.3168341755867004  ---- Validation Acc: 19.02
+30 dB SNR is validated
+Validationloss: 2.275316536426544  ---- Validation Acc: 21.32
+40 dB SNR is validated
+Validationloss: 2.2666871547698975  ---- Validation Acc: 20.8
+50 dB SNR is validated
+Validationloss: 2.261493110656738  ---- Validation Acc: 21.46
+
+
+Epoch 2  
+Traningloss: 12.828652296553958  ---- Trainig Acc: 24.453333333333333
+0 dB SNR is validated
+Validationloss: 3.399374842643738  ---- Validation Acc: 11.78
+10 dB SNR is validated
+Validationloss: 2.0792829632759093  ---- Validation Acc: 26.400000000000002
+20 dB SNR is validated
+Validationloss: 2.028746026754379  ---- Validation Acc: 27.439999999999998
+30 dB SNR is validated
+Validationloss: 2.0090459823608398  ---- Validation Acc: 28.88
+40 dB SNR is validated
+Validationloss: 2.007055711746216  ---- Validation Acc: 28.46
+50 dB SNR is validated
+Validationloss: 2.00320970416069  ---- Validation Acc: 28.82
+
+
+Epoch 3  
+Traningloss: 11.516480507498438  ---- Trainig Acc: 29.757037037037037
+0 dB SNR is validated
+Validationloss: 3.318234050273895  ---- Validation Acc: 13.04
+10 dB SNR is validated
+Validationloss: 1.8088689267635345  ---- Validation Acc: 33.94
+20 dB SNR is validated
+Validationloss: 1.737641942501068  ---- Validation Acc: 35.6
+30 dB SNR is validated
+Validationloss: 1.7030501961708069  ---- Validation Acc: 37.3
+40 dB SNR is validated
+Validationloss: 1.7100381076335907  ---- Validation Acc: 35.66
+50 dB SNR is validated
+Validationloss: 1.7029489874839783  ---- Validation Acc: 34.599999999999994
+
+
+Epoch 4  
+Traningloss: 10.550880887291648  ---- Trainig Acc: 34.31148148148148
+0 dB SNR is validated
+Validationloss: 3.317169964313507  ---- Validation Acc: 13.86
+10 dB SNR is validated
+Validationloss: 1.6508334934711457  ---- Validation Acc: 41.82
+20 dB SNR is validated
+Validationloss: 1.5709298372268676  ---- Validation Acc: 45.34
+30 dB SNR is validated
+Validationloss: 1.531875330209732  ---- Validation Acc: 48.26
+40 dB SNR is validated
+Validationloss: 1.5383638501167298  ---- Validation Acc: 48.1
+50 dB SNR is validated
+Validationloss: 1.5339600563049316  ---- Validation Acc: 47.64
+
+
+Epoch 5  
+Traningloss: 9.902886296537789  ---- Trainig Acc: 37.358518518518515
+0 dB SNR is validated
+Validationloss: 3.3420597910881042  ---- Validation Acc: 13.059999999999999
+10 dB SNR is validated
+Validationloss: 1.6801423609256745  ---- Validation Acc: 37.64
+20 dB SNR is validated
+Validationloss: 1.5972734808921814  ---- Validation Acc: 39.22
+30 dB SNR is validated
+Validationloss: 1.5259363114833833  ---- Validation Acc: 42.92
+40 dB SNR is validated
+Validationloss: 1.5490456879138947  ---- Validation Acc: 39.660000000000004
+50 dB SNR is validated
+Validationloss: 1.5503601253032684  ---- Validation Acc: 40.2
+
+
+Epoch 6  
+Traningloss: 9.297332484952427  ---- Trainig Acc: 40.41703703703703
+0 dB SNR is validated
+Validationloss: 3.3286057353019713  ---- Validation Acc: 13.420000000000002
+10 dB SNR is validated
+Validationloss: 1.4658799052238465  ---- Validation Acc: 45.739999999999995
+20 dB SNR is validated
+Validationloss: 1.376069849729538  ---- Validation Acc: 51.080000000000005
+30 dB SNR is validated
+Validationloss: 1.3024508714675904  ---- Validation Acc: 54.800000000000004
+40 dB SNR is validated
+Validationloss: 1.2979133069515227  ---- Validation Acc: 54.14
+50 dB SNR is validated
+Validationloss: 1.2976499438285827  ---- Validation Acc: 53.42
+
+
+Epoch 7  
+Traningloss: 8.715846431526272  ---- Trainig Acc: 43.824444444444445
+0 dB SNR is validated
+Validationloss: 3.37409029006958  ---- Validation Acc: 12.04
+10 dB SNR is validated
+Validationloss: 1.4755490303039551  ---- Validation Acc: 44.48
+20 dB SNR is validated
+Validationloss: 1.3631671786308288  ---- Validation Acc: 48.28
+30 dB SNR is validated
+Validationloss: 1.3184792041778564  ---- Validation Acc: 50.96000000000001
+40 dB SNR is validated
+Validationloss: 1.3242044806480409  ---- Validation Acc: 50.580000000000005
+50 dB SNR is validated
+Validationloss: 1.3379338085651398  ---- Validation Acc: 48.4
+
+
+Epoch 8  
+Traningloss: 8.12218066033992  ---- Trainig Acc: 47.23222222222222
+0 dB SNR is validated
+Validationloss: 3.784156286716461  ---- Validation Acc: 12.36
+10 dB SNR is validated
+Validationloss: 1.4393800139427184  ---- Validation Acc: 46.7
+20 dB SNR is validated
+Validationloss: 1.3127886176109314  ---- Validation Acc: 53.239999999999995
+30 dB SNR is validated
+Validationloss: 1.2516179919242858  ---- Validation Acc: 55.96
+40 dB SNR is validated
+Validationloss: 1.264609044790268  ---- Validation Acc: 54.82
+50 dB SNR is validated
+Validationloss: 1.2647531569004058  ---- Validation Acc: 54.1
+
+
+Epoch 9  
+Traningloss: 7.5136273560876194  ---- Trainig Acc: 51.22444444444444
+0 dB SNR is validated
+Validationloss: 4.242965245246888  ---- Validation Acc: 11.14
+10 dB SNR is validated
+Validationloss: 1.3564875900745392  ---- Validation Acc: 47.0
+20 dB SNR is validated
+Validationloss: 1.2376615524291992  ---- Validation Acc: 51.42
+30 dB SNR is validated
+Validationloss: 1.1862045586109162  ---- Validation Acc: 53.620000000000005
+40 dB SNR is validated
+Validationloss: 1.1763280093669892  ---- Validation Acc: 52.92
+50 dB SNR is validated
+Validationloss: 1.1858489036560058  ---- Validation Acc: 52.459999999999994
+
+
+Epoch 10  
+Traningloss: 6.938501046970487  ---- Trainig Acc: 55.087037037037035
+0 dB SNR is validated
+Validationloss: 4.229137277603149  ---- Validation Acc: 12.46
+10 dB SNR is validated
+Validationloss: 1.344395285844803  ---- Validation Acc: 45.86
+20 dB SNR is validated
+Validationloss: 1.2336513817310333  ---- Validation Acc: 50.080000000000005
+30 dB SNR is validated
+Validationloss: 1.1626360595226288  ---- Validation Acc: 50.580000000000005
+40 dB SNR is validated
+Validationloss: 1.1378200352191925  ---- Validation Acc: 51.13999999999999
+50 dB SNR is validated
+Validationloss: 1.1732750833034515  ---- Validation Acc: 48.92
+
+
+Epoch 11  
+Traningloss: 6.534369928931648  ---- Trainig Acc: 57.797407407407405
+0 dB SNR is validated
+Validationloss: 4.0365318894386295  ---- Validation Acc: 14.14
+10 dB SNR is validated
+Validationloss: 1.157321572303772  ---- Validation Acc: 55.94
+20 dB SNR is validated
+Validationloss: 1.032859244942665  ---- Validation Acc: 59.599999999999994
+30 dB SNR is validated
+Validationloss: 0.9924968302249908  ---- Validation Acc: 61.53999999999999
+40 dB SNR is validated
+Validationloss: 0.9634274989366531  ---- Validation Acc: 61.419999999999995
+50 dB SNR is validated
+Validationloss: 0.989310410618782  ---- Validation Acc: 60.099999999999994
+
+
+Epoch 12  
+Traningloss: 6.229900855063037  ---- Trainig Acc: 59.68037037037037
+0 dB SNR is validated
+Validationloss: 4.107123076915741  ---- Validation Acc: 15.72
+10 dB SNR is validated
+Validationloss: 1.1251404762268067  ---- Validation Acc: 57.49999999999999
+20 dB SNR is validated
+Validationloss: 0.9854741662740707  ---- Validation Acc: 63.36000000000001
+30 dB SNR is validated
+Validationloss: 0.9300941288471222  ---- Validation Acc: 65.60000000000001
+40 dB SNR is validated
+Validationloss: 0.91858971118927  ---- Validation Acc: 64.24
+50 dB SNR is validated
+Validationloss: 0.9244245231151581  ---- Validation Acc: 63.85999999999999
+
+
+Epoch 13  
+Traningloss: 6.0049076175147835  ---- Trainig Acc: 61.32037037037037
+0 dB SNR is validated
+Validationloss: 4.3937232255935665  ---- Validation Acc: 13.54
+10 dB SNR is validated
+Validationloss: 1.2518714904785155  ---- Validation Acc: 52.62
+20 dB SNR is validated
+Validationloss: 1.0853169560432434  ---- Validation Acc: 58.160000000000004
+30 dB SNR is validated
+Validationloss: 1.0023728966712953  ---- Validation Acc: 60.34
+40 dB SNR is validated
+Validationloss: 0.9902574926614761  ---- Validation Acc: 60.540000000000006
+50 dB SNR is validated
+Validationloss: 1.0042220920324325  ---- Validation Acc: 59.660000000000004
+
+
+Epoch 14  
+Traningloss: 5.779521520334211  ---- Trainig Acc: 62.80185185185185
+0 dB SNR is validated
+Validationloss: 4.071107316017151  ---- Validation Acc: 15.24
+10 dB SNR is validated
+Validationloss: 1.1176972687244415  ---- Validation Acc: 56.16
+20 dB SNR is validated
+Validationloss: 0.9812462151050567  ---- Validation Acc: 61.82
+30 dB SNR is validated
+Validationloss: 0.923484879732132  ---- Validation Acc: 64.0
+40 dB SNR is validated
+Validationloss: 0.899715581536293  ---- Validation Acc: 65.0
+50 dB SNR is validated
+Validationloss: 0.9149656891822815  ---- Validation Acc: 63.580000000000005
+
+
+Epoch 15  
+Traningloss: 5.562886649658057  ---- Trainig Acc: 64.25333333333333
+0 dB SNR is validated
+Validationloss: 4.19804151058197  ---- Validation Acc: 15.72
+10 dB SNR is validated
+Validationloss: 1.0573366105556488  ---- Validation Acc: 57.68
+20 dB SNR is validated
+Validationloss: 0.9408011496067047  ---- Validation Acc: 62.160000000000004
+30 dB SNR is validated
+Validationloss: 0.8863124966621398  ---- Validation Acc: 63.42
+40 dB SNR is validated
+Validationloss: 0.8818612396717072  ---- Validation Acc: 63.46000000000001
+50 dB SNR is validated
+Validationloss: 0.9063024759292603  ---- Validation Acc: 61.919999999999995
+
+
+Epoch 16  
+Traningloss: 5.427501959726214  ---- Trainig Acc: 65.21851851851852
+0 dB SNR is validated
+Validationloss: 4.100252985954285  ---- Validation Acc: 16.3
+10 dB SNR is validated
+Validationloss: 1.1137055218219758  ---- Validation Acc: 55.52
+20 dB SNR is validated
+Validationloss: 0.9774089545011521  ---- Validation Acc: 61.46
+30 dB SNR is validated
+Validationloss: 0.9283527642488479  ---- Validation Acc: 61.22
+40 dB SNR is validated
+Validationloss: 0.9116452842950821  ---- Validation Acc: 61.58
+50 dB SNR is validated
+Validationloss: 0.9408387362957  ---- Validation Acc: 60.260000000000005
+
+
+Epoch 17  
+Traningloss: 5.272432503459806  ---- Trainig Acc: 66.20185185185186
+0 dB SNR is validated
+Validationloss: 4.405355226993561  ---- Validation Acc: 14.719999999999999
+10 dB SNR is validated
+Validationloss: 1.1100787937641143  ---- Validation Acc: 57.58
+20 dB SNR is validated
+Validationloss: 0.9757825911045075  ---- Validation Acc: 62.28
+30 dB SNR is validated
+Validationloss: 0.9017184466123581  ---- Validation Acc: 64.4
+40 dB SNR is validated
+Validationloss: 0.8696507930755615  ---- Validation Acc: 65.22
+50 dB SNR is validated
+Validationloss: 0.8930408418178558  ---- Validation Acc: 64.24
+
+
+Epoch 18  
+Traningloss: 5.148663931272247  ---- Trainig Acc: 67.1762962962963
+0 dB SNR is validated
+Validationloss: 3.9108848571777344  ---- Validation Acc: 17.8
+10 dB SNR is validated
+Validationloss: 1.0202384829521178  ---- Validation Acc: 57.9
+20 dB SNR is validated
+Validationloss: 0.9052127420902252  ---- Validation Acc: 63.339999999999996
+30 dB SNR is validated
+Validationloss: 0.8440217763185501  ---- Validation Acc: 64.46
+40 dB SNR is validated
+Validationloss: 0.865206953883171  ---- Validation Acc: 62.839999999999996
+50 dB SNR is validated
+Validationloss: 0.8654263615608215  ---- Validation Acc: 61.94
+
+
+Epoch 19  
+Traningloss: 5.012944113632495  ---- Trainig Acc: 68.0474074074074
+0 dB SNR is validated
+Validationloss: 4.3104655027389525  ---- Validation Acc: 16.400000000000002
+10 dB SNR is validated
+Validationloss: 1.0651997745037078  ---- Validation Acc: 58.52
+20 dB SNR is validated
+Validationloss: 0.9645315200090409  ---- Validation Acc: 62.32
+30 dB SNR is validated
+Validationloss: 0.8486738294363022  ---- Validation Acc: 65.06
+40 dB SNR is validated
+Validationloss: 0.8433769643306732  ---- Validation Acc: 64.74
+50 dB SNR is validated
+Validationloss: 0.8477816790342331  ---- Validation Acc: 63.75999999999999
+
+
+Epoch 20  
+Traningloss: 4.888126089406962  ---- Trainig Acc: 68.87518518518519
+0 dB SNR is validated
+Validationloss: 4.760829973220825  ---- Validation Acc: 14.719999999999999
+10 dB SNR is validated
+Validationloss: 1.0601681768894196  ---- Validation Acc: 58.74
+20 dB SNR is validated
+Validationloss: 0.9594777524471283  ---- Validation Acc: 62.46000000000001
+30 dB SNR is validated
+Validationloss: 0.8396251142024994  ---- Validation Acc: 66.38
+40 dB SNR is validated
+Validationloss: 0.8183055698871613  ---- Validation Acc: 65.66
+50 dB SNR is validated
+Validationloss: 0.797674834728241  ---- Validation Acc: 66.2
+
+
+Epoch 21  
+Traningloss: 4.8048210466619246  ---- Trainig Acc: 69.34444444444445
+0 dB SNR is validated
+Validationloss: 4.6426016330719  ---- Validation Acc: 14.38
+10 dB SNR is validated
+Validationloss: 1.0423724383115769  ---- Validation Acc: 59.0
+20 dB SNR is validated
+Validationloss: 0.902653506398201  ---- Validation Acc: 63.28
+30 dB SNR is validated
+Validationloss: 0.8068504929542542  ---- Validation Acc: 66.78
+40 dB SNR is validated
+Validationloss: 0.7786583513021469  ---- Validation Acc: 67.24
+50 dB SNR is validated
+Validationloss: 0.7951218873262406  ---- Validation Acc: 66.86
+
+
+Epoch 22  
+Traningloss: 4.70019839737903  ---- Trainig Acc: 69.98
+0 dB SNR is validated
+Validationloss: 4.6566426992416385  ---- Validation Acc: 16.68
+10 dB SNR is validated
+Validationloss: 0.9896615296602249  ---- Validation Acc: 60.58
+20 dB SNR is validated
+Validationloss: 0.9030983299016953  ---- Validation Acc: 63.94
+30 dB SNR is validated
+Validationloss: 0.806111392378807  ---- Validation Acc: 67.36
+40 dB SNR is validated
+Validationloss: 0.7927532196044922  ---- Validation Acc: 65.98
+50 dB SNR is validated
+Validationloss: 0.7665743142366409  ---- Validation Acc: 67.64
+
+
+Epoch 23  
+Traningloss: 4.640578722157939  ---- Trainig Acc: 70.33592592592592
+0 dB SNR is validated
+Validationloss: 4.310901141166687  ---- Validation Acc: 18.34
+10 dB SNR is validated
+Validationloss: 0.9065273731946946  ---- Validation Acc: 65.12
+20 dB SNR is validated
+Validationloss: 0.8270098179578781  ---- Validation Acc: 68.72
+30 dB SNR is validated
+Validationloss: 0.7664490044116974  ---- Validation Acc: 69.86
+40 dB SNR is validated
+Validationloss: 0.7350010305643082  ---- Validation Acc: 69.84
+50 dB SNR is validated
+Validationloss: 0.7506802409887314  ---- Validation Acc: 68.5
+
+
+Epoch 24  
+Traningloss: 4.539895205165852  ---- Trainig Acc: 70.97925925925927
+0 dB SNR is validated
+Validationloss: 4.534487628936768  ---- Validation Acc: 17.1
+10 dB SNR is validated
+Validationloss: 0.9746529430150985  ---- Validation Acc: 62.08
+20 dB SNR is validated
+Validationloss: 0.8747698664665222  ---- Validation Acc: 66.18
+30 dB SNR is validated
+Validationloss: 0.7439608782529831  ---- Validation Acc: 69.02000000000001
+40 dB SNR is validated
+Validationloss: 0.7552845567464829  ---- Validation Acc: 67.84
+50 dB SNR is validated
+Validationloss: 0.7529857128858566  ---- Validation Acc: 66.36
+
+
+Epoch 25  
+Traningloss: 4.47359017545188  ---- Trainig Acc: 71.41074074074074
+0 dB SNR is validated
+Validationloss: 4.513790440559387  ---- Validation Acc: 17.06
+10 dB SNR is validated
+Validationloss: 0.9701973885297775  ---- Validation Acc: 61.0
+20 dB SNR is validated
+Validationloss: 0.8808272689580917  ---- Validation Acc: 65.25999999999999
+30 dB SNR is validated
+Validationloss: 0.7773534059524536  ---- Validation Acc: 67.28
+40 dB SNR is validated
+Validationloss: 0.7459045141935349  ---- Validation Acc: 67.88
+50 dB SNR is validated
+Validationloss: 0.7597269684076309  ---- Validation Acc: 67.74
+
+
+Epoch 26  
+Traningloss: 4.415609583512626  ---- Trainig Acc: 71.71888888888888
+0 dB SNR is validated
+Validationloss: 4.839704823493958  ---- Validation Acc: 15.1
+10 dB SNR is validated
+Validationloss: 1.0332267552614212  ---- Validation Acc: 59.81999999999999
+20 dB SNR is validated
+Validationloss: 0.9216977536678315  ---- Validation Acc: 64.22
+30 dB SNR is validated
+Validationloss: 0.8486020267009735  ---- Validation Acc: 65.56
+40 dB SNR is validated
+Validationloss: 0.8256329536437989  ---- Validation Acc: 65.22
+50 dB SNR is validated
+Validationloss: 0.835269159078598  ---- Validation Acc: 64.86
+
+
+Epoch 27  
+Traningloss: 4.344951167702675  ---- Trainig Acc: 72.22444444444444
+0 dB SNR is validated
+Validationloss: 4.693132376670837  ---- Validation Acc: 15.98
+10 dB SNR is validated
+Validationloss: 1.0223307132720947  ---- Validation Acc: 60.660000000000004
+20 dB SNR is validated
+Validationloss: 0.8969963490962982  ---- Validation Acc: 65.10000000000001
+30 dB SNR is validated
+Validationloss: 0.7931505292654037  ---- Validation Acc: 68.62
+40 dB SNR is validated
+Validationloss: 0.7899038255214691  ---- Validation Acc: 66.47999999999999
+50 dB SNR is validated
+Validationloss: 0.8005520135164261  ---- Validation Acc: 66.0
+
+
+Epoch 28  
+Traningloss: 4.279847571372309  ---- Trainig Acc: 72.67333333333333
+0 dB SNR is validated
+Validationloss: 5.028527498245239  ---- Validation Acc: 16.0
+10 dB SNR is validated
+Validationloss: 0.9589141845703125  ---- Validation Acc: 63.06
+20 dB SNR is validated
+Validationloss: 0.8651235193014145  ---- Validation Acc: 66.92
+30 dB SNR is validated
+Validationloss: 0.6944271475076675  ---- Validation Acc: 71.12
+40 dB SNR is validated
+Validationloss: 0.6820738077163696  ---- Validation Acc: 70.02000000000001
+50 dB SNR is validated
+Validationloss: 0.6649641156196594  ---- Validation Acc: 71.48
+
+
+Epoch 29  
+Traningloss: 4.221377669748935  ---- Trainig Acc: 73.0237037037037
+0 dB SNR is validated
+Validationloss: 4.574210596084595  ---- Validation Acc: 17.299999999999997
+10 dB SNR is validated
+Validationloss: 0.9732843905687332  ---- Validation Acc: 62.260000000000005
+20 dB SNR is validated
+Validationloss: 0.8768478900194168  ---- Validation Acc: 66.10000000000001
+30 dB SNR is validated
+Validationloss: 0.7557252198457718  ---- Validation Acc: 67.9
+40 dB SNR is validated
+Validationloss: 0.7400474339723587  ---- Validation Acc: 66.75999999999999
+50 dB SNR is validated
+Validationloss: 0.7556319206953048  ---- Validation Acc: 67.10000000000001
+
+
+Epoch 30  
+Traningloss: 4.166655249047008  ---- Trainig Acc: 73.32925925925926
+0 dB SNR is validated
+Validationloss: 5.1303267002105715  ---- Validation Acc: 15.840000000000002
+10 dB SNR is validated
+Validationloss: 1.0949789345264436  ---- Validation Acc: 59.08
+20 dB SNR is validated
+Validationloss: 1.0027868717908859  ---- Validation Acc: 62.339999999999996
+30 dB SNR is validated
+Validationloss: 0.8123850703239441  ---- Validation Acc: 66.53999999999999
+40 dB SNR is validated
+Validationloss: 0.7986647069454194  ---- Validation Acc: 65.78
+50 dB SNR is validated
+Validationloss: 0.790251612663269  ---- Validation Acc: 65.44
+
+
+Epoch 31  
+Traningloss: 4.118087066930126  ---- Trainig Acc: 73.58925925925925
+0 dB SNR is validated
+Validationloss: 5.200210309028625  ---- Validation Acc: 16.68
+10 dB SNR is validated
+Validationloss: 1.0628533035516738  ---- Validation Acc: 58.98
+20 dB SNR is validated
+Validationloss: 0.9882191032171249  ---- Validation Acc: 62.46000000000001
+30 dB SNR is validated
+Validationloss: 0.80354343354702  ---- Validation Acc: 65.42
+40 dB SNR is validated
+Validationloss: 0.7825715392827988  ---- Validation Acc: 65.72
+50 dB SNR is validated
+Validationloss: 0.7858151286840439  ---- Validation Acc: 65.92
+
+
+Epoch 32  
+Traningloss: 4.06399960079315  ---- Trainig Acc: 73.89925925925927
+0 dB SNR is validated
+Validationloss: 5.7384073495864865  ---- Validation Acc: 14.92
+10 dB SNR is validated
+Validationloss: 1.1087274879217148  ---- Validation Acc: 60.040000000000006
+20 dB SNR is validated
+Validationloss: 1.0483125925064087  ---- Validation Acc: 63.12
+30 dB SNR is validated
+Validationloss: 0.8209802627563476  ---- Validation Acc: 66.08000000000001
+40 dB SNR is validated
+Validationloss: 0.7720716893672943  ---- Validation Acc: 67.08
+50 dB SNR is validated
+Validationloss: 0.7671105176210403  ---- Validation Acc: 67.16
+
+
+Epoch 33  
+Traningloss: 4.022955484434285  ---- Trainig Acc: 74.25296296296297
+0 dB SNR is validated
+Validationloss: 5.778048872947693  ---- Validation Acc: 14.74
+10 dB SNR is validated
+Validationloss: 1.2939757525920867  ---- Validation Acc: 54.72
+20 dB SNR is validated
+Validationloss: 1.2362233579158783  ---- Validation Acc: 59.540000000000006
+30 dB SNR is validated
+Validationloss: 0.9769217312335968  ---- Validation Acc: 63.160000000000004
+40 dB SNR is validated
+Validationloss: 0.9253151804208756  ---- Validation Acc: 65.14
+50 dB SNR is validated
+Validationloss: 0.8867108881473541  ---- Validation Acc: 64.94
+
+
+Epoch 34  
+Traningloss: 3.97666913355616  ---- Trainig Acc: 74.47111111111111
+0 dB SNR is validated
+Validationloss: 6.108167695999145  ---- Validation Acc: 13.700000000000001
+10 dB SNR is validated
+Validationloss: 1.2563312470912933  ---- Validation Acc: 56.58
+20 dB SNR is validated
+Validationloss: 1.1883735418319703  ---- Validation Acc: 59.440000000000005
+30 dB SNR is validated
+Validationloss: 0.9260994076728821  ---- Validation Acc: 63.36000000000001
+40 dB SNR is validated
+Validationloss: 0.8671068757772445  ---- Validation Acc: 64.03999999999999
+50 dB SNR is validated
+Validationloss: 0.8402302145957947  ---- Validation Acc: 65.03999999999999
+
+
+Epoch 35  
+Traningloss: 3.9521271483126013  ---- Trainig Acc: 74.72444444444444
+0 dB SNR is validated
+Validationloss: 5.215624499320984  ---- Validation Acc: 16.24
+10 dB SNR is validated
+Validationloss: 1.0802489995956421  ---- Validation Acc: 61.08
+20 dB SNR is validated
+Validationloss: 1.0457912892103196  ---- Validation Acc: 63.72
+30 dB SNR is validated
+Validationloss: 0.8231578141450882  ---- Validation Acc: 66.66
+40 dB SNR is validated
+Validationloss: 0.7733780056238174  ---- Validation Acc: 68.24
+50 dB SNR is validated
+Validationloss: 0.7526528865098954  ---- Validation Acc: 68.47999999999999
+
+
+Epoch 36  
+Traningloss: 3.8906654727391223  ---- Trainig Acc: 75.00222222222223
+0 dB SNR is validated
+Validationloss: 5.67440505027771  ---- Validation Acc: 16.06
+10 dB SNR is validated
+Validationloss: 1.1449593901634216  ---- Validation Acc: 59.08
+20 dB SNR is validated
+Validationloss: 1.092469435930252  ---- Validation Acc: 63.080000000000005
+30 dB SNR is validated
+Validationloss: 0.8416209191083908  ---- Validation Acc: 64.82
+40 dB SNR is validated
+Validationloss: 0.7994960129261017  ---- Validation Acc: 66.28
+50 dB SNR is validated
+Validationloss: 0.7685856223106384  ---- Validation Acc: 65.96
+
+
+Epoch 37  
+Traningloss: 3.8629016410982744  ---- Trainig Acc: 75.16925925925926
+0 dB SNR is validated
+Validationloss: 5.465491390228271  ---- Validation Acc: 15.260000000000002
+10 dB SNR is validated
+Validationloss: 1.0264246225357057  ---- Validation Acc: 61.24000000000001
+20 dB SNR is validated
+Validationloss: 0.9683446973562241  ---- Validation Acc: 63.78
+30 dB SNR is validated
+Validationloss: 0.7483956277370453  ---- Validation Acc: 68.76
+40 dB SNR is validated
+Validationloss: 0.7360986560583115  ---- Validation Acc: 69.62
+50 dB SNR is validated
+Validationloss: 0.7188300043344498  ---- Validation Acc: 69.22
+
+
+Epoch 38  
+Traningloss: 3.8098897907713596  ---- Trainig Acc: 75.49592592592592
+0 dB SNR is validated
+Validationloss: 5.910758996009827  ---- Validation Acc: 16.520000000000003
+10 dB SNR is validated
+Validationloss: 1.096627053618431  ---- Validation Acc: 60.12
+20 dB SNR is validated
+Validationloss: 1.0333165258169175  ---- Validation Acc: 63.2
+30 dB SNR is validated
+Validationloss: 0.7860520273447037  ---- Validation Acc: 67.06
+40 dB SNR is validated
+Validationloss: 0.7544316828250885  ---- Validation Acc: 67.04
+50 dB SNR is validated
+Validationloss: 0.7368481278419494  ---- Validation Acc: 66.24
+
+
+Epoch 39  
+Traningloss: 3.7952636132778768  ---- Trainig Acc: 75.57407407407408
+0 dB SNR is validated
+Validationloss: 5.697310614585876  ---- Validation Acc: 17.36
+10 dB SNR is validated
+Validationloss: 1.2356896102428436  ---- Validation Acc: 57.14
+20 dB SNR is validated
+Validationloss: 1.2341286659240722  ---- Validation Acc: 59.4
+30 dB SNR is validated
+Validationloss: 0.9258382260799408  ---- Validation Acc: 61.72
+40 dB SNR is validated
+Validationloss: 0.8900958627462388  ---- Validation Acc: 62.63999999999999
+50 dB SNR is validated
+Validationloss: 0.8690078914165497  ---- Validation Acc: 62.519999999999996
+
+
+Epoch 40  
+Traningloss: 3.7658995408564806  ---- Trainig Acc: 75.81888888888889
+0 dB SNR is validated
+Validationloss: 5.391132187843323  ---- Validation Acc: 17.4
+10 dB SNR is validated
+Validationloss: 0.9687736868858338  ---- Validation Acc: 64.52
+20 dB SNR is validated
+Validationloss: 0.9730598956346512  ---- Validation Acc: 64.53999999999999
+30 dB SNR is validated
+Validationloss: 0.734748712182045  ---- Validation Acc: 69.12
+40 dB SNR is validated
+Validationloss: 0.7165227770805359  ---- Validation Acc: 68.82000000000001
+50 dB SNR is validated
+Validationloss: 0.6776801824569703  ---- Validation Acc: 69.64
+
+
+Epoch 41  
+Traningloss: 3.7259710845114156  ---- Trainig Acc: 76.01148148148148
+0 dB SNR is validated
+Validationloss: 6.332717680931092  ---- Validation Acc: 15.5
+10 dB SNR is validated
+Validationloss: 1.358379954099655  ---- Validation Acc: 55.84
+20 dB SNR is validated
+Validationloss: 1.3352072417736054  ---- Validation Acc: 59.28
+30 dB SNR is validated
+Validationloss: 0.9483868330717087  ---- Validation Acc: 64.38000000000001
+40 dB SNR is validated
+Validationloss: 0.9090321809053421  ---- Validation Acc: 66.46
+50 dB SNR is validated
+Validationloss: 0.8239151537418365  ---- Validation Acc: 67.04
+
+
+Epoch 42  
+Traningloss: 3.675194332968782  ---- Trainig Acc: 76.40370370370371
+0 dB SNR is validated
+Validationloss: 6.046787118911743  ---- Validation Acc: 16.1
+10 dB SNR is validated
+Validationloss: 1.0649046301841736  ---- Validation Acc: 61.6
+20 dB SNR is validated
+Validationloss: 1.0232847034931183  ---- Validation Acc: 64.28
+30 dB SNR is validated
+Validationloss: 0.7687093496322632  ---- Validation Acc: 68.47999999999999
+40 dB SNR is validated
+Validationloss: 0.727513998746872  ---- Validation Acc: 69.28
+50 dB SNR is validated
+Validationloss: 0.718687218427658  ---- Validation Acc: 69.24
+
+
+Epoch 43  
+Traningloss: 3.6825100739317183  ---- Trainig Acc: 76.28925925925925
+0 dB SNR is validated
+Validationloss: 5.542174029350281  ---- Validation Acc: 16.6
+10 dB SNR is validated
+Validationloss: 1.057324543595314  ---- Validation Acc: 62.56
+20 dB SNR is validated
+Validationloss: 1.0506719201803207  ---- Validation Acc: 64.24
+30 dB SNR is validated
+Validationloss: 0.7895874619483948  ---- Validation Acc: 70.24000000000001
+40 dB SNR is validated
+Validationloss: 0.751674821972847  ---- Validation Acc: 70.64
+50 dB SNR is validated
+Validationloss: 0.7088687181472778  ---- Validation Acc: 71.94
+
+
+Epoch 44  
+Traningloss: 3.642692607404156  ---- Trainig Acc: 76.58037037037036
+0 dB SNR is validated
+Validationloss: 6.03501033782959  ---- Validation Acc: 16.16
+10 dB SNR is validated
+Validationloss: 1.224982464313507  ---- Validation Acc: 59.3
+20 dB SNR is validated
+Validationloss: 1.1289823710918427  ---- Validation Acc: 63.18
+30 dB SNR is validated
+Validationloss: 0.8533899813890458  ---- Validation Acc: 66.84
+40 dB SNR is validated
+Validationloss: 0.8364497929811477  ---- Validation Acc: 66.60000000000001
+50 dB SNR is validated
+Validationloss: 0.8161606580018997  ---- Validation Acc: 65.7
+
+
+Epoch 45  
+Traningloss: 3.6181070547212255  ---- Trainig Acc: 76.7862962962963
+0 dB SNR is validated
+Validationloss: 6.937632656097412  ---- Validation Acc: 15.120000000000001
+10 dB SNR is validated
+Validationloss: 1.33253014087677  ---- Validation Acc: 58.26
+20 dB SNR is validated
+Validationloss: 1.2972910046577453  ---- Validation Acc: 61.96
+30 dB SNR is validated
+Validationloss: 0.9067648768424987  ---- Validation Acc: 66.82000000000001
+40 dB SNR is validated
+Validationloss: 0.8393182784318924  ---- Validation Acc: 67.74
+50 dB SNR is validated
+Validationloss: 0.8125917017459869  ---- Validation Acc: 67.47999999999999
+
+
+Epoch 46  
+Traningloss: 3.5915484872477297  ---- Trainig Acc: 76.90481481481481
+0 dB SNR is validated
+Validationloss: 5.649026274681091  ---- Validation Acc: 17.76
+10 dB SNR is validated
+Validationloss: 1.0335636407136917  ---- Validation Acc: 62.44
+20 dB SNR is validated
+Validationloss: 1.0515244871377945  ---- Validation Acc: 64.88000000000001
+30 dB SNR is validated
+Validationloss: 0.7996915102005004  ---- Validation Acc: 68.78
+40 dB SNR is validated
+Validationloss: 0.7678550511598587  ---- Validation Acc: 70.39999999999999
+50 dB SNR is validated
+Validationloss: 0.6926834195852279  ---- Validation Acc: 70.76
+
+
+Epoch 47  
+Traningloss: 3.565383735790171  ---- Trainig Acc: 76.98851851851852
+0 dB SNR is validated
+Validationloss: 6.557275199890137  ---- Validation Acc: 15.379999999999999
+10 dB SNR is validated
+Validationloss: 1.2492007195949555  ---- Validation Acc: 58.52
+20 dB SNR is validated
+Validationloss: 1.1983226656913757  ---- Validation Acc: 62.36000000000001
+30 dB SNR is validated
+Validationloss: 0.8603143364191055  ---- Validation Acc: 67.34
+40 dB SNR is validated
+Validationloss: 0.8327083498239517  ---- Validation Acc: 67.25999999999999
+50 dB SNR is validated
+Validationloss: 0.7964169800281524  ---- Validation Acc: 66.4
+
+
+Epoch 48  
+Traningloss: 3.529102928259156  ---- Trainig Acc: 77.1562962962963
+0 dB SNR is validated
+Validationloss: 6.555744457244873  ---- Validation Acc: 15.160000000000002
+10 dB SNR is validated
+Validationloss: 1.3422717988491057  ---- Validation Acc: 56.64
+20 dB SNR is validated
+Validationloss: 1.3052355468273162  ---- Validation Acc: 60.040000000000006
+30 dB SNR is validated
+Validationloss: 0.9207278728485108  ---- Validation Acc: 65.7
+40 dB SNR is validated
+Validationloss: 0.891769090294838  ---- Validation Acc: 66.28
+50 dB SNR is validated
+Validationloss: 0.8274132698774338  ---- Validation Acc: 66.12
+
+
+Epoch 49  
+Traningloss: 3.5065372822890906  ---- Trainig Acc: 77.37407407407407
+0 dB SNR is validated
+Validationloss: 6.1926034688949585  ---- Validation Acc: 17.14
+10 dB SNR is validated
+Validationloss: 1.171515953540802  ---- Validation Acc: 59.36
+20 dB SNR is validated
+Validationloss: 1.083982104063034  ---- Validation Acc: 63.5
+30 dB SNR is validated
+Validationloss: 0.8037445276975632  ---- Validation Acc: 66.02
+40 dB SNR is validated
+Validationloss: 0.7864412099123002  ---- Validation Acc: 66.84
+50 dB SNR is validated
+Validationloss: 0.7759252578020096  ---- Validation Acc: 66.94
+
+
+Epoch 50  
+Traningloss: 3.479406008369882  ---- Trainig Acc: 77.51333333333334
+0 dB SNR is validated
+Validationloss: 6.175307750701904  ---- Validation Acc: 16.74
+10 dB SNR is validated
+Validationloss: 1.133548805117607  ---- Validation Acc: 63.080000000000005
+20 dB SNR is validated
+Validationloss: 1.1655682921409607  ---- Validation Acc: 65.58
+30 dB SNR is validated
+Validationloss: 0.8234143555164337  ---- Validation Acc: 72.46000000000001
+40 dB SNR is validated
+Validationloss: 0.7963024526834488  ---- Validation Acc: 72.46000000000001
+50 dB SNR is validated
+Validationloss: 0.7329285889863968  ---- Validation Acc: 72.18
+
+
+Epoch 51  
+Traningloss: 3.4588802185502243  ---- Trainig Acc: 77.57555555555555
+0 dB SNR is validated
+Validationloss: 6.857237339019775  ---- Validation Acc: 15.28
+10 dB SNR is validated
+Validationloss: 1.425369566679001  ---- Validation Acc: 56.779999999999994
+20 dB SNR is validated
+Validationloss: 1.389068740606308  ---- Validation Acc: 59.440000000000005
+30 dB SNR is validated
+Validationloss: 1.025321689248085  ---- Validation Acc: 64.52
+40 dB SNR is validated
+Validationloss: 0.9779392898082733  ---- Validation Acc: 65.03999999999999
+50 dB SNR is validated
+Validationloss: 0.9363124400377274  ---- Validation Acc: 65.03999999999999
+
+
+Epoch 52  
+Traningloss: 3.4315918253480713  ---- Trainig Acc: 77.81296296296296
+0 dB SNR is validated
+Validationloss: 5.686776876449585  ---- Validation Acc: 19.78
+10 dB SNR is validated
+Validationloss: 1.0294423669576644  ---- Validation Acc: 64.34
+20 dB SNR is validated
+Validationloss: 1.0261654734611512  ---- Validation Acc: 68.34
+30 dB SNR is validated
+Validationloss: 0.790020939707756  ---- Validation Acc: 69.16
+40 dB SNR is validated
+Validationloss: 0.7758856952190399  ---- Validation Acc: 69.44
+50 dB SNR is validated
+Validationloss: 0.7538780778646469  ---- Validation Acc: 69.22
+
+
+Epoch 53  
+Traningloss: 3.4095731610855595  ---- Trainig Acc: 78.01962962962963
+0 dB SNR is validated
+Validationloss: 7.182926988601684  ---- Validation Acc: 15.659999999999998
+10 dB SNR is validated
+Validationloss: 1.6378181338310243  ---- Validation Acc: 54.800000000000004
+20 dB SNR is validated
+Validationloss: 1.6679791867733003  ---- Validation Acc: 59.12
+30 dB SNR is validated
+Validationloss: 1.099542811512947  ---- Validation Acc: 65.02
+40 dB SNR is validated
+Validationloss: 1.0957603961229325  ---- Validation Acc: 65.24
+50 dB SNR is validated
+Validationloss: 0.9370596200227738  ---- Validation Acc: 66.47999999999999
+
+
+Epoch 54  
+Traningloss: 3.38108725134622  ---- Trainig Acc: 78.10740740740741
+0 dB SNR is validated
+Validationloss: 6.497116184234619  ---- Validation Acc: 16.38
+10 dB SNR is validated
+Validationloss: 1.2367712557315826  ---- Validation Acc: 59.64
+20 dB SNR is validated
+Validationloss: 1.2511130750179291  ---- Validation Acc: 63.660000000000004
+30 dB SNR is validated
+Validationloss: 0.9098879784345627  ---- Validation Acc: 66.84
+40 dB SNR is validated
+Validationloss: 0.8786877214908599  ---- Validation Acc: 67.94
+50 dB SNR is validated
+Validationloss: 0.8062227010726929  ---- Validation Acc: 68.26
+
+
+Epoch 55  
+Traningloss: 3.3715921331789684  ---- Trainig Acc: 78.12037037037037
+0 dB SNR is validated
+Validationloss: 8.265906047821044  ---- Validation Acc: 14.66
+10 dB SNR is validated
+Validationloss: 1.574630618095398  ---- Validation Acc: 55.84
+20 dB SNR is validated
+Validationloss: 1.5138436198234557  ---- Validation Acc: 61.18
+30 dB SNR is validated
+Validationloss: 1.0568930417299272  ---- Validation Acc: 65.78
+40 dB SNR is validated
+Validationloss: 0.994703808426857  ---- Validation Acc: 66.25999999999999
+50 dB SNR is validated
+Validationloss: 0.9033205211162567  ---- Validation Acc: 68.14
+
+
+Epoch 56  
+Traningloss: 3.3266249834983186  ---- Trainig Acc: 78.46296296296296
+0 dB SNR is validated
+Validationloss: 6.026440906524658  ---- Validation Acc: 17.44
+10 dB SNR is validated
+Validationloss: 1.0693562835454942  ---- Validation Acc: 62.339999999999996
+20 dB SNR is validated
+Validationloss: 1.058847427368164  ---- Validation Acc: 65.60000000000001
+30 dB SNR is validated
+Validationloss: 0.8035223454236984  ---- Validation Acc: 69.54
+40 dB SNR is validated
+Validationloss: 0.8037735253572464  ---- Validation Acc: 68.22
+50 dB SNR is validated
+Validationloss: 0.7655070543289184  ---- Validation Acc: 67.86
+
+
+Epoch 57  
+Traningloss: 3.3378125974823805  ---- Trainig Acc: 78.38666666666667
+0 dB SNR is validated
+Validationloss: 7.6139442920684814  ---- Validation Acc: 15.1
+10 dB SNR is validated
+Validationloss: 1.3920866668224334  ---- Validation Acc: 58.24
+20 dB SNR is validated
+Validationloss: 1.3958037495613098  ---- Validation Acc: 62.0
+30 dB SNR is validated
+Validationloss: 0.9414021641016006  ---- Validation Acc: 66.8
+40 dB SNR is validated
+Validationloss: 0.9041169881820679  ---- Validation Acc: 67.42
+50 dB SNR is validated
+Validationloss: 0.8242921978235245  ---- Validation Acc: 67.17999999999999
+
+
+Epoch 58  
+Traningloss: 3.3157756823453712  ---- Trainig Acc: 78.55777777777779
+0 dB SNR is validated
+Validationloss: 6.064460325241089  ---- Validation Acc: 17.9
+10 dB SNR is validated
+Validationloss: 1.0873413503170013  ---- Validation Acc: 62.419999999999995
+20 dB SNR is validated
+Validationloss: 1.130311381816864  ---- Validation Acc: 64.9
+30 dB SNR is validated
+Validationloss: 0.8269321888685226  ---- Validation Acc: 68.26
+40 dB SNR is validated
+Validationloss: 0.7746924757957458  ---- Validation Acc: 68.47999999999999
+50 dB SNR is validated
+Validationloss: 0.709832888841629  ---- Validation Acc: 67.88
+
+
+Epoch 59  
+Traningloss: 3.298586030236699  ---- Trainig Acc: 78.63
+0 dB SNR is validated
+Validationloss: 7.712680840492249  ---- Validation Acc: 15.78
+10 dB SNR is validated
+Validationloss: 1.4326034545898438  ---- Validation Acc: 57.599999999999994
+20 dB SNR is validated
+Validationloss: 1.434625706076622  ---- Validation Acc: 60.919999999999995
+30 dB SNR is validated
+Validationloss: 1.0107707589864732  ---- Validation Acc: 65.38000000000001
+40 dB SNR is validated
+Validationloss: 0.9553688406944275  ---- Validation Acc: 67.32000000000001
+50 dB SNR is validated
+Validationloss: 0.8514249354600907  ---- Validation Acc: 66.62
+
+
+Epoch 60  
+Traningloss: 3.272191665981981  ---- Trainig Acc: 78.78407407407407
+0 dB SNR is validated
+Validationloss: 6.874327802658081  ---- Validation Acc: 16.46
+10 dB SNR is validated
+Validationloss: 1.3070639669895172  ---- Validation Acc: 60.3
+20 dB SNR is validated
+Validationloss: 1.2376799643039704  ---- Validation Acc: 64.62
+30 dB SNR is validated
+Validationloss: 0.8669514685869217  ---- Validation Acc: 69.04
+40 dB SNR is validated
+Validationloss: 0.8512833535671234  ---- Validation Acc: 68.84
+50 dB SNR is validated
+Validationloss: 0.7712141096591949  ---- Validation Acc: 69.5
+
+
+Epoch 61  
+Traningloss: 3.2600783094848422  ---- Trainig Acc: 78.86592592592592
+0 dB SNR is validated
+Validationloss: 7.857577013969421  ---- Validation Acc: 13.88
+10 dB SNR is validated
+Validationloss: 1.329277229309082  ---- Validation Acc: 58.26
+20 dB SNR is validated
+Validationloss: 1.290003478527069  ---- Validation Acc: 61.9
+30 dB SNR is validated
+Validationloss: 0.9224184870719909  ---- Validation Acc: 66.5
+40 dB SNR is validated
+Validationloss: 0.8858715772628785  ---- Validation Acc: 67.34
+50 dB SNR is validated
+Validationloss: 0.8158307015895844  ---- Validation Acc: 66.86
+
+
+Epoch 62  
+Traningloss: 3.2291437627070327  ---- Trainig Acc: 79.09555555555555
+0 dB SNR is validated
+Validationloss: 7.7671142578125  ---- Validation Acc: 13.36
+10 dB SNR is validated
+Validationloss: 1.3038557708263396  ---- Validation Acc: 59.08
+20 dB SNR is validated
+Validationloss: 1.2308908224105835  ---- Validation Acc: 63.3
+30 dB SNR is validated
+Validationloss: 0.8543882995843888  ---- Validation Acc: 69.12
+40 dB SNR is validated
+Validationloss: 0.8212478518486023  ---- Validation Acc: 70.76
+50 dB SNR is validated
+Validationloss: 0.7523920416831971  ---- Validation Acc: 71.0
+
+
+Epoch 63  
+Traningloss: 3.2273657771081408  ---- Trainig Acc: 79.12
+0 dB SNR is validated
+Validationloss: 6.333717012405396  ---- Validation Acc: 17.080000000000002
+10 dB SNR is validated
+Validationloss: 1.116237646341324  ---- Validation Acc: 63.080000000000005
+20 dB SNR is validated
+Validationloss: 1.1446259081363679  ---- Validation Acc: 65.38000000000001
+30 dB SNR is validated
+Validationloss: 0.8388719886541367  ---- Validation Acc: 69.6
+40 dB SNR is validated
+Validationloss: 0.8185296326875686  ---- Validation Acc: 69.34
+50 dB SNR is validated
+Validationloss: 0.747725510597229  ---- Validation Acc: 70.78
+
+
+Epoch 64  
+Traningloss: 3.2163113565184176  ---- Trainig Acc: 79.18555555555555
+0 dB SNR is validated
+Validationloss: 7.199100160598755  ---- Validation Acc: 15.079999999999998
+10 dB SNR is validated
+Validationloss: 1.11498022377491  ---- Validation Acc: 62.5
+20 dB SNR is validated
+Validationloss: 1.0720861107110977  ---- Validation Acc: 64.60000000000001
+30 dB SNR is validated
+Validationloss: 0.8028531968593597  ---- Validation Acc: 69.12
+40 dB SNR is validated
+Validationloss: 0.7870175004005432  ---- Validation Acc: 70.28
+50 dB SNR is validated
+Validationloss: 0.7511084288358688  ---- Validation Acc: 70.3
+
+
+Epoch 65  
+Traningloss: 3.1881129433908924  ---- Trainig Acc: 79.35
+0 dB SNR is validated
+Validationloss: 7.334281373023987  ---- Validation Acc: 16.06
+10 dB SNR is validated
+Validationloss: 1.1419424653053283  ---- Validation Acc: 61.839999999999996
+20 dB SNR is validated
+Validationloss: 1.0747934520244598  ---- Validation Acc: 66.67999999999999
+30 dB SNR is validated
+Validationloss: 0.7609615325927734  ---- Validation Acc: 70.82000000000001
+40 dB SNR is validated
+Validationloss: 0.7376367896795273  ---- Validation Acc: 72.08
+50 dB SNR is validated
+Validationloss: 0.7033532291650773  ---- Validation Acc: 70.89999999999999
+
+
+Epoch 66  
+Traningloss: 3.1553026906383987  ---- Trainig Acc: 79.55148148148147
+0 dB SNR is validated
+Validationloss: 7.829502558708191  ---- Validation Acc: 16.34
+10 dB SNR is validated
+Validationloss: 1.3748616099357605  ---- Validation Acc: 58.58
+20 dB SNR is validated
+Validationloss: 1.360818660259247  ---- Validation Acc: 61.6
+30 dB SNR is validated
+Validationloss: 0.9120845437049866  ---- Validation Acc: 68.62
+40 dB SNR is validated
+Validationloss: 0.8919725596904755  ---- Validation Acc: 68.32000000000001
+50 dB SNR is validated
+Validationloss: 0.7787779897451401  ---- Validation Acc: 69.14
+
+
+Epoch 67  
+Traningloss: 3.1503852735358207  ---- Trainig Acc: 79.53407407407408
+0 dB SNR is validated
+Validationloss: 7.628077340126038  ---- Validation Acc: 14.540000000000001
+10 dB SNR is validated
+Validationloss: 1.2480365633964539  ---- Validation Acc: 60.419999999999995
+20 dB SNR is validated
+Validationloss: 1.2110114574432373  ---- Validation Acc: 63.1
+30 dB SNR is validated
+Validationloss: 0.8441908776760101  ---- Validation Acc: 68.24
+40 dB SNR is validated
+Validationloss: 0.8203030019998551  ---- Validation Acc: 68.74
+50 dB SNR is validated
+Validationloss: 0.7419706761837006  ---- Validation Acc: 69.32000000000001
+
+
+Epoch 68  
+Traningloss: 3.123455930374224  ---- Trainig Acc: 79.78148148148149
+0 dB SNR is validated
+Validationloss: 8.570723628997802  ---- Validation Acc: 14.66
+10 dB SNR is validated
+Validationloss: 1.4503434479236603  ---- Validation Acc: 59.040000000000006
+20 dB SNR is validated
+Validationloss: 1.441290456056595  ---- Validation Acc: 64.2
+30 dB SNR is validated
+Validationloss: 1.01058549284935  ---- Validation Acc: 69.1
+40 dB SNR is validated
+Validationloss: 0.9483708202838897  ---- Validation Acc: 69.86
+50 dB SNR is validated
+Validationloss: 0.8676284164190292  ---- Validation Acc: 69.36
+
+
+Epoch 69  
+Traningloss: 3.1044685063375668  ---- Trainig Acc: 79.86814814814814
+0 dB SNR is validated
+Validationloss: 8.072402596473694  ---- Validation Acc: 15.079999999999998
+10 dB SNR is validated
+Validationloss: 1.2586718380451203  ---- Validation Acc: 61.480000000000004
+20 dB SNR is validated
+Validationloss: 1.2590428471565247  ---- Validation Acc: 64.22
+30 dB SNR is validated
+Validationloss: 0.8739596694707871  ---- Validation Acc: 69.64
+40 dB SNR is validated
+Validationloss: 0.8298278748989105  ---- Validation Acc: 70.3
+50 dB SNR is validated
+Validationloss: 0.7393426954746246  ---- Validation Acc: 69.58
+
+
+Epoch 70  
+Traningloss: 3.101426268631423  ---- Trainig Acc: 79.86296296296295
+0 dB SNR is validated
+Validationloss: 7.314313554763794  ---- Validation Acc: 16.400000000000002
+10 dB SNR is validated
+Validationloss: 1.2818165481090547  ---- Validation Acc: 61.28
+20 dB SNR is validated
+Validationloss: 1.2467767417430877  ---- Validation Acc: 62.7
+30 dB SNR is validated
+Validationloss: 0.8614592492580414  ---- Validation Acc: 68.74
+40 dB SNR is validated
+Validationloss: 0.8306852430105209  ---- Validation Acc: 67.36
+50 dB SNR is validated
+Validationloss: 0.7435086756944657  ---- Validation Acc: 69.39999999999999
+
+
+Epoch 71  
+Traningloss: 3.090504285667769  ---- Trainig Acc: 79.92370370370371
+0 dB SNR is validated
+Validationloss: 7.831229186058044  ---- Validation Acc: 16.900000000000002
+10 dB SNR is validated
+Validationloss: 1.2963984310626984  ---- Validation Acc: 61.0
+20 dB SNR is validated
+Validationloss: 1.3068760871887206  ---- Validation Acc: 64.5
+30 dB SNR is validated
+Validationloss: 0.8436800420284272  ---- Validation Acc: 72.8
+40 dB SNR is validated
+Validationloss: 0.7900842130184174  ---- Validation Acc: 72.76
+50 dB SNR is validated
+Validationloss: 0.6806098967790604  ---- Validation Acc: 73.98
+
+
+Epoch 72  
+Traningloss: 3.0586135430600154  ---- Trainig Acc: 80.09518518518519
+0 dB SNR is validated
+Validationloss: 10.04381217956543  ---- Validation Acc: 14.280000000000001
+10 dB SNR is validated
+Validationloss: 1.829404604434967  ---- Validation Acc: 54.120000000000005
+20 dB SNR is validated
+Validationloss: 1.8308210015296935  ---- Validation Acc: 57.76
+30 dB SNR is validated
+Validationloss: 1.2082729309797287  ---- Validation Acc: 64.44
+40 dB SNR is validated
+Validationloss: 1.1156610131263733  ---- Validation Acc: 65.58
+50 dB SNR is validated
+Validationloss: 0.9337686836719513  ---- Validation Acc: 67.78
+
+
+Epoch 73  
+Traningloss: 3.074189345987344  ---- Trainig Acc: 80.08148148148149
+0 dB SNR is validated
+Validationloss: 9.043283724784851  ---- Validation Acc: 14.04
+10 dB SNR is validated
+Validationloss: 1.6209689676761627  ---- Validation Acc: 56.940000000000005
+20 dB SNR is validated
+Validationloss: 1.5855847954750062  ---- Validation Acc: 59.3
+30 dB SNR is validated
+Validationloss: 1.114478376507759  ---- Validation Acc: 65.7
+40 dB SNR is validated
+Validationloss: 1.0346377938985825  ---- Validation Acc: 66.47999999999999
+50 dB SNR is validated
+Validationloss: 0.9347225993871688  ---- Validation Acc: 67.08
+
+
+Epoch 74  
+Traningloss: 3.0407251341014425  ---- Trainig Acc: 80.18074074074075
+0 dB SNR is validated
+Validationloss: 9.142361545562744  ---- Validation Acc: 14.34
+10 dB SNR is validated
+Validationloss: 1.5015475571155548  ---- Validation Acc: 58.86
+20 dB SNR is validated
+Validationloss: 1.4766732096672057  ---- Validation Acc: 62.760000000000005
+30 dB SNR is validated
+Validationloss: 0.9468856066465378  ---- Validation Acc: 69.42
+40 dB SNR is validated
+Validationloss: 0.8622334957122803  ---- Validation Acc: 70.52000000000001
+50 dB SNR is validated
+Validationloss: 0.7243618726730346  ---- Validation Acc: 71.44
+
+
+Epoch 75  
+Traningloss: 3.0437052108940077  ---- Trainig Acc: 80.23407407407407
+0 dB SNR is validated
+Validationloss: 7.844336724281311  ---- Validation Acc: 15.8
+10 dB SNR is validated
+Validationloss: 1.2962127655744553  ---- Validation Acc: 61.0
+20 dB SNR is validated
+Validationloss: 1.255511713027954  ---- Validation Acc: 64.14
+30 dB SNR is validated
+Validationloss: 0.8080250233411789  ---- Validation Acc: 70.28
+40 dB SNR is validated
+Validationloss: 0.8101923555135727  ---- Validation Acc: 69.58
+50 dB SNR is validated
+Validationloss: 0.6724032938480378  ---- Validation Acc: 72.78
+
+
+Epoch 76  
+Traningloss: 3.026359216564081  ---- Trainig Acc: 80.30407407407407
+0 dB SNR is validated
+Validationloss: 8.581102871894837  ---- Validation Acc: 15.02
+10 dB SNR is validated
+Validationloss: 1.488525390625  ---- Validation Acc: 58.32000000000001
+20 dB SNR is validated
+Validationloss: 1.4520542919635773  ---- Validation Acc: 61.519999999999996
+30 dB SNR is validated
+Validationloss: 0.9433036327362061  ---- Validation Acc: 67.66
+40 dB SNR is validated
+Validationloss: 0.868839031457901  ---- Validation Acc: 68.74
+50 dB SNR is validated
+Validationloss: 0.7595182538032532  ---- Validation Acc: 69.8
+
+
+Epoch 77  
+Traningloss: 2.998010832858695  ---- Trainig Acc: 80.49666666666667
+0 dB SNR is validated
+Validationloss: 8.876787090301514  ---- Validation Acc: 14.66
+10 dB SNR is validated
+Validationloss: 1.4203716039657592  ---- Validation Acc: 58.84
+20 dB SNR is validated
+Validationloss: 1.3628126621246337  ---- Validation Acc: 62.5
+30 dB SNR is validated
+Validationloss: 1.0024108290672302  ---- Validation Acc: 66.92
+40 dB SNR is validated
+Validationloss: 0.9404235303401947  ---- Validation Acc: 67.4
+50 dB SNR is validated
+Validationloss: 0.8420205235481262  ---- Validation Acc: 67.32000000000001
+
+
+Epoch 78  
+Traningloss: 2.9922660794109106  ---- Trainig Acc: 80.6288888888889
+0 dB SNR is validated
+Validationloss: 9.07632212638855  ---- Validation Acc: 15.52
+10 dB SNR is validated
+Validationloss: 1.4157524466514588  ---- Validation Acc: 58.199999999999996
+20 dB SNR is validated
+Validationloss: 1.3661804437637328  ---- Validation Acc: 61.06
+30 dB SNR is validated
+Validationloss: 0.9733272284269333  ---- Validation Acc: 66.58
+40 dB SNR is validated
+Validationloss: 0.9334689140319824  ---- Validation Acc: 67.54
+50 dB SNR is validated
+Validationloss: 0.8501331150531769  ---- Validation Acc: 67.64
+
+
+Epoch 79  
+Traningloss: 2.983720195141028  ---- Trainig Acc: 80.59703703703704
+0 dB SNR is validated
+Validationloss: 8.03314425945282  ---- Validation Acc: 17.1
+10 dB SNR is validated
+Validationloss: 1.2662875175476074  ---- Validation Acc: 62.12
+20 dB SNR is validated
+Validationloss: 1.2849642246961595  ---- Validation Acc: 64.74
+30 dB SNR is validated
+Validationloss: 0.8712291568517685  ---- Validation Acc: 71.76
+40 dB SNR is validated
+Validationloss: 0.8378919631242752  ---- Validation Acc: 72.58
+50 dB SNR is validated
+Validationloss: 0.7147846490144729  ---- Validation Acc: 73.2
+
+
+Epoch 80  
+Traningloss: 2.9661201526495544  ---- Trainig Acc: 80.72814814814815
+0 dB SNR is validated
+Validationloss: 7.355536890029907  ---- Validation Acc: 18.26
+10 dB SNR is validated
+Validationloss: 1.2787244975566865  ---- Validation Acc: 62.56
+20 dB SNR is validated
+Validationloss: 1.3006103932857513  ---- Validation Acc: 64.48
+30 dB SNR is validated
+Validationloss: 0.8839476555585861  ---- Validation Acc: 70.1
+40 dB SNR is validated
+Validationloss: 0.864832416176796  ---- Validation Acc: 69.5
+50 dB SNR is validated
+Validationloss: 0.7630737751722336  ---- Validation Acc: 70.94
+
+
+Epoch 81  
+Traningloss: 2.9625122391576455  ---- Trainig Acc: 80.80962962962963
+0 dB SNR is validated
+Validationloss: 7.487391018867493  ---- Validation Acc: 18.92
+10 dB SNR is validated
+Validationloss: 1.2135784119367599  ---- Validation Acc: 61.7
+20 dB SNR is validated
+Validationloss: 1.256522786617279  ---- Validation Acc: 62.53999999999999
+30 dB SNR is validated
+Validationloss: 0.8580326437950134  ---- Validation Acc: 69.54
+40 dB SNR is validated
+Validationloss: 0.8407734423875809  ---- Validation Acc: 70.46
+50 dB SNR is validated
+Validationloss: 0.7448089629411697  ---- Validation Acc: 71.96000000000001
+
+
+Epoch 82  
+Traningloss: 2.9543356133878906  ---- Trainig Acc: 80.72851851851853
+0 dB SNR is validated
+Validationloss: 8.406333351135254  ---- Validation Acc: 14.860000000000001
+10 dB SNR is validated
+Validationloss: 1.3914875388145447  ---- Validation Acc: 60.64000000000001
+20 dB SNR is validated
+Validationloss: 1.3493739068508148  ---- Validation Acc: 61.9
+30 dB SNR is validated
+Validationloss: 0.9795992016792298  ---- Validation Acc: 66.58
+40 dB SNR is validated
+Validationloss: 0.9438520610332489  ---- Validation Acc: 67.08
+50 dB SNR is validated
+Validationloss: 0.8476104736328125  ---- Validation Acc: 68.08
+
+
+Epoch 83  
+Traningloss: 2.9285205673341723  ---- Trainig Acc: 80.92037037037038
+0 dB SNR is validated
+Validationloss: 7.987215662002564  ---- Validation Acc: 16.939999999999998
+10 dB SNR is validated
+Validationloss: 1.3796781659126283  ---- Validation Acc: 58.720000000000006
+20 dB SNR is validated
+Validationloss: 1.3668345093727112  ---- Validation Acc: 62.88
+30 dB SNR is validated
+Validationloss: 0.9528725534677506  ---- Validation Acc: 68.38
+40 dB SNR is validated
+Validationloss: 0.8810482829809189  ---- Validation Acc: 68.94
+50 dB SNR is validated
+Validationloss: 0.8049336075782776  ---- Validation Acc: 68.4
+
+
+Epoch 84  
+Traningloss: 2.9289144181053746  ---- Trainig Acc: 80.93777777777777
+0 dB SNR is validated
+Validationloss: 7.234245729446411  ---- Validation Acc: 18.12
+10 dB SNR is validated
+Validationloss: 1.174442571401596  ---- Validation Acc: 63.0
+20 dB SNR is validated
+Validationloss: 1.1843046844005585  ---- Validation Acc: 65.92
+30 dB SNR is validated
+Validationloss: 0.8326737612485886  ---- Validation Acc: 71.24000000000001
+40 dB SNR is validated
+Validationloss: 0.8129037857055664  ---- Validation Acc: 71.54
+50 dB SNR is validated
+Validationloss: 0.713191133737564  ---- Validation Acc: 71.84
+
+
+Epoch 85  
+Traningloss: 2.9213817427781494  ---- Trainig Acc: 81.03074074074074
+0 dB SNR is validated
+Validationloss: 8.448261189460755  ---- Validation Acc: 16.48
+10 dB SNR is validated
+Validationloss: 1.5482480704784394  ---- Validation Acc: 58.68
+20 dB SNR is validated
+Validationloss: 1.5768103778362275  ---- Validation Acc: 61.0
+30 dB SNR is validated
+Validationloss: 1.0114052951335908  ---- Validation Acc: 68.92
+40 dB SNR is validated
+Validationloss: 0.9470435470342636  ---- Validation Acc: 69.8
+50 dB SNR is validated
+Validationloss: 0.7738487362861634  ---- Validation Acc: 72.38
+
+
+Epoch 86  
+Traningloss: 2.9095831559547647  ---- Trainig Acc: 81.03888888888889
+0 dB SNR is validated
+Validationloss: 8.401758933067322  ---- Validation Acc: 17.740000000000002
+10 dB SNR is validated
+Validationloss: 1.3503288805484772  ---- Validation Acc: 62.88
+20 dB SNR is validated
+Validationloss: 1.3537498116493225  ---- Validation Acc: 64.66
+30 dB SNR is validated
+Validationloss: 0.8860019117593765  ---- Validation Acc: 70.89999999999999
+40 dB SNR is validated
+Validationloss: 0.8586099416017532  ---- Validation Acc: 71.14
+50 dB SNR is validated
+Validationloss: 0.7252679258584976  ---- Validation Acc: 72.56
+
+
+Epoch 87  
+Traningloss: 2.9005705372599717  ---- Trainig Acc: 81.20444444444445
+0 dB SNR is validated
+Validationloss: 9.031344103813172  ---- Validation Acc: 14.7
+10 dB SNR is validated
+Validationloss: 1.4379627645015716  ---- Validation Acc: 59.08
+20 dB SNR is validated
+Validationloss: 1.4787647247314453  ---- Validation Acc: 60.940000000000005
+30 dB SNR is validated
+Validationloss: 0.9682885825634002  ---- Validation Acc: 69.39999999999999
+40 dB SNR is validated
+Validationloss: 0.9198397189378739  ---- Validation Acc: 69.98
+50 dB SNR is validated
+Validationloss: 0.753897351026535  ---- Validation Acc: 71.78
+
+
+Epoch 88  
+Traningloss: 2.90223098106005  ---- Trainig Acc: 81.12148148148148
+0 dB SNR is validated
+Validationloss: 9.26388440132141  ---- Validation Acc: 14.06
+10 dB SNR is validated
+Validationloss: 1.677857369184494  ---- Validation Acc: 58.56
+20 dB SNR is validated
+Validationloss: 1.7183496952056885  ---- Validation Acc: 61.28
+30 dB SNR is validated
+Validationloss: 1.1152844846248626  ---- Validation Acc: 68.28
+40 dB SNR is validated
+Validationloss: 1.0073944091796876  ---- Validation Acc: 70.16
+50 dB SNR is validated
+Validationloss: 0.8386704862117768  ---- Validation Acc: 72.06
+
+
+Epoch 89  
+Traningloss: 2.862057164099745  ---- Trainig Acc: 81.34407407407407
+0 dB SNR is validated
+Validationloss: 8.781741118431091  ---- Validation Acc: 15.4
+10 dB SNR is validated
+Validationloss: 1.4090332090854645  ---- Validation Acc: 59.199999999999996
+20 dB SNR is validated
+Validationloss: 1.383528435230255  ---- Validation Acc: 62.44
+30 dB SNR is validated
+Validationloss: 0.945142924785614  ---- Validation Acc: 69.76
+40 dB SNR is validated
+Validationloss: 0.899581003189087  ---- Validation Acc: 70.06
+50 dB SNR is validated
+Validationloss: 0.7872182160615921  ---- Validation Acc: 70.5
+
+
+Epoch 90  
+Traningloss: 2.8563617214518175  ---- Trainig Acc: 81.40592592592593
+0 dB SNR is validated
+Validationloss: 9.602093315124511  ---- Validation Acc: 13.52
+10 dB SNR is validated
+Validationloss: 1.8015131533145905  ---- Validation Acc: 57.099999999999994
+20 dB SNR is validated
+Validationloss: 1.7863032698631287  ---- Validation Acc: 58.160000000000004
+30 dB SNR is validated
+Validationloss: 1.1207259178161622  ---- Validation Acc: 68.42
+40 dB SNR is validated
+Validationloss: 1.005809810757637  ---- Validation Acc: 69.17999999999999
+50 dB SNR is validated
+Validationloss: 0.7902926981449128  ---- Validation Acc: 72.26
+
+
+Epoch 91  
+Traningloss: 2.8672021618747916  ---- Trainig Acc: 81.35259259259259
+0 dB SNR is validated
+Validationloss: 7.643703413009644  ---- Validation Acc: 17.34
+10 dB SNR is validated
+Validationloss: 1.3614151179790497  ---- Validation Acc: 60.74
+20 dB SNR is validated
+Validationloss: 1.3593015313148498  ---- Validation Acc: 64.4
+30 dB SNR is validated
+Validationloss: 0.9958833992481232  ---- Validation Acc: 68.84
+40 dB SNR is validated
+Validationloss: 0.9148685783147812  ---- Validation Acc: 68.88
+50 dB SNR is validated
+Validationloss: 0.7820162773132324  ---- Validation Acc: 70.89999999999999
+
+
+Epoch 92  
+Traningloss: 2.8523929788815705  ---- Trainig Acc: 81.46296296296296
+0 dB SNR is validated
+Validationloss: 8.362423062324524  ---- Validation Acc: 15.620000000000001
+10 dB SNR is validated
+Validationloss: 1.4053992569446563  ---- Validation Acc: 59.31999999999999
+20 dB SNR is validated
+Validationloss: 1.4022795021533967  ---- Validation Acc: 61.919999999999995
+30 dB SNR is validated
+Validationloss: 0.976750960946083  ---- Validation Acc: 69.36
+40 dB SNR is validated
+Validationloss: 0.9072523057460785  ---- Validation Acc: 70.8
+50 dB SNR is validated
+Validationloss: 0.7736632198095321  ---- Validation Acc: 72.86
+
+
+Epoch 93  
+Traningloss: 2.8460862035439773  ---- Trainig Acc: 81.48962962962963
+0 dB SNR is validated
+Validationloss: 9.106879806518554  ---- Validation Acc: 15.939999999999998
+10 dB SNR is validated
+Validationloss: 1.552175897359848  ---- Validation Acc: 57.49999999999999
+20 dB SNR is validated
+Validationloss: 1.5098536312580109  ---- Validation Acc: 60.3
+30 dB SNR is validated
+Validationloss: 1.0932146996259688  ---- Validation Acc: 64.24
+40 dB SNR is validated
+Validationloss: 1.0458383083343505  ---- Validation Acc: 64.86
+50 dB SNR is validated
+Validationloss: 0.9462835043668747  ---- Validation Acc: 66.7
+
+
+Epoch 94  
+Traningloss: 2.8249590360263195  ---- Trainig Acc: 81.59703703703704
+0 dB SNR is validated
+Validationloss: 8.926518106460572  ---- Validation Acc: 15.22
+10 dB SNR is validated
+Validationloss: 1.5487354874610901  ---- Validation Acc: 59.08
+20 dB SNR is validated
+Validationloss: 1.5080979466438293  ---- Validation Acc: 62.44
+30 dB SNR is validated
+Validationloss: 1.0217591136693955  ---- Validation Acc: 66.64
+40 dB SNR is validated
+Validationloss: 0.9845174491405487  ---- Validation Acc: 67.2
+50 dB SNR is validated
+Validationloss: 0.8767679631710052  ---- Validation Acc: 68.4
+
+
+Epoch 95  
+Traningloss: 2.8333970920225098  ---- Trainig Acc: 81.51592592592593
+0 dB SNR is validated
+Validationloss: 9.958103942871094  ---- Validation Acc: 13.88
+10 dB SNR is validated
+Validationloss: 1.6188374698162078  ---- Validation Acc: 57.3
+20 dB SNR is validated
+Validationloss: 1.5872565984725953  ---- Validation Acc: 60.660000000000004
+30 dB SNR is validated
+Validationloss: 1.1135328888893128  ---- Validation Acc: 65.18
+40 dB SNR is validated
+Validationloss: 1.036507675051689  ---- Validation Acc: 67.08
+50 dB SNR is validated
+Validationloss: 0.9047935992479325  ---- Validation Acc: 67.94
+
+
+Epoch 96  
+Traningloss: 2.8017546359915286  ---- Trainig Acc: 81.73148148148148
+0 dB SNR is validated
+Validationloss: 10.43453073501587  ---- Validation Acc: 13.700000000000001
+10 dB SNR is validated
+Validationloss: 1.559338676929474  ---- Validation Acc: 59.24
+20 dB SNR is validated
+Validationloss: 1.4848854064941406  ---- Validation Acc: 61.78
+30 dB SNR is validated
+Validationloss: 0.9806707590818405  ---- Validation Acc: 67.36
+40 dB SNR is validated
+Validationloss: 0.9270076304674149  ---- Validation Acc: 69.88
+50 dB SNR is validated
+Validationloss: 0.8080428838729858  ---- Validation Acc: 71.06
+
+
+Epoch 97  
+Traningloss: 2.792065666988492  ---- Trainig Acc: 81.90407407407407
+0 dB SNR is validated
+Validationloss: 10.08035626411438  ---- Validation Acc: 15.18
+10 dB SNR is validated
+Validationloss: 1.575255036354065  ---- Validation Acc: 58.02
+20 dB SNR is validated
+Validationloss: 1.6014781773090363  ---- Validation Acc: 61.14000000000001
+30 dB SNR is validated
+Validationloss: 1.0628950029611588  ---- Validation Acc: 68.08
+40 dB SNR is validated
+Validationloss: 0.9802136868238449  ---- Validation Acc: 70.22
+50 dB SNR is validated
+Validationloss: 0.8382798045873642  ---- Validation Acc: 71.48
+
+
+Epoch 98  
+Traningloss: 2.806399848036976  ---- Trainig Acc: 81.6825925925926
+0 dB SNR is validated
+Validationloss: 8.535131049156188  ---- Validation Acc: 15.76
+10 dB SNR is validated
+Validationloss: 1.4744808197021484  ---- Validation Acc: 60.81999999999999
+20 dB SNR is validated
+Validationloss: 1.481351625919342  ---- Validation Acc: 61.53999999999999
+30 dB SNR is validated
+Validationloss: 0.9888289093971252  ---- Validation Acc: 67.0
+40 dB SNR is validated
+Validationloss: 0.9705728054046631  ---- Validation Acc: 68.67999999999999
+50 dB SNR is validated
+Validationloss: 0.8077186852693558  ---- Validation Acc: 71.78
+
+
+Epoch 99  
+Traningloss: 2.7890300727872686  ---- Trainig Acc: 81.83888888888889
+0 dB SNR is validated
+Validationloss: 9.654074335098267  ---- Validation Acc: 15.86
+10 dB SNR is validated
+Validationloss: 1.693541204929352  ---- Validation Acc: 59.519999999999996
+20 dB SNR is validated
+Validationloss: 1.7062528371810912  ---- Validation Acc: 62.44
+30 dB SNR is validated
+Validationloss: 1.1669028341770171  ---- Validation Acc: 68.8
+40 dB SNR is validated
+Validationloss: 1.1154015213251114  ---- Validation Acc: 70.0
+50 dB SNR is validated
+Validationloss: 0.9106827676296234  ---- Validation Acc: 70.82000000000001
+
+
+Epoch 100  
+Traningloss: 2.776699035005136  ---- Trainig Acc: 81.95037037037038
+0 dB SNR is validated
+Validationloss: 9.063065385818481  ---- Validation Acc: 14.499999999999998
+10 dB SNR is validated
+Validationloss: 1.369205504655838  ---- Validation Acc: 62.62
+20 dB SNR is validated
+Validationloss: 1.3668529331684112  ---- Validation Acc: 65.3
+30 dB SNR is validated
+Validationloss: 0.93308627307415  ---- Validation Acc: 70.67999999999999
+40 dB SNR is validated
+Validationloss: 0.8736807227134704  ---- Validation Acc: 71.44
+50 dB SNR is validated
+Validationloss: 0.7285968571901321  ---- Validation Acc: 72.74000000000001
+
+

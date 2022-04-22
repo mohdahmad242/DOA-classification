@@ -1,0 +1,20 @@
+{
+    "os": "Linux-4.4.0-197-generic-x86_64-with-debian-stretch-sid",
+    "python": "3.7.3",
+    "heartbeatAt": "2021-02-28T23:36:14.907803",
+    "startedAt": "2021-02-28T23:36:08.566493",
+    "docker": null,
+    "gpu": "GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/run/user/1000/jupyter/kernel-c6843f41-26d9-4040-9208-f2ca281122f5.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "iiitd-Super-Server",
+    "username": "iiitd",
+    "executable": "/home/iiitd/anaconda3/bin/python"
+}

@@ -1,0 +1,857 @@
+2021-02-02 02:55:50,524 INFO    MainThread:13795 [internal.py:wandb_internal():64] W&B internal server running at pid: 13795
+2021-02-02 02:55:50,527 DEBUG   SenderThread:13795 [sender.py:send():117] send: header
+2021-02-02 02:55:50,527 INFO    WriterThread:13795 [datastore.py:open_for_write():77] open: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/run-22k2jhj6.wandb
+2021-02-02 02:55:50,527 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: check_version
+2021-02-02 02:55:50,527 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:55:50,527 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: check_version
+2021-02-02 02:55:50,529 DEBUG   Thread-4  :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): pypi.org:443
+2021-02-02 02:55:50,624 DEBUG   Thread-4  :13795 [connectionpool.py:_make_request():393] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 53377
+2021-02-02 02:55:50,681 DEBUG   SenderThread:13795 [sender.py:send():117] send: run
+2021-02-02 02:55:50,684 DEBUG   SenderThread:13795 [git.py:repo():31] git repository is invalid
+2021-02-02 02:55:50,692 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:55:51,377 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:55:51,382 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: run_start
+2021-02-02 02:55:51,667 INFO    SenderThread:13795 [dir_watcher.py:__init__():165] watching files in: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files
+2021-02-02 02:55:51,667 INFO    SenderThread:13795 [sender.py:_start_run_threads():596] run started: 22k2jhj6 with start time 1612214749
+2021-02-02 02:55:51,667 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 02:55:51,667 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 02:55:51,880 DEBUG   HandlerThread:13795 [tpu_cluster_resolver.py:<module>():35] Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+2021-02-02 02:55:52,149 DEBUG   HandlerThread:13795 [__init__.py:wrapper():415] $HOME=/home/iiitd
+2021-02-02 02:55:52,149 DEBUG   HandlerThread:13795 [__init__.py:wrapper():415] CONFIGDIR=/home/iiitd/.config/matplotlib
+2021-02-02 02:55:52,149 DEBUG   HandlerThread:13795 [__init__.py:wrapper():415] matplotlib data path: /home/iiitd/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data
+2021-02-02 02:55:52,151 DEBUG   HandlerThread:13795 [__init__.py:rc_params_from_file():1093] loaded rc file /home/iiitd/anaconda3/lib/python3.7/site-packages/matplotlib/mpl-data/matplotlibrc
+2021-02-02 02:55:52,152 DEBUG   HandlerThread:13795 [__init__.py:<module>():1819] matplotlib version 3.0.3
+2021-02-02 02:55:52,152 DEBUG   HandlerThread:13795 [__init__.py:<module>():1820] interactive is False
+2021-02-02 02:55:52,152 DEBUG   HandlerThread:13795 [__init__.py:<module>():1821] platform is linux
+2021-02-02 02:55:52,153 DEBUG   HandlerThread:13795 [__init__.py:<module>():1822] loaded modules: ['sys', 'builtins', '_frozen_importlib', '_imp', '_thread', '_warnings', '_weakref', 'zipimport', '_frozen_importlib_external', '_io', 'marshal', 'posix', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', '__main__', 'encodings.latin_1', 'io', 'abc', '_abc', 'site', 'os', 'stat', '_stat', 'posixpath', 'genericpath', 'os.path', '_collections_abc', '_sitebuiltins', '_bootlocale', '_locale', 'types', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'functools', '_functools', 'google', 'mpl_toolkits', 'sphinxcontrib', 'multiprocessing', 'multiprocessing.context', 'threading', 'time', 'traceback', 'linecache', 'tokenize', 're', 'enum', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'copyreg', 'token', '_weakrefset', 'multiprocessing.process', 'signal', 'multiprocessing.reduction', 'pickle', 'struct', '_struct', '_compat_pickle', '_pickle', 'socket', '_socket', 'selectors', 'collections.abc', 'math', 'select', 'errno', 'array', '__mp_main__', 'multiprocessing.spawn', 'runpy', 'pkgutil', 'weakref', 'multiprocessing.util', 'atexit', 'subprocess', '_posixsubprocess', 'multiprocessing.semaphore_tracker', '_multiprocessing', 'wandb', '__future__', 'wandb.errors', 'wandb.errors.error', 'wandb.errors.term', 'logging', 'string', '_string', 'click', 'click.core', 'inspect', 'dis', 'opcode', '_opcode', 'click.types', 'datetime', '_datetime', 'click._compat', 'click.exceptions', 'click.utils', 'click.globals', 'click.termui', 'click.formatting', 'click.parser', 'click._unicodefun', 'click.decorators', 'wandb.sdk', 'wandb.sdk.wandb_helper', 'six', 'wandb.sdk.lib', 'wandb.sdk.lib.lazyloader', 'wandb.sdk.lib.config_util', 'json', 'json.decoder', 'json.scanner', '_json', 'json.encoder', 'wandb.util', 'base64', 'binascii', 'colorsys', 'hashlib', '_hashlib', '_blake2', '_sha3', 'getpass', 'termios', 'shlex', 'random', 'bisect', '_bisect', '_random', 'shortuuid', 'shortuuid.main', 'uuid', 'yaml', 'yaml.error', 'yaml.tokens', 'yaml.events', 'yaml.nodes', 'yaml.loader', 'yaml.reader', 'yaml.scanner', 'yaml.parser', 'yaml.composer', 'yaml.constructor', 'yaml.resolver', 'yaml.dumper', 'yaml.emitter', 'yaml.serializer', 'yaml.representer', 'yaml.cyaml', '_yaml', 'cython_runtime', 'platform', 'six.moves', 'six.moves.urllib', 'six.moves.urllib.parse', 'urllib', 'urllib.parse', 'requests', 'urllib3', 'urllib3.connectionpool', 'urllib3.exceptions', 'urllib3.packages', 'urllib3.packages.ssl_match_hostname', 'ssl', '_ssl', 'urllib3.packages.six', 'urllib3.packages.six.moves', 'http', 'http.client', 'email', 'email.parser', 'email.feedparser', 'email.errors', 'email._policybase', 'email.header', 'email.quoprimime', 'email.base64mime', 'email.charset', 'email.encoders', 'quopri', 'email.utils', 'email._parseaddr', 'calendar', 'locale', 'email.message', 'uu', 'email._encoded_words', 'email.iterators', 'urllib3.packages.six.moves.http_client', 'queue', '_queue', 'urllib3.connection', 'urllib3.util', 'urllib3.util.connection', 'urllib3.util.wait', 'urllib3.contrib', 'urllib3.contrib._appengine_environ', 'urllib3.util.request', 'urllib3.util.response', 'urllib3.util.ssl_', 'hmac', 'urllib3.util.timeout', 'urllib3.util.retry', 'urllib3.util.url', 'urllib3._collections', 'urllib3.request', 'urllib3.filepost', 'urllib3.fields', 'mimetypes', 'urllib3.packages.six.moves.urllib', 'urllib3.packages.six.moves.urllib.parse', 'urllib3.response', 'zlib', 'urllib3.util.queue', 'urllib3.poolmanager', 'chardet', 'chardet.compat', 'chardet.universaldetector', 'chardet.charsetgroupprober', 'chardet.enums', 'chardet.charsetprober', 'chardet.escprober', 'chardet.codingstatemachine', 'chardet.escsm', 'chardet.latin1prober', 'chardet.mbcsgroupprober', 'chardet.utf8prober', 'chardet.mbcssm', 'chardet.sjisprober', 'chardet.mbcharsetprober', 'chardet.chardistribution', 'chardet.euctwfreq', 'chardet.euckrfreq', 'chardet.gb2312freq', 'chardet.big5freq', 'chardet.jisfreq', 'chardet.jpcntx', 'chardet.eucjpprober', 'chardet.gb2312prober', 'chardet.euckrprober', 'chardet.cp949prober', 'chardet.big5prober', 'chardet.euctwprober', 'chardet.sbcsgroupprober', 'chardet.sbcharsetprober', 'chardet.langcyrillicmodel', 'chardet.langgreekmodel', 'chardet.langbulgarianmodel', 'chardet.langthaimodel', 'chardet.langhebrewmodel', 'chardet.hebrewprober', 'chardet.langturkishmodel', 'chardet.version', 'requests.exceptions', 'urllib3.contrib.pyopenssl', 'OpenSSL', 'OpenSSL.crypto', 'cryptography', 'cryptography.__about__', 'cryptography.x509', 'cryptography.x509.certificate_transparency', 'cryptography.x509.base', 'cryptography.utils', 'cryptography.hazmat', 'cryptography.hazmat.primitives', 'cryptography.hazmat.primitives.asymmetric', 'cryptography.hazmat.primitives.asymmetric.dsa', 'cryptography.hazmat.primitives.asymmetric.ec', 'cryptography.hazmat._oid', 'cryptography.hazmat.primitives.asymmetric.rsa', 'cryptography.exceptions', 'cryptography.hazmat.backends', 'cryptography.hazmat.backends.interfaces', 'cryptography.x509.extensions', 'ipaddress', 'asn1crypto', 'asn1crypto.version', 'asn1crypto.keys', 'asn1crypto._elliptic_curve', 'asn1crypto._int', 'asn1crypto.util', 'asn1crypto._errors', 'textwrap', 'asn1crypto._iri', 'encodings.idna', 'stringprep', 'unicodedata', 'asn1crypto._types', 'asn1crypto._ordereddict', 'asn1crypto._ffi', 'ctypes', '_ctypes', 'ctypes._endian', 'asn1crypto._perf', 'asn1crypto._perf._big_num_ctypes', 'ctypes.util', 'shutil', 'fnmatch', 'bz2', '_compression', '_bz2', 'lzma', '_lzma', 'pwd', 'grp', 'tempfile', 'asn1crypto.algos', 'asn1crypto.core', 'copy', 'asn1crypto._teletex_codec', 'asn1crypto.parser', 'cryptography.hazmat.primitives.constant_time', 'cryptography.hazmat.bindings', '_cffi_backend', '_constant_time.lib', '_constant_time', 'cryptography.hazmat.bindings._constant_time', 'cryptography.hazmat.primitives.serialization', 'cryptography.hazmat.primitives.serialization.base', 'cryptography.hazmat.primitives.serialization.ssh', 'cryptography.hazmat.primitives.asymmetric.ed25519', 'cryptography.x509.general_name', 'cryptography.x509.name', 'cryptography.x509.oid', 'cryptography.hazmat.primitives.hashes', 'OpenSSL._util', 'cryptography.hazmat.bindings.openssl', 'cryptography.hazmat.bindings.openssl.binding', '_openssl.lib', '_openssl', 'cryptography.hazmat.bindings._openssl', 'cryptography.hazmat.bindings.openssl._conditional', 'OpenSSL.SSL', 'OpenSSL.version', 'cryptography.hazmat.backends.openssl', 'cryptography.hazmat.backends.openssl.backend', 'cryptography.hazmat.backends.openssl.aead', 'cryptography.hazmat.backends.openssl.ciphers', 'cryptography.hazmat.primitives.ciphers', 'cryptography.hazmat.primitives.ciphers.base', 'cryptography.hazmat.primitives.ciphers.modes', 'cryptography.hazmat.backends.openssl.cmac', 'cryptography.hazmat.primitives.mac', 'cryptography.hazmat.backends.openssl.decode_asn1', 'cryptography.hazmat.backends.openssl.dh', 'cryptography.hazmat.primitives.asymmetric.dh', 'cryptography.hazmat.backends.openssl.dsa', 'cryptography.hazmat.backends.openssl.utils', 'cryptography.hazmat.primitives.asymmetric.utils', 'cryptography.hazmat.backends.openssl.ec', 'cryptography.hazmat.backends.openssl.ed25519', 'cryptography.hazmat.backends.openssl.ed448', 'cryptography.hazmat.primitives.asymmetric.ed448', 'cryptography.hazmat.backends.openssl.encode_asn1', 'cryptography.hazmat.backends.openssl.hashes', 'cryptography.hazmat.backends.openssl.hmac', 'cryptography.hazmat.backends.openssl.ocsp', 'cryptography.hazmat.backends.openssl.x509', 'cryptography.x509.ocsp', 'cryptography.hazmat.backends.openssl.rsa', 'cryptography.hazmat.primitives.asymmetric.padding', 'cryptography.hazmat.backends.openssl.x25519', 'cryptography.hazmat.primitives.asymmetric.x25519', 'cryptography.hazmat.backends.openssl.x448', 'cryptography.hazmat.primitives.asymmetric.x448', 'cryptography.hazmat.primitives.ciphers.algorithms', 'cryptography.hazmat.primitives.kdf', 'cryptography.hazmat.primitives.kdf.scrypt', 'urllib3.packages.backports', 'urllib3.packages.backports.makefile', 'requests.__version__', 'requests.utils', 'zipfile', 'requests.certs', 'certifi', 'certifi.core', 'requests._internal_utils', 'requests.compat', 'urllib.request', 'urllib.error', 'urllib.response', 'http.cookiejar', 'http.cookies', 'requests.cookies', 'requests.structures', 'requests.packages', 'requests.packages.urllib3', 'requests.packages.urllib3.connectionpool', 'requests.packages.urllib3.exceptions', 'requests.packages.urllib3.packages', 'requests.packages.urllib3.packages.ssl_match_hostname', 'requests.packages.urllib3.packages.six', 'requests.packages.urllib3.packages.six.moves', 'requests.packages.urllib3.packages.six.moves.http_client', 'requests.packages.urllib3.connection', 'requests.packages.urllib3.util', 'requests.packages.urllib3.util.connection', 'requests.packages.urllib3.util.wait', 'requests.packages.urllib3.contrib', 'requests.packages.urllib3.contrib._appengine_environ', 'requests.packages.urllib3.util.request', 'requests.packages.urllib3.util.response', 'requests.packages.urllib3.util.ssl_', 'requests.packages.urllib3.util.timeout', 'requests.packages.urllib3.util.retry', 'requests.packages.urllib3.util.url', 'requests.packages.urllib3._collections', 'requests.packages.urllib3.request', 'requests.packages.urllib3.filepost', 'requests.packages.urllib3.fields', 'requests.packages.urllib3.packages.six.moves.urllib', 'requests.packages.urllib3.packages.six.moves.urllib.parse', 'requests.packages.urllib3.response', 'requests.packages.urllib3.util.queue', 'requests.packages.urllib3.poolmanager', 'requests.packages.urllib3.contrib.pyopenssl', 'requests.packages.urllib3.packages.backports', 'requests.packages.urllib3.packages.backports.makefile', 'idna', 'idna.package_data', 'idna.core', 'idna.idnadata', 'idna.intranges', 'requests.packages.idna', 'requests.packages.idna.package_data', 'requests.packages.idna.core', 'requests.packages.idna.idnadata', 'requests.packages.idna.intranges', 'requests.packages.chardet', 'requests.packages.chardet.compat', 'requests.packages.chardet.universaldetector', 'requests.packages.chardet.charsetgroupprober', 'requests.packages.chardet.enums', 'requests.packages.chardet.charsetprober', 'requests.packages.chardet.escprober', 'requests.packages.chardet.codingstatemachine', 'requests.packages.chardet.escsm', 'requests.packages.chardet.latin1prober', 'requests.packages.chardet.mbcsgroupprober', 'requests.packages.chardet.utf8prober', 'requests.packages.chardet.mbcssm', 'requests.packages.chardet.sjisprober', 'requests.packages.chardet.mbcharsetprober', 'requests.packages.chardet.chardistribution', 'requests.packages.chardet.euctwfreq', 'requests.packages.chardet.euckrfreq', 'requests.packages.chardet.gb2312freq', 'requests.packages.chardet.big5freq', 'requests.packages.chardet.jisfreq', 'requests.packages.chardet.jpcntx', 'requests.packages.chardet.eucjpprober', 'requests.packages.chardet.gb2312prober', 'requests.packages.chardet.euckrprober', 'requests.packages.chardet.cp949prober', 'requests.packages.chardet.big5prober', 'requests.packages.chardet.euctwprober', 'requests.packages.chardet.sbcsgroupprober', 'requests.packages.chardet.sbcharsetprober', 'requests.packages.chardet.langcyrillicmodel', 'requests.packages.chardet.langgreekmodel', 'requests.packages.chardet.langbulgarianmodel', 'requests.packages.chardet.langthaimodel', 'requests.packages.chardet.langhebrewmodel', 'requests.packages.chardet.hebrewprober', 'requests.packages.chardet.langturkishmodel', 'requests.packages.chardet.version', 'requests.models', 'requests.hooks', 'requests.auth', 'requests.status_codes', 'requests.api', 'requests.sessions', 'requests.adapters', 'urllib3.contrib.socks', 'socks', 'six.moves.collections_abc', 'sentry_sdk', 'sentry_sdk.hub', 'sentry_sdk._compat', 'sentry_sdk._types', 'typing', 'typing.io', 'typing.re', 'sentry_sdk.scope', 'sentry_sdk._functools', 'sentry_sdk.utils', 'gevent', 'gevent._config', 'gevent._compat', 'gevent.libev', 'gevent.libev.corecext', '_cython_0_29_2', 'gevent._hub_local', 'gevent._util', 'gevent.__hub_local', 'greenlet', 'gevent.__greenlet_primitives', 'gc', 'gevent.exceptions', 'gevent._hub_primitives', 'gevent._greenlet_primitives', 'gevent._waiter', 'gevent.__waiter', 'gevent.timeout', 'gevent.__hub_primitives', 'gevent.greenlet', 'gevent._tblib', 'gevent._greenlet', 'gevent.__ident', 'gevent.hub', 'gevent._ident', 'gevent.os', 'fcntl', 'gevent.signal', 'gevent.monkey', 'contextvars', '_contextvars', 'sentry_sdk.tracing', 'numbers', 'sentry_sdk.attachments', 'sentry_sdk.envelope', 'sentry_sdk.sessions', 'sentry_sdk.client', 'sentry_sdk.serializer', 'sentry_sdk.transport', 'gzip', 'sentry_sdk.worker', 'sentry_sdk._queue', 'sentry_sdk.consts', 'sentry_sdk.integrations', 'sentry_sdk.api', 'sentry_sdk.debug', 'wandb.env', 'distutils', 'distutils.util', 'distutils.errors', 'distutils.dep_util', 'distutils.spawn', 'distutils.debug', 'distutils.log', 'wandb.old', 'wandb.old.core', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy._mklinit', 'numpy.core', 'numpy.core.info', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'pathlib', 'ntpath', 'numpy.core.umath', 'numpy.core.numerictypes', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core._internal', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.shape_base', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.info', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'ast', '_ast', 'numpy.linalg', 'numpy.linalg.info', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.utils', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.mixins', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.scimath', 'numpy.lib.polynomial', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.financial', 'decimal', '_decimal', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft.info', 'numpy.fft.fftpack', 'numpy.fft.fftpack_lite', 'numpy.fft.helper', 'mkl_fft', 'mkl_fft._pydfti', 'mkl_fft._version', 'mkl_fft._numpy_fft', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random.mtrand', 'mtrand', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'difflib', 'pprint', 'unittest.suite', 'unittest.loader', 'unittest.main', 'argparse', 'gettext', 'unittest.runner', 'unittest.signals', 'numpy.testing._private', 'numpy.testing._private.utils', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'wandb.sdk.lib.filesystem', 'wandb.sdk.wandb_alerts', 'wandb.sdk.wandb_artifacts', 'wandb.compat', 'wandb.compat.tempfile', 'wandb.sdk.interface', 'wandb.sdk.interface.artifacts', 'wandb.sdk.internal', 'wandb.sdk.internal.progress', 'wandb.apis', 'wandb.apis.internal', 'wandb.sdk.internal.internal_api', 'gql', 'gql.gql', 'graphql', 'graphql.pyutils', 'graphql.pyutils.version', 'graphql.graphql', 'graphql.execution', 'graphql.execution.executor', 'promise', 'promise.pyutils', 'promise.pyutils.version', 'promise.promise', 'promise.async_', 'promise.compat', 'asyncio', 'asyncio.base_events', 'concurrent', 'concurrent.futures', 'concurrent.futures._base', 'asyncio.constants', 'asyncio.coroutines', 'asyncio.base_futures', 'asyncio.format_helpers', 'asyncio.log', 'asyncio.events', 'asyncio.base_tasks', '_asyncio', 'asyncio.futures', 'asyncio.protocols', 'asyncio.sslproto', 'asyncio.transports', 'asyncio.tasks', 'asyncio.locks', 'asyncio.runners', 'asyncio.queues', 'asyncio.streams', 'asyncio.subprocess', 'asyncio.unix_events', 'asyncio.base_subprocess', 'asyncio.selector_events', 'promise.iterate_promise', 'promise.utils', 'promise.promise_list', 'promise.schedulers', 'promise.schedulers.immediate', 'graphql.error', 'graphql.error.base', 'graphql.language', 'graphql.language.location', 'graphql.error.located_error', 'graphql.error.syntax_error', 'graphql.error.format_error', 'graphql.pyutils.default_ordered_dict', 'graphql.pyutils.ordereddict', 'graphql.type', 'graphql.type.definition', 'graphql.language.ast', 'graphql.pyutils.cached_property', 'graphql.utils', 'graphql.utils.assert_valid_name', 'graphql.type.directives', 'graphql.type.scalars', 'graphql.type.schema', 'graphql.type.introspection', 'graphql.language.printer', 'graphql.language.visitor', 'graphql.language.visitor_meta', 'graphql.utils.ast_from_value', 'graphql.type.typemap', 'graphql.utils.type_comparators', 'graphql.execution.base', 'graphql.utils.type_from_ast', 'graphql.execution.values', 'graphql.utils.is_valid_value', 'graphql.utils.value_from_ast', 'graphql.execution.executors', 'graphql.execution.executors.sync', 'graphql.execution.experimental', 'graphql.execution.experimental.executor', 'graphql.execution.middleware', 'graphql.execution.experimental.fragment', 'graphql.language.parser', 'graphql.language.lexer', 'graphql.language.source', 'graphql.validation', 'graphql.validation.validation', 'graphql.utils.type_info', 'graphql.utils.get_field_def', 'graphql.validation.rules', 'graphql.validation.rules.arguments_of_correct_type', 'graphql.utils.is_valid_literal_value', 'graphql.validation.rules.base', 'graphql.validation.rules.default_values_of_correct_type', 'graphql.validation.rules.fields_on_correct_type', 'graphql.utils.quoted_or_list', 'graphql.utils.suggestion_list', 'graphql.validation.rules.fragments_on_composite_types', 'graphql.validation.rules.known_argument_names', 'graphql.validation.rules.known_directives', 'graphql.validation.rules.known_fragment_names', 'graphql.validation.rules.known_type_names', 'graphql.validation.rules.lone_anonymous_operation', 'graphql.validation.rules.no_fragment_cycles', 'graphql.validation.rules.no_undefined_variables', 'graphql.validation.rules.no_unused_fragments', 'graphql.validation.rules.no_unused_variables', 'graphql.validation.rules.overlapping_fields_can_be_merged', 'graphql.pyutils.pair_set', 'graphql.validation.rules.possible_fragment_spreads', 'graphql.validation.rules.provided_non_null_arguments', 'graphql.validation.rules.scalar_leafs', 'graphql.validation.rules.unique_argument_names', 'graphql.validation.rules.unique_fragment_names', 'graphql.validation.rules.unique_input_field_names', 'graphql.validation.rules.unique_operation_names', 'graphql.validation.rules.unique_variable_names', 'graphql.validation.rules.variables_are_input_types', 'graphql.validation.rules.variables_in_allowed_position', 'graphql.language.base', 'graphql.utils.base', 'graphql.utils.introspection_query', 'graphql.utils.get_operation_ast', 'graphql.utils.build_client_schema', 'graphql.utils.build_ast_schema', 'graphql.utils.extend_schema', 'graphql.utils.schema_printer', 'graphql.utils.concat_ast', 'gql.client', 'gql.transport', 'gql.transport.local_schema', 'gql.transport.requests', 'gql.transport.http', 'wandb.old.settings', 'configparser', 'wandb.old.retry', 'wandb.apis.normalize', 'wandb.sdk.lib.filenames', 'wandb.sdk.lib.git', 'git', 'gitdb', 'smmap', 'smmap.mman', 'smmap.util', 'mmap', 'smmap.buf', 'gitdb.base', 'gitdb.util', 'gitdb.const', 'gitdb.fun', 'gitdb.utils', 'gitdb.utils.encoding', 'gitdb.typ', 'gitdb.db', 'gitdb.db.base', 'gitdb.exc', 'gitdb.db.loose', 'gitdb.stream', 'gitdb.db.mem', 'gitdb.db.pack', 'gitdb.pack', 'glob', 'gitdb.db.git', 'gitdb.db.ref', 'git.exc', 'git.compat', 'git.config', 'git.util', 'git.objects', 'git.objects.base', 'git.objects.util', 'git.objects.blob', 'git.objects.commit', 'git.diff', 'git.cmd', 'git.objects.tree', 'git.objects.submodule', 'git.objects.submodule.base', 'git.objects.submodule.util', 'git.objects.fun', 'git.objects.submodule.root', 'git.objects.tag', 'git.refs', 'git.refs.symbolic', 'git.refs.log', 'git.refs.reference', 'git.refs.head', 'git.refs.tag', 'git.refs.remote', 'git.db', 'git.repo', 'git.repo.base', 'git.index', 'git.index.base', 'git.index.fun', 'git.index.typ', 'git.index.util', 'git.remote', 'git.repo.fun', 'wandb.sdk.internal.file_stream', 'wandb.apis.public', 'wandb.data_types', 'wandb.sdk.interface._dtypes', 'wandb.old.summary', 'h5py', 'h5py._errors', 'h5py._hl', 'h5py._hl.compat', 'h5py.version', 'h5py.h5', '_cython_0_29_13', 'h5py.defs', 'h5py._objects', 'h5py._conv', 'h5py.h5r', 'h5py.h5t', 'h5py.utils', 'h5py.h5py_warnings', 'h5py.h5z', 'h5py.h5a', 'h5py.h5s', 'h5py.h5p', 'h5py.h5ac', 'h5py._proxy', 'h5py.h5d', 'h5py.h5ds', 'h5py.h5f', 'h5py.h5g', 'h5py.h5i', 'h5py.h5fd', 'h5py.h5pl', 'h5py._hl.filters', 'h5py._hl.base', 'h5py._hl.files', 'h5py._hl.group', 'h5py.h5o', 'h5py.h5l', 'h5py._hl.dataset', 'h5py._hl.selections', 'h5py._hl.selections2', 'h5py._hl.datatype', 'h5py._hl.vds', 'h5py._hl.attrs', 'wandb.sdk.wandb_config', 'wandb.sdk.wandb_history', 'wandb.wandb_torch', 'distutils.version', 'wandb.sdk.wandb_init', 'wandb.trigger', 'wandb.dummy', 'wandb.integration', 'wandb.integration.sagemaker', 'wandb.integration.sagemaker.auth', 'wandb.integration.sagemaker.config', 'wandb.integration.sagemaker.files', 'wandb.integration.sagemaker.resources', 'wandb.integration.magic', 'wandb.sdk.wandb_login', 'wandb.sdk.lib.apikey', 'wandb.sdk.wandb_settings', 'wandb.sdk.lib.ipython', 'wandb.sdk.lib.runid', 'wandb.sdk.wandb_setup', 'wandb.sdk.lib.server', 'wandb.sdk.backend', 'wandb.sdk.backend.backend', 'wandb.sdk.interface.interface', 'wandb.proto', 'wandb.proto.wandb_internal_pb2', 'google.protobuf', 'pkg_resources', 'plistlib', 'xml', 'xml.parsers', 'xml.parsers.expat', 'pyexpat.errors', 'pyexpat.model', 'pyexpat', 'xml.parsers.expat.model', 'xml.parsers.expat.errors', 'pkg_resources.extern', 'pkg_resources._vendor', 'pkg_resources._vendor.appdirs', 'pkg_resources.extern.appdirs', 'pkg_resources._vendor.packaging', 'pkg_resources._vendor.packaging.__about__', 'pkg_resources.extern.packaging', 'pkg_resources.extern.packaging.version', 'pkg_resources.extern.packaging._structures', 'pkg_resources.extern.packaging._typing', 'pkg_resources.extern.packaging.specifiers', 'pkg_resources.extern.packaging._compat', 'pkg_resources.extern.packaging.utils', 'pkg_resources.extern.packaging.requirements', 'pkg_resources._vendor.pyparsing', 'pkg_resources.extern.pyparsing', 'pkg_resources.extern.packaging.markers', 'sysconfig', 'google.protobuf.descriptor', 'google.protobuf.internal', 'google.protobuf.internal.api_implementation', 'google.protobuf.internal._api_implementation', 'google.protobuf.pyext', 'google.protobuf.internal.containers', 'google.protobuf.internal.enum_type_wrapper', 'google.protobuf.message', 'google.protobuf.pyext._message', 'google.protobuf.reflection', 'google.protobuf.message_factory', 'google.protobuf.descriptor_pool', 'google.protobuf.descriptor_database', 'google.protobuf.text_encoding', 'google.protobuf.pyext.cpp_message', 'google.protobuf.symbol_database', 'google.protobuf.timestamp_pb2', 'google.protobuf.internal.well_known_types', 'wandb.proto.wandb_telemetry_pb2', 'wandb.sdk.interface.summary_record', 'wandb.sdk.internal.internal', 'psutil', 'psutil._common', 'psutil._compat', 'psutil._pslinux', 'psutil._psposix', 'psutil._psutil_linux', 'psutil._psutil_posix', 'wandb.sdk.internal.handler', 'wandb.sdk.internal.meta', 'wandb.vendor', 'wandb.vendor.pynvml', 'wandb.vendor.pynvml.pynvml', 'wandb.sdk.internal.sample', 'wandb.sdk.internal.stats', 'wandb.sdk.internal.tpu', 'wandb.sdk.internal.tb_watcher', 'wandb.sdk.internal.run', 'wandb.sdk.wandb_run', 'wandb.viz', 'wandb.sdk.wandb_summary', 'wandb.sdk.lib.module', 'wandb.sdk.lib.preinit', 'wandb.sdk.lib.proto_util', 'wandb.sdk.lib.redirect', 'wandb.sdk.lib.sparkline', 'wandb.sdk.lib.telemetry', 'wandb.sdk.internal.internal_util', 'wandb.sdk.internal.sender', 'wandb.filesync', 'wandb.filesync.dir_watcher', 'watchdog', 'watchdog.observers', 'watchdog.utils', 'watchdog.utils.platform', 'watchdog.utils.compat', 'watchdog.observers.inotify', 'watchdog.observers.inotify_buffer', 'watchdog.utils.delayed_queue', 'watchdog.observers.inotify_c', 'watchdog.utils.unicode_paths', 'watchdog.observers.api', 'watchdog.utils.bricks', 'watchdog.events', 'pathtools', 'pathtools.patterns', 'watchdog.observers.polling', 'watchdog.utils.dirsnapshot', 'wandb.sdk.internal.artifacts', 'wandb.filesync.step_prepare', 'wandb.sdk.internal.update', 'wandb.sdk.internal.file_pusher', 'wandb.filesync.stats', 'wandb.filesync.step_checksum', 'wandb.filesync.step_upload', 'wandb.filesync.upload_job', 'wandb.sdk.internal.settings_static', 'wandb.sdk.internal.writer', 'wandb.sdk.internal.datastore', 'wandb.sdk.lib.reporting', 'wandb.sdk.wandb_save', 'wandb.sdk.wandb_watch', 'wandb.wandb_agent', 'wandb.agents', 'wandb.agents.pyagent', 'wandb.wandb_controller', 'wandb.superagent', 'wandb.superagent.agent', 'wandb.apis.internal_runqueue', 'wandb.plot', 'wandb.plot.bar', 'wandb.plot.confusion_matrix', 'wandb.plot.histogram', 'wandb.plot.line', 'wandb.plot.line_series', 'wandb.plot.pr_curve', 'wandb.plots', 'wandb.plots.roc', 'wandb.plots.utils', 'wandb.plots.precision_recall', 'wandb.plots.heatmap', 'wandb.plots.explain_text', 'wandb.plots.part_of_speech', 'wandb.plots.named_entity', 'wandb.plot.roc_curve', 'wandb.plot.scatter', 'netrc', 'multiprocessing.queues', 'multiprocessing.connection', 'multiprocessing.popen_spawn_posix', 'multiprocessing.popen_fork', 'multiprocessing.synchronize', 'encodings.charmap', 'tensorflow', 'tensorflow.python', 'tensorflow.python.eager', 'tensorflow.python.eager.context', 'absl', 'absl.logging', 'timeit', 'absl.flags', 'getopt', 'absl.flags._argument_parser', 'csv', '_csv', 'absl.flags._helpers', 'absl.flags._defines', 'absl.flags._exceptions', 'absl.flags._flag', 'absl._collections_abc', 'absl.flags._flagvalues', 'xml.dom', 'xml.dom.domreg', 'xml.dom.minidom', 'xml.dom.minicompat', 'xml.dom.xmlbuilder', 'xml.dom.NodeFilter', 'absl.flags._validators', 'absl.logging.converter', 'tensorflow.core', 'tensorflow.core.framework', 'tensorflow.core.framework.function_pb2', 'tensorflow.core.framework.attr_value_pb2', 'tensorflow.core.framework.tensor_pb2', 'tensorflow.core.framework.resource_handle_pb2', 'tensorflow.core.framework.tensor_shape_pb2', 'tensorflow.core.framework.types_pb2', 'tensorflow.core.framework.node_def_pb2', 'tensorflow.core.framework.op_def_pb2', 'tensorflow.core.protobuf', 'tensorflow.core.protobuf.config_pb2', 'tensorflow.core.framework.cost_graph_pb2', 'tensorflow.core.framework.graph_pb2', 'tensorflow.core.framework.versions_pb2', 'tensorflow.core.framework.step_stats_pb2', 'tensorflow.core.framework.allocation_description_pb2', 'tensorflow.core.framework.tensor_description_pb2', 'tensorflow.core.protobuf.cluster_pb2', 'tensorflow.core.protobuf.debug_pb2', 'tensorflow.core.protobuf.rewriter_config_pb2', 'tensorflow.core.protobuf.verifier_config_pb2', 'tensorflow.python.pywrap_tfe', 'tensorflow.python.pywrap_tensorflow', 'tensorflow.python.platform', 'tensorflow.python.platform.self_check', 'tensorflow.python.platform.build_info', 'tensorflow.python._pywrap_tensorflow_internal', 'tensorflow.python._pywrap_tfe', 'tensorflow.python.tf2', 'tensorflow.python.client', 'tensorflow.python.client.pywrap_tf_session', 'tensorflow.python._pywrap_tf_session', 'tensorflow.python.eager.executor', 'tensorflow.python.eager.monitoring', 'tensorflow.core.framework.summary_pb2', 'tensorflow.python.framework', 'tensorflow.python.framework.c_api_util', 'tensorflow.core.framework.api_def_pb2', 'tensorflow.python.util', 'tensorflow.python.util.compat', 'tensorflow.python.util.tf_export', 'tensorflow.python.util.tf_decorator', 'tensorflow.python.util.tf_stack', 'tensorflow.python._tf_stack', 'tensorflow.python.util.tf_inspect', 'tensorflow.python.util.tf_contextlib', 'tensorflow.python.framework.device', 'tensorflow.python.framework.device_spec', 'tensorflow.python.util.is_in_graph_mode', 'tensorflow.python.data', 'tensorflow.python.data.experimental', 'tensorflow.python.data.experimental.service', 'tensorflow.python.data.experimental.ops', 'tensorflow.python.data.experimental.ops.data_service_ops', 'tensorflow.python.data.experimental.ops.compression_ops', 'tensorflow.python.data.util', 'tensorflow.python.data.util.structure', 'wrapt', 'wrapt.wrappers', 'wrapt._wrappers', 'wrapt.decorators', 'wrapt.importer', 'tensorflow.python.data.util.nest', 'tensorflow.python._pywrap_utils', 'tensorflow.python.framework.sparse_tensor', 'tensorflow.python.framework.composite_tensor', 'tensorflow.python.util.nest', 'tensorflow.python.platform.tf_logging', 'tensorflow.python.framework.constant_op', 'tensorflow.python.eager.execute', 'google.protobuf.text_format', 'encodings.raw_unicode_escape', 'encodings.unicode_escape', 'google.protobuf.internal.decoder', 'google.protobuf.internal.encoder', 'google.protobuf.internal.wire_format', 'google.protobuf.internal.type_checkers', 'tensorflow.python.eager.core', 'tensorflow.python.framework.errors', 'tensorflow.python.framework.errors_impl', 'tensorflow.core.lib', 'tensorflow.core.lib.core', 'tensorflow.core.lib.core.error_codes_pb2', 'tensorflow.core.protobuf.error_codes_pb2', 'tensorflow.python._pywrap_py_exception_registry', 'tensorflow.python.framework.error_interpolation', 'tensorflow.core.protobuf.graph_debug_info_pb2', 'tensorflow.python.util.deprecation', 'tensorflow.python.util.decorator_utils', 'tensorflow.python.framework.dtypes', 'tensorflow.python._pywrap_bfloat16', 'tensorflow.python._dtypes', 'tensorflow.python.framework.ops', 'tensorflow.python.eager.tape', 'tensorflow.python.util.lazy_loader', 'tensorflow.python.framework.indexed_slices', 'tensorflow.python.framework.tensor_conversion_registry', 'tensorflow.python.framework.tensor_shape', 'tensorflow.python.framework.type_spec', 'tensorflow.python.types', 'tensorflow.python.types.internal', 'tensorflow.python.framework.registry', 'tensorflow.python.framework.traceable_stack', 'tensorflow.python.framework.versions', 'tensorflow.python.ops', 'tensorflow.python.ops.control_flow_util', 'tensorflow.python.platform.app', 'absl.app', 'pdb', 'cmd', 'bdb', 'code', 'codeop', 'absl.command_name', 'faulthandler', 'tensorflow.python.platform.flags', 'tensorflow.python.types.core', 'tensorflow.python.util.function_utils', 'tensorflow.python.util.lock_util', 'tensorflow.python.util.memory', 'tensorflow.python.util.object_identity', 'tensorflow.python.framework.op_callbacks', 'tensorflow.python.framework.tensor_util', 'tensorflow.python.framework.fast_tensor_util', 'tensorflow.python.profiler', 'tensorflow.python.profiler.trace', 'tensorflow.python.profiler.internal', 'tensorflow.python.profiler.internal._pywrap_traceme', 'tensorflow.python.framework.tensor_spec', 'tensorflow.python.framework.common_shapes', 'tensorflow.python.ops.gen_sparse_ops', 'tensorflow.python.framework.op_def_registry', 'tensorflow.python._op_def_registry', 'tensorflow.python.framework.op_def_library', 'tensorflow.python.util.dispatch', 'tensorflow.python.ops.tensor_array_ops', 'tensorflow.python.ops.array_ops', 'tensorflow.python.ops.gen_array_ops', 'tensorflow.python.ops.gen_math_ops', 'tensorflow.python.ops.gen_control_flow_ops', 'tensorflow.python.ops.gen_data_flow_ops', 'tensorflow.python.ops.list_ops', 'tensorflow.python.ops.gen_list_ops', 'tensorflow.python.ops.math_ops', 'tensorflow.python.framework.graph_util', 'tensorflow.python.framework.graph_util_impl', 'tensorflow.python.ops.gen_nn_ops', 'tensorflow.python.util.tf_should_use', 'tensorflow.python.ops.ragged', 'tensorflow.python.ops.ragged.ragged_tensor', 'tensorflow.python.client.session', 'tensorflow.python.ops.session_ops', 'tensorflow.python.training', 'tensorflow.python.training.experimental', 'tensorflow.python.training.experimental.mixed_precision_global_state', 'tensorflow.python.ops.check_ops', 'tensorflow.python.ops.control_flow_ops', 'tensorflow.core.protobuf.control_flow_pb2', 'tensorflow.python.ops.gen_functional_ops', 'tensorflow.python.ops.gen_logging_ops', 'tensorflow.python.ops.gen_ragged_conversion_ops', 'tensorflow.python.ops.ragged.ragged_config', 'tensorflow.python.ops.ragged.ragged_tensor_value', 'tensorflow.python.ops.ragged.ragged_util', 'tensorflow.python.ops.gen_ragged_math_ops', 'tensorflow.python.ops.ragged.row_partition', 'tensorflow.python.ops.ragged.segment_id_ops', 'tensorflow.python.ops.gen_experimental_dataset_ops', 'tensorflow.python.data.experimental.ops.distribute_options', 'tensorflow.python.data.util.options', 'tensorflow.python.data.ops', 'tensorflow.python.data.ops.dataset_ops', 'tensorflow.python.data.experimental.ops.optimization_options', 'tensorflow.python.data.experimental.ops.stats_options', 'tensorflow.python.data.experimental.ops.stats_aggregator', 'tensorflow.python.ops.summary_ops_v2', 'tensorflow.python.eager.profiler', 'tensorflow.python._pywrap_events_writer', 'tensorflow.python.platform.gfile', 'tensorflow.python.lib', 'tensorflow.python.lib.io', 'tensorflow.python.lib.io.file_io', 'tensorflow.python._pywrap_file_io', 'tensorflow.python.profiler.internal._pywrap_profiler', 'tensorflow.python.framework.smart_cond', 'tensorflow.python.ops.gen_summary_ops', 'tensorflow.python.ops.resource_variable_ops', 'tensorflow.core.framework.variable_pb2', 'tensorflow.python.framework.auto_control_deps_utils', 'tensorflow.python.framework.cpp_shape_inference_pb2', 'tensorflow.python.ops.gen_resource_variable_ops', 'tensorflow.python.ops.gen_state_ops', 'tensorflow.python.ops.state_ops', 'tensorflow.python.ops.variables', 'tensorflow.python.training.tracking', 'tensorflow.python.training.tracking.base', 'tensorflow.python.ops.gen_io_ops', 'tensorflow.python.training.saving', 'tensorflow.python.training.saving.saveable_object', 'tensorflow.python.ops.summary_op_util', 'tensorflow.python.training.training_util', 'tensorflow.python.framework.graph_io', 'tensorflow.python.ops.init_ops', 'tensorflow.python.ops.gen_linalg_ops', 'tensorflow.python.ops.linalg_ops_impl', 'tensorflow.python.ops.random_ops', 'tensorflow.python.framework.random_seed', 'tensorflow.python.ops.gen_random_ops', 'tensorflow.python.ops.variable_scope', 'tensorflow.python.data.experimental.ops.threading_options', 'tensorflow.python.data.ops.iterator_ops', 'tensorflow.python.data.ops.optional_ops', 'tensorflow.python.ops.gen_dataset_ops', 'tensorflow.python.training.saver', 'tensorflow.core.protobuf.meta_graph_pb2', 'google.protobuf.any_pb2', 'tensorflow.core.protobuf.saved_object_graph_pb2', 'tensorflow.core.protobuf.struct_pb2', 'tensorflow.core.protobuf.trackable_object_graph_pb2', 'tensorflow.core.protobuf.saver_pb2', 'tensorflow.python.framework.meta_graph', 'tensorflow.python.framework.importer', 'tensorflow.python.framework.function', 'tensorflow.python.framework.graph_to_function_def', 'tensorflow.python.ops.io_ops', 'tensorflow.python.lib.io.python_io', 'tensorflow.python.lib.io.tf_record', 'tensorflow.python._pywrap_record_io', 'tensorflow.python.ops.string_ops', 'tensorflow.python.ops.gen_parsing_ops', 'tensorflow.python.ops.gen_string_ops', 'tensorflow.python.training.checkpoint_management', 'tensorflow.python.training.checkpoint_state_pb2', 'tensorflow.python.training.py_checkpoint_reader', 'tensorflow.python._pywrap_checkpoint_reader', 'tensorflow.python.training.saving.saveable_object_util', 'tensorflow.python.eager.def_function', 'tensorflow.python.eager.function', 'tensorflow.python.eager.backprop', 'tensorflow.python.eager.backprop_util', 'tensorflow.python.eager.imperative_grad', 'tensorflow.python.ops.unconnected_gradients', 'tensorflow.python.ops.default_gradient', 'tensorflow.python.eager.forwardprop_util', 'tensorflow.python.eager.graph_only_ops', 'tensorflow.python.framework.func_graph', 'tensorflow.python.framework.auto_control_deps', 'tensorflow.python.ops.custom_gradient', 'tensorflow.python.ops.op_selector', 'tensorflow.python.ops.functional_ops', 'tensorflow.python.ops.gradients_util', 'tensorflow.python.ops.control_flow_state', 'tensorflow.python.ops.control_flow_v2_func_graphs', 'tensorflow.python.eager.lift_to_graph', 'tensorflow.python.data.util.random_seed', 'tensorflow.python.data.util.traverse', 'tensorflow.python.ops.script_ops', 'tensorflow.python._pywrap_py_func', 'tensorflow.python.ops.gen_script_ops', 'tensorflow.python.training.tracking.tracking', 'tensorflow.python.training.tracking.data_structures', 'tensorflow.python.saved_model', 'tensorflow.python.saved_model.revived_types', 'tensorflow.python.training.tracking.layer_utils', 'tensorflow.python.data.experimental.service.server_lib', 'tensorflow.python.data.experimental.service._pywrap_server_lib', 'tensorflow.python.data.experimental.ops.batching', 'tensorflow.python.data.util.convert', 'tensorflow.python.data.experimental.ops.cardinality', 'tensorflow.python.data.experimental.ops.counter', 'tensorflow.python.data.experimental.ops.scan_ops', 'tensorflow.python.data.experimental.ops.enumerate_ops', 'tensorflow.python.data.experimental.ops.error_ops', 'tensorflow.python.data.experimental.ops.get_single_element', 'tensorflow.python.data.experimental.ops.grouping', 'tensorflow.python.data.experimental.ops.interleave_ops', 'tensorflow.python.data.experimental.ops.random_ops', 'tensorflow.python.data.ops.readers', 'tensorflow.python.ops.gen_stateless_random_ops', 'tensorflow.python.data.experimental.ops.io', 'tensorflow.python.data.experimental.ops.iterator_ops', 'tensorflow.python.training.basic_session_run_hooks', 'tensorflow.core.util', 'tensorflow.core.util.event_pb2', 'tensorflow.python.client.timeline', 'tensorflow.python.training.session_run_hook', 'tensorflow.python.training.summary_io', 'tensorflow.python.summary', 'tensorflow.python.summary.summary_iterator', 'tensorflow.python.summary.writer', 'tensorflow.python.summary.writer.writer', 'tensorflow.python.summary.plugin_asset', 'tensorflow.python.summary.writer.event_file_writer', 'tensorflow.python.summary.writer.event_file_writer_v2', 'tensorflow.python.summary.writer.writer_cache', 'tensorflow.python.data.experimental.ops.parsing_ops', 'tensorflow.python.ops.parsing_ops', 'tensorflow.python.ops.parsing_config', 'tensorflow.python.ops.sparse_ops', 'tensorflow.python.compat', 'tensorflow.python.compat.compat', 'tensorflow.python.ops.special_math_ops', 'opt_einsum', 'opt_einsum.blas', 'opt_einsum.helpers', 'opt_einsum.parser', 'opt_einsum.paths', 'opt_einsum.path_random', 'opt_einsum.contract', 'opt_einsum.backends', 'opt_einsum.backends.cupy', 'opt_einsum.sharing', 'opt_einsum.backends.dispatch', 'opt_einsum.backends.object_arrays', 'opt_einsum.backends.jax', 'opt_einsum.backends.tensorflow', 'opt_einsum.backends.theano', 'opt_einsum.backends.torch', 'opt_einsum._version', 'tensorflow.compiler', 'tensorflow.compiler.tf2xla', 'tensorflow.compiler.tf2xla.ops', 'tensorflow.compiler.tf2xla.ops.gen_xla_ops', 'tensorflow.python.ops.gen_special_math_ops', 'tensorflow.python.ops.ragged.ragged_math_ops', 'tensorflow.python.ops.ragged.ragged_functional_ops', 'tensorflow.python.data.experimental.ops.prefetching_ops', 'tensorflow.python.data.experimental.ops.readers', 'tensorflow.python.data.experimental.ops.resampling', 'tensorflow.python.ops.logging_ops', 'tensorflow.python.data.experimental.ops.shuffle_ops', 'tensorflow.python.data.experimental.ops.snapshot', 'tensorflow.python.data.experimental.ops.stats_ops', 'tensorflow.python.data.experimental.ops.take_while_ops', 'tensorflow.python.data.experimental.ops.unique', 'tensorflow.python.data.experimental.ops.writers', 'tensorflow.python.util.all_util', 'tensorflow.python.distribute', 'tensorflow.python.distribute.cluster_resolver', 'tensorflow.python.distribute.cluster_resolver.cluster_resolver', 'tensorflow.python.framework.config', 'tensorflow.python._pywrap_tf32_execution', 'tensorflow.python.training.server_lib', 'tensorflow.core.protobuf.device_filters_pb2', 'tensorflow.core.protobuf.tensorflow_server_pb2', 'tensorflow.python.distribute.cluster_resolver.gce_cluster_resolver', 'tensorflow.python.distribute.cluster_resolver.kubernetes_cluster_resolver', 'tensorflow.python.distribute.cluster_resolver.slurm_cluster_resolver', 'tensorflow.python.distribute.cluster_resolver.tfconfig_cluster_resolver', 'tensorflow.python.distribute.cluster_resolver.tpu_cluster_resolver', 'tensorflow.python.distribute.cluster_resolver.tpu', 'tensorflow.python.distribute.cluster_resolver.tpu.tpu_cluster_resolver', 'tensorflow.python.tpu', 'tensorflow.python.tpu.tpu_system_metadata', 'tensorflow.python.distribute.device_util', 'tensorflow.python.tpu.tpu', 'tensorflow.core.protobuf.tpu', 'tensorflow.core.protobuf.tpu.dynamic_padding_pb2', 'tensorflow.python.compiler', 'tensorflow.python.compiler.xla', 'tensorflow.python.compiler.xla.jit', 'tensorflow.python.compiler.xla.xla', 'tensorflow.compiler.jit', 'tensorflow.compiler.jit.ops', 'tensorflow.compiler.jit.ops.xla_ops', 'tensorflow.compiler.jit.ops.xla_ops_grad', 'tensorflow.python.distribute.summary_op_util', 'tensorflow.python.distribute.distribution_strategy_context', 'tensorflow.python.tpu.tpu_function', 'tensorflow.python.tpu.ops', 'tensorflow.python.tpu.ops.tpu_ops', 'tensorflow.python.ops.gen_tpu_ops', 'tensorflow.python.tpu.client', 'tensorflow.python.tpu.client.client', 'six.moves.urllib.error', 'tensorflow.python.distribute.cross_device_ops', 'tensorflow.python.client.device_lib', 'tensorflow.core.framework.device_attributes_pb2', 'tensorflow.python._pywrap_device_lib', 'tensorflow.python.distribute.collective_util', 'tensorflow.python.distribute.cross_device_utils', 'tensorflow.python.distribute.all_reduce', 'tensorflow.python.ops.nccl_ops', 'tensorflow.python.ops.gen_nccl_ops', 'tensorflow.python.distribute.values', 'tensorflow.python.distribute.distribute_lib', 'tensorflow.python.autograph', 'tensorflow.python.autograph.operators', 'tensorflow.python.autograph.operators.conditional_expressions', 'tensorflow.python.autograph.operators.control_flow', 'tensorflow.python.autograph.operators.py_builtins', 'tensorflow.python.autograph.utils', 'tensorflow.python.autograph.utils.context_managers', 'tensorflow.python.autograph.utils.misc', 'tensorflow.python.autograph.utils.py_func', 'tensorflow.python.autograph.utils.tensor_list', 'tensorflow.python.autograph.utils.testing', 'imp', 'tensorflow.python.autograph.utils.tensors', 'tensorflow.python.ops.sort_ops', 'tensorflow.python.ops.nn_ops', 'tensorflow.python.platform.device_context', 'tensorflow.python.autograph.operators.variables', 'tensorflow.python.autograph.utils.ag_logging', 'tensorflow.python.autograph.utils.compat_util', 'tensorflow.python.types.distribute', 'tensorflow.python.autograph.operators.data_structures', 'tensorflow.python.autograph.operators.exceptions', 'tensorflow.python.autograph.operators.logical', 'tensorflow.python.autograph.operators.slices', 'tensorflow.python.autograph.core', 'tensorflow.python.autograph.core.converter', 'tensorflow.python.autograph.pyct', 'tensorflow.python.autograph.pyct.anno', 'gast', 'gast.gast', 'gast.ast3', 'gast.astn', 'tensorflow.python.autograph.pyct.ast_util', 'tensorflow.python.autograph.pyct.parser', 'astunparse', 'astunparse.unparser', 'astunparse.printer', 'tensorflow.python.autograph.pyct.errors', 'tensorflow.python.autograph.pyct.inspect_utils', 'tensorflow.python.autograph.pyct.qual_names', 'tensorflow.python.autograph.pyct.templates', 'tensorflow.python.autograph.pyct.transformer', 'tensorflow.python.autograph.pyct.pretty_printer', 'termcolor', 'tensorflow.python.autograph.impl', 'tensorflow.python.autograph.impl.api', 'tensorflow.python.autograph.core.ag_ctx', 'tensorflow.python.autograph.impl.conversion', 'tensorflow.python.autograph.converters', 'tensorflow.python.autograph.converters.asserts', 'tensorflow.python.autograph.converters.break_statements', 'tensorflow.python.autograph.pyct.static_analysis', 'tensorflow.python.autograph.pyct.static_analysis.activity', 'tensorflow.python.autograph.pyct.static_analysis.annos', 'tensorflow.python.autograph.converters.call_trees', 'tensorflow.python.autograph.converters.conditional_expressions', 'tensorflow.python.autograph.converters.continue_statements', 'tensorflow.python.autograph.converters.control_flow', 'tensorflow.python.autograph.lang', 'tensorflow.python.autograph.lang.directives', 'tensorflow.python.autograph.pyct.cfg', 'tensorflow.python.autograph.pyct.static_analysis.liveness', 'tensorflow.python.autograph.pyct.static_analysis.reaching_definitions', 'tensorflow.python.autograph.pyct.static_analysis.reaching_fndefs', 'tensorflow.python.autograph.converters.directives', 'tensorflow.python.autograph.converters.functions', 'tensorflow.python.autograph.converters.lists', 'tensorflow.python.autograph.converters.logical_expressions', 'tensorflow.python.autograph.converters.return_statements', 'tensorflow.python.autograph.converters.slices', 'tensorflow.python.autograph.converters.variables', 'tensorflow.python.autograph.core.config', 'tensorflow.python.autograph.core.config_lib', 'tensorflow.python.autograph.core.function_wrappers', 'tensorflow.python.autograph.core.unsupported_features_checker', 'tensorflow.python.autograph.lang.special_functions', 'tensorflow.python.autograph.pyct.cache', 'tensorflow.python.autograph.pyct.transpiler', 'tensorflow.python.autograph.pyct.loader', 'tensorflow.python.autograph.pyct.origin_info', 'tensorflow.python.autograph.pyct.naming', 'tensorflow.python.autograph.pyct.error_utils', 'tensorflow.python.distribute.numpy_dataset', 'tensorflow.python.distribute.reduce_util', 'tensorflow.python.ops.losses', 'tensorflow.python.ops.losses.loss_reduction', 'tensorflow.python.ops.losses.losses_impl', 'tensorflow.python.ops.confusion_matrix', 'tensorflow.python.ops.nn', 'tensorflow.python.ops.ctc_ops', 'tensorflow.python.ops.gen_ctc_ops', 'tensorflow.python.ops.inplace_ops', 'tensorflow.python.ops.linalg_ops', 'tensorflow.python.ops.map_fn', 'tensorflow.python.ops.nn_grad', 'tensorflow.python.ops.embedding_ops', 'tensorflow.python.ops.clip_ops', 'tensorflow.python.ops.data_flow_grad', 'tensorflow.python.ops.data_flow_ops', 'tensorflow.python.ops.nn_impl', 'tensorflow.python.ops.candidate_sampling_ops', 'tensorflow.python.ops.gen_candidate_sampling_ops', 'tensorflow.python.ops.losses.util', 'tensorflow.python.ops.weights_broadcast_ops', 'tensorflow.python.ops.sets', 'tensorflow.python.ops.sets_impl', 'tensorflow.python.ops.gen_set_ops', 'tensorflow.tools', 'tensorflow.tools.docs', 'tensorflow.tools.docs.doc_controls', 'tensorflow.python.distribute.packed_distributed_variable', 'tensorflow.python.distribute.values_util', 'tensorflow.python.ops.collective_ops', 'tensorflow.python.ops.gen_collective_ops', 'tensorflow.python.distribute.distribute_utils', 'tensorflow.python.distribute.ps_values', 'tensorflow.python.distribute.tpu_values', 'tensorflow.python.framework.kernels', 'tensorflow.core.framework.kernel_def_pb2', 'tensorflow.python.distribute.mirrored_strategy', 'tensorflow.python.distribute.input_lib', 'tensorflow.python.data.experimental.ops.distribute', 'tensorflow.python.data.ops.multi_device_iterator_ops', 'tensorflow.python.distribute.input_ops', 'tensorflow.python.distribute.mirrored_run', 'tensorflow.python.distribute.shared_variable_creator', 'tensorflow.python.training.coordinator', 'tensorflow.python.distribute.multi_worker_util', 'tensorflow.python.distribute.distribute_coordinator_context', 'tensorflow.python.distribute.one_device_strategy', 'tensorflow.python.distribute.experimental', 'tensorflow.python.distribute.central_storage_strategy', 'tensorflow.python.distribute.parameter_server_strategy', 'tensorflow.python.training.device_setter', 'tensorflow.python.distribute.collective_all_reduce_strategy', 'tensorflow.python.distribute.tpu_strategy', 'tensorflow.compiler.xla', 'tensorflow.compiler.xla.experimental', 'tensorflow.compiler.xla.experimental.xla_sharding', 'tensorflow.compiler.xla.experimental.xla_sharding.xla_sharding', 'tensorflow.compiler.tf2xla.python', 'tensorflow.compiler.tf2xla.python.xla', 'tensorflow.python.ops.bitwise_ops', 'tensorflow.python.ops.gen_bitwise_ops', 'tensorflow.compiler.xla.xla_data_pb2', 'tensorflow.python.tpu.device_assignment', 'tensorflow.python.tpu.topology', 'tensorflow.core.protobuf.tpu.topology_pb2', 'tensorflow.python.tpu.tpu_strategy_util', 'tensorflow.python.tpu.training_loop', 'tensorflow.python.tpu.tensor_tracer', 'tensorflow.python.platform.analytics', 'tensorflow.python.tpu.tensor_tracer_flags', 'tensorflow.python.tpu.tensor_tracer_report', 'tensorflow.python.tpu.tensor_tracer_pb2', 'tensorflow.python.keras', 'tensorflow.python.keras.models', 'tensorflow.python.keras.backend', 'tensorflow.python.distribute.distribute_coordinator', 'tensorflow.python.training.monitored_session', 'tensorflow.python.ops.lookup_ops', 'tensorflow.python.ops.gen_lookup_ops', 'tensorflow.python.ops.resources', 'tensorflow.python.summary.summary', 'google.protobuf.json_format', 'tensorflow.python.training.queue_runner', 'tensorflow.python.training.queue_runner_impl', 'tensorflow.core.protobuf.queue_runner_pb2', 'tensorflow.python.training.session_manager', 'tensorflow.python.training.tracking.graph_view', 'tensorflow.python.training.optimizer', 'tensorflow.python.ops.gradients', 'tensorflow.python.eager.forwardprop', 'tensorflow.python.ops.gradients_impl', 'tensorflow.python.ops.array_grad', 'tensorflow.python.ops.control_flow_grad', 'tensorflow.python.ops.image_grad', 'tensorflow.python.ops.gen_image_ops', 'tensorflow.python.ops.linalg_grad', 'tensorflow.python.ops.linalg', 'tensorflow.python.ops.linalg.linalg_impl', 'tensorflow.python.ops.manip_grad', 'tensorflow.python.ops.manip_ops', 'tensorflow.python.ops.gen_manip_ops', 'tensorflow.python.ops.math_grad', 'tensorflow.python.ops.optional_grad', 'tensorflow.python.ops.random_grad', 'tensorflow.python.training.slot_creator', 'tensorflow.python.training.tracking.util', 'tensorflow.python.training.saving.checkpoint_options', 'tensorflow.python.training.saving.functional_saver', 'tensorflow.python.training.saving.saveable_hook', 'tensorflow.python.keras.backend_config', 'tensorflow.python.keras.engine', 'tensorflow.python.keras.engine.keras_tensor', 'tensorflow.python.ops.image_ops', 'tensorflow.python.ops.image_ops_impl', 'tensorflow.python.ops.tensor_array_grad', 'tensorflow.python.ops.ragged.ragged_concat_ops', 'tensorflow.python.ops.ragged.ragged_array_ops', 'tensorflow.python.ops.gen_ragged_array_ops', 'tensorflow.python.ops.ragged.ragged_gather_ops', 'tensorflow.python.training.moving_averages', 'tensorflow.python.keras.metrics', 'tensorflow.python.keras.engine.base_layer', 'tensorflow.python.distribute.sharded_variable', 'tensorflow.python.keras.constraints', 'tensorflow.python.keras.utils', 'tensorflow.python.keras.utils.generic_utils', 'tensorflow.python.keras.initializers', 'tensorflow.python.keras.initializers.initializers_v1', 'tensorflow.python.keras.initializers.initializers_v2', 'tensorflow.python.ops.init_ops_v2', 'tensorflow.python.ops.stateless_random_ops', 'tensorflow.python.keras.regularizers', 'tensorflow.python.keras.engine.base_layer_utils', 'tensorflow.python.ops.control_flow_util_v2', 'tensorflow.python.framework.function_def_to_graph', 'tensorflow.python.keras.engine.input_spec', 'tensorflow.python.keras.engine.node', 'tensorflow.python.keras.utils.tf_utils', 'tensorflow.python.util.serialization', 'tensorflow.python.keras.mixed_precision', 'tensorflow.python.keras.mixed_precision.experimental', 'tensorflow.python.keras.mixed_precision.experimental.autocast_variable', 'tensorflow.python.keras.mixed_precision.experimental.loss_scale_optimizer', 'tensorflow.python.keras.optimizers', 'tensorflow.python.keras.optimizer_v2', 'tensorflow.python.keras.optimizer_v2.adadelta', 'tensorflow.python.keras.optimizer_v2.optimizer_v2', 'tensorflow.python.keras.optimizer_v2.learning_rate_schedule', 'tensorflow.python.training.training_ops', 'tensorflow.python.training.gen_training_ops', 'tensorflow.python.keras.optimizer_v2.adagrad', 'tensorflow.python.keras.optimizer_v2.adam', 'tensorflow.python.keras.optimizer_v2.adamax', 'tensorflow.python.keras.optimizer_v2.ftrl', 'tensorflow.python.keras.optimizer_v2.gradient_descent', 'tensorflow.python.keras.optimizer_v2.nadam', 'tensorflow.python.keras.optimizer_v2.rmsprop', 'tensorflow.python.keras.mixed_precision.experimental.loss_scale', 'tensorflow.python.training.experimental.loss_scale', 'tensorflow.python.training.experimental.mixed_precision', 'tensorflow.python.training.experimental.loss_scale_optimizer', 'tensorflow.python.keras.mixed_precision.experimental.policy', 'tensorflow.python.keras.mixed_precision.experimental.device_compatibility_check', 'tensorflow.python.keras.saving', 'tensorflow.python.keras.saving.saved_model', 'tensorflow.python.keras.saving.saved_model.layer_serialization', 'tensorflow.python.keras.saving.saved_model.base_serialization', 'tensorflow.python.keras.saving.saved_model.json_utils', 'tensorflow.python.keras.saving.saved_model.constants', 'tensorflow.python.keras.saving.saved_model.save_impl', 'tensorflow.python.keras.saving.saving_utils', 'tensorflow.python.keras.losses', 'tensorflow.python.keras.utils.losses_utils', 'tensorflow.python.keras.utils.version_utils', 'tensorflow.python.keras.utils.io_utils', 'tensorflow.python.keras.saving.saved_model.load', 'tensorflow.python.keras.saving.saved_model.utils', 'tensorflow.python.keras.saving.saved_model.serialized_attributes', 'tensorflow.python.keras.utils.metrics_utils', 'tensorflow.python.saved_model.load', 'tensorflow.python.saved_model.function_deserialization', 'tensorflow.python.saved_model.nested_structure_coder', 'tensorflow.python.saved_model.load_options', 'tensorflow.python.saved_model.load_v1_in_v2', 'tensorflow.python.eager.wrap_function', 'tensorflow.python.saved_model.loader_impl', 'tensorflow.core.protobuf.saved_model_pb2', 'tensorflow.python.saved_model.constants', 'tensorflow.python.saved_model.signature_def_utils', 'tensorflow.python.saved_model.signature_def_utils_impl', 'tensorflow.python.saved_model.signature_constants', 'tensorflow.python.saved_model.utils_impl', 'tensorflow.python.saved_model.signature_serialization', 'tensorflow.python.saved_model.function_serialization', 'tensorflow.python.keras.utils.layer_utils', 'tensorflow.python.keras.utils.conv_utils', 'tensorflow.python.module', 'tensorflow.python.module.module', 'tensorflow.python.keras.saving.saved_model.metric_serialization', 'tensorflow.python.keras.engine.functional', 'tensorflow.python.keras.engine.input_layer', 'tensorflow.python.keras.distribute', 'tensorflow.python.keras.distribute.distributed_training_utils', 'tensorflow.python.keras.callbacks', 'tensorflow.python.distribute.distributed_file_utils', 'tensorflow.python.keras.distribute.worker_training_state', 'tensorflow.python.keras.utils.mode_keys', 'tensorflow.python.saved_model.model_utils', 'tensorflow.python.saved_model.model_utils.export_output', 'tensorflow.python.saved_model.model_utils.export_utils', 'tensorflow.python.saved_model.tag_constants', 'tensorflow.python.saved_model.model_utils.mode_keys', 'tensorflow.python.keras.utils.data_utils', 'multiprocessing.dummy', 'multiprocessing.dummy.connection', 'tarfile', 'six.moves.urllib.request', 'tensorflow.python.profiler.profiler_v2', 'tensorflow.python.saved_model.save_options', 'tensorflow.python.keras.engine.training_utils', 'multiprocessing.pool', 'tensorflow.python.framework.composite_tensor_utils', 'tensorflow.python.keras.engine.training', 'tensorflow.python.keras.engine.compile_utils', 'tensorflow.python.keras.engine.data_adapter', 'scipy', 'scipy._lib', 'scipy._lib._testutils', 'scipy._lib.deprecation', 'scipy._distributor_init', 'scipy.__config__', 'scipy.version', 'scipy._lib._version', 'scipy._lib.six', 'scipy._lib._ccallback', 'scipy._lib._ccallback_c', 'scipy.fft', 'scipy.fft._basic', 'scipy._lib.uarray', 'scipy._lib._uarray', 'scipy._lib._uarray._backend', 'scipy._lib._uarray._uarray', 'scipy.fft._realtransforms', 'scipy.fft._helper', 'scipy.fft._pocketfft', 'scipy.fft._pocketfft.basic', 'scipy.fft._pocketfft.pypocketfft', 'scipy.fft._pocketfft.helper', 'scipy.fft._pocketfft.realtransforms', 'scipy.fft._backend', 'numpy.dual', 'scipy.sparse', 'scipy.sparse.base', 'scipy._lib._numpy_compat', 'scipy.sparse.sputils', 'scipy.sparse.csr', 'scipy.sparse._sparsetools', 'scipy.sparse.compressed', 'scipy._lib._util', 'scipy.sparse.data', 'scipy.sparse.dia', 'scipy.sparse._index', 'scipy.sparse.csc', 'scipy.sparse.lil', 'scipy.sparse._csparsetools', 'scipy.sparse.dok', 'scipy.sparse.coo', 'scipy.sparse.bsr', 'scipy.sparse.construct', 'scipy.sparse.extract', 'scipy.sparse._matrix_io', 'scipy.sparse.csgraph', 'scipy.sparse.csgraph._laplacian', 'scipy.sparse.csgraph._shortest_path', '_cython_0_29_14', 'scipy.sparse.csgraph._validation', 'scipy.sparse.csgraph._tools', 'scipy.sparse.csgraph._traversal', 'scipy.sparse.csgraph._min_spanning_tree', 'scipy.sparse.csgraph._flow', 'scipy.sparse.csgraph._matching', 'scipy.sparse.csgraph._reordering', 'pandas', 'pytz', 'pytz.exceptions', 'pytz.lazy', 'pytz.tzinfo', 'pytz.tzfile', 'dateutil', 'dateutil._version', 'pandas.compat', 'pandas.compat.chainmap', 'dateutil.parser', 'dateutil.parser._parser', 'dateutil.relativedelta', 'dateutil._common', 'dateutil.tz', 'dateutil.tz.tz', 'dateutil.tz._common', 'dateutil.tz._factories', 'dateutil.parser.isoparser', 'pandas.compat.numpy', 'pandas._libs', 'pandas._libs.tslibs', 'pandas._libs.tslibs.conversion', 'pandas._libs.tslibs.nattype', '_cython_0_29_6', 'pandas._libs.tslibs.np_datetime', 'pandas._libs.tslibs.timedeltas', 'pandas._libs.tslibs.offsets', 'pandas._libs.tslibs.ccalendar', 'pandas._libs.tslibs.strptime', 'pandas._libs.tslibs.timezones', 'pandas._libs.tslibs.parsing', 'pandas._libs.tslibs.period', 'pandas._libs.tslibs.frequencies', 'pandas._libs.tslibs.timestamps', 'pandas._libs.tslibs.fields', 'pandas._libs.tslibs.resolution', 'pandas._libs.hashtable', 'pandas._libs.missing', 'pandas._libs.lib', 'fractions', 'pandas._libs.tslib', 'pandas.core', 'pandas.core.config_init', 'pandas.core.config', 'pandas.io', 'pandas.io.formats', 'pandas.io.formats.printing', 'pandas.core.dtypes', 'pandas.core.dtypes.inference', 'pandas.io.formats.console', 'pandas.io.formats.terminal', 'pandas.core.api', 'pandas.core.arrays', 'pandas.core.arrays.array_', 'pandas.core.dtypes.common', 'pandas._libs.algos', 'pandas.core.dtypes.dtypes', 'pandas._libs.interval', 'pandas.core.dtypes.generic', 'pandas.core.dtypes.base', 'pandas.errors', 'pandas.core.arrays.base', 'pandas.compat.numpy.function', 'pandas.util', 'pandas.util._decorators', 'pandas._libs.properties', 'pandas.core.util', 'pandas.core.util.hashing', 'pandas._libs.hashing', 'pandas.core.dtypes.cast', 'pandas.core.dtypes.missing', 'pandas.util._validators', 'pandas.core.ops', 'pandas._libs.ops', 'pandas.core.common', 'pandas.core.missing', 'pandas.core.arrays.categorical', 'pandas.core.accessor', 'pandas.core.algorithms', 'pandas.core.base', 'pandas.core.nanops', 'bottleneck', 'bottleneck.reduce', 'bottleneck.nonreduce', 'bottleneck.nonreduce_axis', 'bottleneck.move', 'bottleneck.slow', 'bottleneck.slow.reduce', 'bottleneck.slow.nonreduce', 'bottleneck.slow.nonreduce_axis', 'bottleneck.slow.move', 'bottleneck.version', 'bottleneck.benchmark', 'bottleneck.benchmark.bench', 'bottleneck.benchmark.autotimeit', 'bottleneck.benchmark.bench_detailed', 'bottleneck.tests', 'bottleneck.tests.util', 'pandas.tseries', 'pandas.tseries.offsets', 'dateutil.easter', 'pandas.core.tools', 'pandas.core.tools.datetimes', 'pandas.core.sorting', 'pandas.core.arrays.datetimes', 'pandas.core.arrays.datetimelike', 'pandas.tseries.frequencies', 'pandas.core.arrays._ranges', 'pandas.core.arrays.interval', 'pandas.util._doctools', 'pandas.core.indexes', 'pandas.core.indexes.base', 'pandas._libs.index', 'pandas._libs.join', 'pandas.core.dtypes.concat', 'pandas.core.indexes.frozen', 'pandas.core.strings', 'pandas.core.arrays.period', 'pandas.core.arrays.timedeltas', 'pandas.core.arrays.integer', 'pandas.core.tools.numeric', 'pandas.core.arrays.sparse', 'pandas._libs.sparse', 'pandas.core.arrays.numpy_', 'pandas.core.groupby', 'pandas.core.groupby.groupby', 'pandas._libs.groupby', 'pandas.core.frame', 'pandas.core.generic', 'pandas.core.index', 'pandas.core.indexes.api', 'pandas.core.indexes.category', 'pandas.core.indexes.datetimes', 'pandas.core.indexes.datetimelike', 'pandas.core.tools.timedeltas', 'pandas.core.indexes.numeric', 'pandas.core.indexes.interval', 'pandas.util._exceptions', 'pandas.core.indexes.multi', 'pandas.core.indexes.timedeltas', 'pandas.core.indexes.period', 'pandas.core.indexes.range', 'pandas.core.indexing', 'pandas._libs.indexing', 'pandas.core.internals', 'pandas.core.internals.blocks', 'pandas._libs.internals', 'pandas.core.internals.arrays', 'pandas.core.internals.managers', 'pandas.core.internals.concat', 'pandas.io.formats.format', 'pandas.io.common', 'pandas.core.internals.construction', 'pandas.core.series', 'pandas.core.indexes.accessors', 'pandas.plotting', 'pandas.plotting._misc', 'pandas.plotting._style', 'pandas.plotting._tools', 'pandas.plotting._core', 'pandas.plotting._compat', 'pandas.plotting._converter', 'matplotlib', 'matplotlib.cbook', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib._color_data', 'cycler', 'matplotlib._version']
+2021-02-02 02:55:52,660 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_created():213] file/dir created: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 02:55:52,695 DEBUG   HandlerThread:13795 [meta.py:__init__():34] meta init
+2021-02-02 02:55:52,695 DEBUG   HandlerThread:13795 [meta.py:__init__():48] meta init done
+2021-02-02 02:55:52,695 DEBUG   HandlerThread:13795 [meta.py:probe():190] probe
+2021-02-02 02:55:52,701 DEBUG   HandlerThread:13795 [git.py:repo():31] git repository is invalid
+2021-02-02 02:55:52,701 DEBUG   HandlerThread:13795 [meta.py:_save_pip():52] save pip
+2021-02-02 02:55:52,701 DEBUG   HandlerThread:13795 [meta.py:_save_pip():66] save pip done
+2021-02-02 02:55:52,701 DEBUG   HandlerThread:13795 [meta.py:probe():231] probe done
+2021-02-02 02:55:52,714 DEBUG   SenderThread:13795 [sender.py:send():117] send: files
+2021-02-02 02:55:52,714 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-metadata.json with policy now
+2021-02-02 02:55:52,721 DEBUG   Thread-11 :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:55:52,729 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:55:52,729 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:55:52,729 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:55:52,730 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:55:53,034 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:55:53,048 DEBUG   Thread-11 :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:55:53,050 DEBUG   Thread-11 :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-02 02:55:53,659 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_created():213] file/dir created: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 02:55:53,660 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_created():213] file/dir created: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-metadata.json
+2021-02-02 02:55:53,660 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_created():213] file/dir created: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/requirements.txt
+2021-02-02 02:55:53,668 DEBUG   Thread-5  :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:55:53,761 DEBUG   Thread-11 :13795 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/wandb-metadata.json?Expires=1612301152&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Aczu6pR11DATEwJQYh5ft2jj0IK2tYn0yyjh0pLKVt3lUAFCxX6RCaxq3V754ILohZnG1U8V6qK1gl6otpezJiQiM46VavL6yjc9MsoV8%2BoYSociRCM623V5EPVmmNWSgBEANc7mQ1E3qwnyPDUA%2FXRxy3%2F2NjBWXvayLzK6xhHd5WBIBNI0dZvY1%2BZLCtxWnAm5zE4k3cdYNoN9%2Bzc2ur%2F7ec%2FnbhPU6M57EyTYeVnCRCW%2FNub5Wh0BGB6wCzmmC7FkyL%2BC98ctiCULeoZqRxRdpmP91LoZRbZR%2FsZZP%2BD61xLRvt1tYmE%2BYqBSf8jj3q%2FuREDbVuUGexUPBTkpNg%3D%3D HTTP/1.1" 200 0
+2021-02-02 02:55:53,762 INFO    Thread-11 :13795 [upload_job.py:push():131] Uploaded file /tmp/tmpk7mgq5ivwandb/1sd96rru-wandb-metadata.json
+2021-02-02 02:55:53,976 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:55:56,082 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:55:56,561 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:00,542 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:00,845 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:05,006 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:05,301 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:08,043 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:56:08,044 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:56:08,044 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:56:08,045 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:56:08,354 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:56:09,471 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:09,788 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:13,932 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:14,238 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:18,403 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:18,755 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:22,878 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:23,187 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:23,379 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:56:23,379 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:56:23,379 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:56:23,381 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:56:23,675 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:56:27,345 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:27,653 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:31,826 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:32,129 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:36,284 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:36,617 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:38,687 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:56:38,688 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:56:38,688 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:56:38,689 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:56:38,999 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:56:40,753 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:41,073 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:45,229 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:45,540 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:56:49,700 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:54,016 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:56:54,017 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:56:54,017 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:56:54,018 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:56:54,312 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:56:54,314 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:58,620 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:56:58,912 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:57:03,087 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:07,544 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:09,331 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:57:09,331 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:57:09,331 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:57:09,333 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:57:09,626 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:57:12,024 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:12,322 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:57:16,497 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:20,978 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:24,649 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:57:24,649 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:57:24,649 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:57:24,651 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:57:24,942 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:57:25,442 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:25,760 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:57:29,902 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:34,372 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:38,857 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:39,172 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:57:39,963 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:57:39,963 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:57:39,963 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:57:39,964 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:57:40,251 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:57:43,339 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:47,802 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:52,272 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:57:52,582 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:57:55,268 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:57:55,269 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:57:55,269 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:57:55,270 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:57:55,559 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:57:56,734 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:01,210 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:05,711 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:06,023 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:58:10,189 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:10,586 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:58:10,587 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:58:10,587 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:58:10,588 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:58:10,883 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:58:14,652 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:15,693 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 02:58:19,122 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:19,429 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:58:23,590 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:25,901 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:58:25,901 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:58:25,901 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:58:25,902 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:58:26,199 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:58:28,058 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:32,528 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:32,884 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:58:36,991 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:41,202 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:58:41,202 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:58:41,202 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:58:41,203 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:58:41,493 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:58:41,494 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:41,850 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 02:58:41,850 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 02:58:41,851 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 02:58:42,704 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 02:58:42,704 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 02:58:45,932 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:46,262 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:58:50,415 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:54,872 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:56,495 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:58:56,495 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:58:56,495 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:58:56,497 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:58:56,804 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:58:59,346 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:58:59,815 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:59:03,824 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:07,448 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 02:59:07,448 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 02:59:07,448 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 02:59:07,732 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 02:59:07,732 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 02:59:08,292 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:11,806 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:59:11,806 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:59:11,806 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:59:11,808 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:59:12,116 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:59:12,757 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:13,053 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:59:17,237 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:21,713 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:26,173 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:26,485 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:59:27,118 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:59:27,118 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:59:27,118 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:59:27,120 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:59:27,415 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:59:30,644 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:33,193 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 02:59:33,194 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 02:59:33,194 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 02:59:33,740 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 02:59:33,740 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 02:59:35,136 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:39,600 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:39,914 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:59:42,417 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:59:42,417 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:59:42,417 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:59:42,419 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:59:42,722 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:59:44,080 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:48,582 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:53,051 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:53,370 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 02:59:57,530 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 02:59:57,724 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 02:59:57,724 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 02:59:57,724 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 02:59:57,725 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 02:59:58,019 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 02:59:59,023 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 02:59:59,023 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 02:59:59,023 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 02:59:59,748 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 02:59:59,748 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:00:02,014 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:06,475 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:06,809 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:00:10,942 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:13,021 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:00:13,022 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:00:13,022 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:00:13,023 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:00:13,318 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:00:15,422 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:19,886 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:20,193 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:00:24,370 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:25,054 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:00:25,054 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:00:25,054 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:00:25,756 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:00:25,756 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:00:28,320 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:00:28,320 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:00:28,321 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:00:28,322 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:00:28,611 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:00:28,834 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:33,327 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:33,647 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:00:37,802 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:42,297 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:43,613 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:00:43,614 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:00:43,614 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:00:43,615 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:00:43,927 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:00:46,796 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:47,102 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:00:51,259 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:51,352 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:00:51,352 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:00:51,352 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:00:51,763 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:00:51,763 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:00:55,756 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:00:58,929 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:00:58,930 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:00:58,930 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:00:58,932 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:00:59,259 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:01:00,240 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:04,713 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:09,208 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:13,698 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:14,261 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:01:14,261 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:01:14,261 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:01:14,263 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:01:14,558 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:01:17,408 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:01:17,408 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:01:17,409 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:01:17,727 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:01:17,769 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:01:17,769 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:01:18,177 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:22,680 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:27,159 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:29,560 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:01:29,560 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:01:29,560 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:01:29,562 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:01:29,855 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:01:31,668 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:36,217 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:40,707 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:43,700 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:01:43,700 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:01:43,700 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:01:43,775 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:01:43,776 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:01:44,857 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:01:44,858 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:01:44,858 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:01:44,859 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:01:45,175 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:01:45,243 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:49,711 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:50,073 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:01:54,186 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:01:58,690 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:00,177 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:02:00,178 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:02:00,178 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:02:00,179 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:02:00,474 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:02:03,221 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:07,775 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:10,052 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:02:10,052 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:02:10,052 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:02:10,782 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:02:10,782 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:02:12,272 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:15,476 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:02:15,476 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:02:15,476 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:02:15,478 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:02:15,768 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:02:16,835 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:21,318 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:21,648 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:02:25,854 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:30,327 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:30,771 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:02:30,771 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:02:30,771 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:02:30,772 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:02:31,079 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:02:34,841 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:36,485 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:02:36,486 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:02:36,486 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:02:36,793 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:02:36,793 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:02:39,311 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:43,779 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:46,082 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:02:46,082 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:02:46,082 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:02:46,083 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:02:46,398 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:02:48,256 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:52,804 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:02:53,141 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:02:57,278 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:01,401 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:03:01,401 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:03:01,401 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:03:01,402 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:03:01,710 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:03:01,755 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:02,773 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:03:02,774 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:03:02,774 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:03:02,805 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:03:02,805 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:03:06,245 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:10,721 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:15,212 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:16,712 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:03:16,712 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:03:16,712 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:03:16,713 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:03:16,999 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:03:19,696 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:24,240 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:24,547 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:03:28,768 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:29,109 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:03:29,109 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:03:29,109 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:03:29,812 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:03:29,812 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:03:32,001 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:03:32,001 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:03:32,001 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:03:32,003 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:03:32,289 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:03:33,266 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:37,782 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:42,279 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:46,804 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:47,291 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:03:47,293 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:03:47,293 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:03:47,294 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:03:47,599 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:03:51,347 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:55,549 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:03:55,549 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:03:55,549 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:03:55,819 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:03:55,823 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:03:55,823 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:03:55,888 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:04:00,307 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:02,601 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:04:02,601 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:04:02,601 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:04:02,602 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:04:02,897 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:04:04,777 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:09,279 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:13,795 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:17,900 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:04:17,900 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:04:17,900 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:04:17,901 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:04:18,199 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:04:18,282 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:21,995 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:04:21,995 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:04:21,995 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:04:22,771 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:22,834 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:04:22,834 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:04:27,252 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:27,552 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:04:31,776 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:33,201 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:04:33,202 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:04:33,202 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:04:33,203 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:04:33,492 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:04:36,242 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:40,732 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:45,210 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:48,392 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:04:48,393 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:04:48,393 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:04:48,494 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:04:48,494 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:04:48,494 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:04:48,496 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:04:48,791 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:04:48,840 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:04:48,840 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:04:49,674 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:54,203 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:58,694 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:04:59,029 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:05:03,168 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:03,793 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:05:03,793 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:05:03,793 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:05:03,795 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:05:04,081 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:05:07,653 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:12,144 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:14,780 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:05:14,780 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:05:14,781 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:05:14,847 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:05:14,848 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:05:16,624 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:19,083 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:05:19,084 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:05:19,084 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:05:19,085 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:05:19,388 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:05:21,137 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:25,638 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:30,135 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:30,459 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:05:34,391 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:05:34,392 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:05:34,392 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:05:34,393 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:05:34,701 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:05:34,702 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:39,134 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:41,193 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:05:41,193 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:05:41,194 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:05:41,854 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:05:41,854 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:05:43,636 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:48,130 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:49,703 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:05:49,703 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:05:49,704 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:05:49,705 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:05:50,009 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:05:52,660 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:05:57,176 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:01,682 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:02,045 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:06:05,011 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:06:05,011 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:06:05,011 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:06:05,013 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:06:05,335 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:06:06,234 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:07,505 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:06:07,505 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:06:07,505 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:06:07,860 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:06:07,860 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:06:10,758 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:15,215 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:19,716 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:20,339 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:06:20,340 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:06:20,340 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:06:20,342 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:06:20,640 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:06:24,231 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:28,727 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:33,250 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:33,558 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:06:33,829 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:06:33,829 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:06:33,829 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:06:33,871 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:06:33,871 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:06:35,642 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:06:35,642 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:06:35,642 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:06:35,643 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:06:35,924 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:06:37,771 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:42,333 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:46,855 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:50,926 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:06:50,926 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:06:50,926 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:06:50,928 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:06:51,227 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:06:51,347 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:06:55,881 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:00,215 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:07:00,215 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:07:00,216 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:07:00,416 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:00,877 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:07:00,877 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:07:04,928 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:05,261 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:07:06,229 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:07:06,229 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:07:06,229 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:07:06,230 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:07:06,535 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:07:09,421 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:13,908 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:18,408 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:21,537 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:07:21,537 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:07:21,537 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:07:21,539 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:07:21,836 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:07:22,919 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:26,533 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:07:26,533 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:07:26,533 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:07:26,884 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:07:26,885 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:07:27,425 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:31,926 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:36,379 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:36,731 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:07:36,838 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:07:36,838 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:07:36,838 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:07:36,840 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:07:37,139 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:07:40,885 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:45,391 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:49,938 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:52,141 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:07:52,141 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:07:52,141 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:07:52,142 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:07:52,440 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:07:52,935 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:07:52,935 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:07:52,935 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:07:53,895 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:07:53,898 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:07:54,420 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:07:58,920 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:03,391 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:07,442 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:08:07,442 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:08:07,442 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:08:07,444 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:08:07,753 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:08:07,885 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:08,201 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:08:12,387 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:16,878 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:19,123 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:08:19,123 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:08:19,124 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:08:19,902 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:08:19,902 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:08:21,364 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:22,755 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:08:22,756 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:08:22,756 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:08:22,757 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:08:23,105 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:08:25,912 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:30,379 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:34,876 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:38,108 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:08:38,108 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:08:38,108 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:08:38,109 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:08:38,414 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:08:39,350 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:39,675 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:08:43,859 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:45,393 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:08:45,393 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:08:45,393 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:08:45,908 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:08:45,908 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:08:48,389 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:52,891 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:08:53,418 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:08:53,418 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:08:53,418 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:08:53,419 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:08:53,717 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:08:57,395 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:01,867 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:06,394 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:08,719 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:09:08,719 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:09:08,719 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:09:08,720 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:09:09,006 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:09:10,905 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:11,239 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:09:11,707 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:09:11,708 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:09:11,708 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:09:11,914 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:09:11,914 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:09:15,406 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:19,889 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:24,008 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:09:24,010 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:09:24,010 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:09:24,011 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:09:24,288 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:09:24,369 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:28,856 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:33,341 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:37,819 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:38,131 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:09:38,131 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:09:38,131 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:09:38,940 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:09:38,940 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:09:39,290 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:09:39,290 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:09:39,290 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:09:39,292 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:09:39,596 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:09:42,347 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:42,701 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:09:46,829 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:51,331 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:09:54,598 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:09:54,598 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:09:54,598 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:09:54,600 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:09:54,904 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:09:55,813 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:00,292 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:04,568 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:10:04,568 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:10:04,568 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:10:04,812 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:04,946 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:10:04,947 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:10:09,319 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:09,907 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:10:09,907 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:10:09,907 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:10:09,908 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:10:10,202 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:10:13,797 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:14,099 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:10:18,310 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:22,808 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:25,204 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:10:25,204 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:10:25,204 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:10:25,205 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:10:25,489 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:10:27,308 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:30,805 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:10:30,805 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:10:30,805 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:10:30,954 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:10:30,954 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:10:31,833 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:36,296 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:40,491 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:10:40,491 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:10:40,491 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:10:40,493 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:10:40,805 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:10:40,806 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:45,286 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:45,643 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:10:49,803 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:54,302 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:10:55,807 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: status
+2021-02-02 03:10:55,807 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:10:55,807 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: status
+2021-02-02 03:10:55,809 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:10:56,268 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:10:57,003 DEBUG   SenderThread:13795 [sender.py:send():117] send: history
+2021-02-02 03:10:57,004 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:10:57,004 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:10:57,971 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:10:57,972 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:10:58,776 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:11:00,755 WARNING MainThread:13795 [internal.py:wandb_internal():118] Internal process interrupt: 1
+2021-02-02 03:11:00,772 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: poll_exit
+2021-02-02 03:11:00,772 DEBUG   SenderThread:13795 [sender.py:send():117] send: telemetry
+2021-02-02 03:11:00,775 DEBUG   SenderThread:13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:11:00,972 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:11:01,092 DEBUG   SenderThread:13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:11:01,094 DEBUG   SenderThread:13795 [sender.py:send():117] send: exit
+2021-02-02 03:11:01,094 INFO    SenderThread:13795 [sender.py:send_exit():195] handling exit code: 255
+2021-02-02 03:11:01,094 INFO    SenderThread:13795 [sender.py:send_exit():203] send defer
+2021-02-02 03:11:01,094 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:01,095 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: poll_exit
+2021-02-02 03:11:01,095 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: defer
+2021-02-02 03:11:01,095 INFO    HandlerThread:13795 [handler.py:handle_request_defer():69] handle defer: 0
+2021-02-02 03:11:01,095 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:01,096 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: defer
+2021-02-02 03:11:01,096 INFO    SenderThread:13795 [sender.py:send_request_defer():212] handle sender defer: 0
+2021-02-02 03:11:01,096 INFO    SenderThread:13795 [sender.py:send_request_defer():248] send defer: 1
+2021-02-02 03:11:01,096 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: defer
+2021-02-02 03:11:01,096 INFO    HandlerThread:13795 [handler.py:handle_request_defer():69] handle defer: 1
+2021-02-02 03:11:01,142 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:01,142 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: defer
+2021-02-02 03:11:01,142 INFO    SenderThread:13795 [sender.py:send_request_defer():212] handle sender defer: 1
+2021-02-02 03:11:01,142 INFO    SenderThread:13795 [sender.py:send_request_defer():248] send defer: 2
+2021-02-02 03:11:01,142 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: defer
+2021-02-02 03:11:01,142 INFO    HandlerThread:13795 [handler.py:handle_request_defer():69] handle defer: 2
+2021-02-02 03:11:01,143 DEBUG   SenderThread:13795 [sender.py:send():117] send: stats
+2021-02-02 03:11:01,143 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:01,143 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: defer
+2021-02-02 03:11:01,143 INFO    SenderThread:13795 [sender.py:send_request_defer():212] handle sender defer: 2
+2021-02-02 03:11:01,143 INFO    SenderThread:13795 [sender.py:send_request_defer():248] send defer: 3
+2021-02-02 03:11:01,143 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: defer
+2021-02-02 03:11:01,143 INFO    HandlerThread:13795 [handler.py:handle_request_defer():69] handle defer: 3
+2021-02-02 03:11:01,143 DEBUG   SenderThread:13795 [sender.py:send():117] send: summary
+2021-02-02 03:11:01,144 INFO    SenderThread:13795 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-02-02 03:11:01,144 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:01,144 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: defer
+2021-02-02 03:11:01,144 INFO    SenderThread:13795 [sender.py:send_request_defer():212] handle sender defer: 3
+2021-02-02 03:11:01,144 INFO    SenderThread:13795 [sender.py:send_request_defer():248] send defer: 4
+2021-02-02 03:11:01,144 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: defer
+2021-02-02 03:11:01,144 INFO    HandlerThread:13795 [handler.py:handle_request_defer():69] handle defer: 4
+2021-02-02 03:11:01,144 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:01,144 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: defer
+2021-02-02 03:11:01,144 INFO    SenderThread:13795 [sender.py:send_request_defer():212] handle sender defer: 4
+2021-02-02 03:11:01,144 INFO    SenderThread:13795 [dir_watcher.py:finish():279] shutting down directory watcher
+2021-02-02 03:11:01,972 INFO    Thread-8  :13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:11:01,973 INFO    SenderThread:13795 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/config.yaml
+2021-02-02 03:11:01,973 INFO    SenderThread:13795 [dir_watcher.py:finish():309] scan: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files
+2021-02-02 03:11:01,973 INFO    SenderThread:13795 [dir_watcher.py:finish():315] scan save: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-metadata.json wandb-metadata.json
+2021-02-02 03:11:01,973 INFO    SenderThread:13795 [dir_watcher.py:finish():315] scan save: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json wandb-summary.json
+2021-02-02 03:11:01,973 INFO    SenderThread:13795 [dir_watcher.py:finish():315] scan save: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/config.yaml config.yaml
+2021-02-02 03:11:01,973 INFO    SenderThread:13795 [dir_watcher.py:finish():315] scan save: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/requirements.txt requirements.txt
+2021-02-02 03:11:01,973 INFO    SenderThread:13795 [dir_watcher.py:finish():315] scan save: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log output.log
+2021-02-02 03:11:01,974 INFO    SenderThread:13795 [sender.py:send_request_defer():248] send defer: 5
+2021-02-02 03:11:01,974 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: defer
+2021-02-02 03:11:01,974 INFO    HandlerThread:13795 [handler.py:handle_request_defer():69] handle defer: 5
+2021-02-02 03:11:01,974 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:01,974 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: defer
+2021-02-02 03:11:01,974 INFO    SenderThread:13795 [sender.py:send_request_defer():212] handle sender defer: 5
+2021-02-02 03:11:01,974 INFO    SenderThread:13795 [file_pusher.py:finish():170] shutting down file pusher
+2021-02-02 03:11:01,974 INFO    SenderThread:13795 [sender.py:send_request_defer():248] send defer: 6
+2021-02-02 03:11:01,974 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: defer
+2021-02-02 03:11:01,974 INFO    HandlerThread:13795 [handler.py:handle_request_defer():69] handle defer: 6
+2021-02-02 03:11:01,975 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:01,975 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: defer
+2021-02-02 03:11:01,975 INFO    SenderThread:13795 [sender.py:send_request_defer():212] handle sender defer: 6
+2021-02-02 03:11:01,981 DEBUG   Thread-12 :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:11:01,989 DEBUG   Thread-13 :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:11:01,993 DEBUG   Thread-14 :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:11:01,997 DEBUG   Thread-15 :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-02-02 03:11:02,290 DEBUG   Thread-12 :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:11:02,293 DEBUG   Thread-12 :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-02 03:11:02,293 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:11:02,303 DEBUG   Thread-13 :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:11:02,305 DEBUG   Thread-13 :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-02 03:11:02,313 DEBUG   Thread-15 :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:11:02,315 DEBUG   Thread-15 :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-02 03:11:02,325 DEBUG   Thread-14 :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-02-02 03:11:02,327 DEBUG   Thread-14 :13795 [connectionpool.py:_new_conn():813] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-02-02 03:11:02,596 DEBUG   Thread-5  :13795 [connectionpool.py:_make_request():393] https://api.wandb.ai:443 "POST /files/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/file_stream HTTP/1.1" 200 None
+2021-02-02 03:11:02,597 INFO    SenderThread:13795 [sender.py:send_request_defer():248] send defer: 7
+2021-02-02 03:11:02,597 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: defer
+2021-02-02 03:11:02,597 INFO    HandlerThread:13795 [handler.py:handle_request_defer():69] handle defer: 7
+2021-02-02 03:11:02,597 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:02,597 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: defer
+2021-02-02 03:11:02,597 INFO    SenderThread:13795 [sender.py:send_request_defer():212] handle sender defer: 7
+2021-02-02 03:11:02,597 INFO    SenderThread:13795 [sender.py:send_request_defer():248] send defer: 8
+2021-02-02 03:11:02,598 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: defer
+2021-02-02 03:11:02,598 INFO    HandlerThread:13795 [handler.py:handle_request_defer():69] handle defer: 8
+2021-02-02 03:11:02,598 DEBUG   SenderThread:13795 [sender.py:send():117] send: final
+2021-02-02 03:11:02,598 DEBUG   SenderThread:13795 [sender.py:send():117] send: footer
+2021-02-02 03:11:02,598 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:02,598 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: defer
+2021-02-02 03:11:02,598 INFO    SenderThread:13795 [sender.py:send_request_defer():212] handle sender defer: 8
+2021-02-02 03:11:02,805 DEBUG   Thread-15 :13795 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/output.log?Expires=1612302062&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=RAW%2F82kS%2Bn5W%2FX2Bie0xvqjew%2BGt61M%2FFH1T21BMY1tj3hTN%2Bt9AVECMAc8kXL7tIbwXzJXi%2FtAs8KT0Ml6ohWWVtHiLFbyd45%2B2vvZUJEsEPNdD7fVPQ8JzZN4T6eIIM2kx7ADs1IlFp6hCAxS7nV3UED4SiNs6CiuaCUoei9IrgXUtcMp3lwvakKRZzwjdOgZAoFZzI0S7aKgK0tiWRC%2B9Yw%2FRl7uY2lYfsYQtMb9N2eVbRqjO81hLNG9FXDqLE4H5lG9qR%2B9DZ34vv4wroQWrKFnWAVPDOrXgXkMSah5RfReeYnw7C1XycsCm%2BfW%2BNElgR%2F2ELGShTTDuuedYrw%3D%3D HTTP/1.1" 200 0
+2021-02-02 03:11:02,806 INFO    Thread-15 :13795 [upload_job.py:push():131] Uploaded file /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/output.log
+2021-02-02 03:11:02,807 DEBUG   Thread-13 :13795 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/config.yaml?Expires=1612302062&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=N1bZvnfX0XuIWkylrhhB9Hnw9yUtNKiaFElG2CKDqMeUCJtwbT6Lr4eddktQhAFRRH4qxWdyQm78QE4DjS3xvEHs0jh98Vq0xGD0wZrE2ycMba5rOfnjbo6LKFVVmIngWqlXsfoTYQA1SFEHk4Pqihc4buHMjsfMHesDnjNeEWbqJ5FFORQ28lMypyxR3KoRWYgP3rMJ2ZbvkpdqlliqhvEjOCgZURdFQHEx0mXxRByWZFsxV1%2FpzWnEJxwdF1hmAN0M5d8Rk%2FlqWZdcHQMNr3MpL70V%2FD4Jg8lL7I54%2F3VDGBWSu6qfRF7NxdDzOd846F17ZIb33FT0gXAG3P1N5w%3D%3D HTTP/1.1" 200 0
+2021-02-02 03:11:02,808 INFO    Thread-13 :13795 [upload_job.py:push():131] Uploaded file /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/config.yaml
+2021-02-02 03:11:02,820 DEBUG   Thread-14 :13795 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/requirements.txt?Expires=1612302062&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=llx8vwghFkBD078NmN5C3BezPROGbsCWHW7Ds7taVibvNbHHPLe%2Bjf7AR%2BGICu2h5h%2FOiem3iRknlwI%2FHaKawHl9IxClM5tvgbWDuFFWTybOpfUaO%2F%2FuAs5apkFwS5fom91XeubOoCoAEH1cXfoldZkKnSgpU2v7gde4g7GlFNnNO26Z8V%2BhI%2BdZMGEs1QuIGXpwK2GSCVUzo4Kaal%2BOEOfD4oU0kxJTJKeLLYswEE8K6GyeB10MZ9inqcF5yB3UiTIFoG5CrxEsZI389EO%2BIswlbVOZCNoITKfods%2FrnORNMx3RngQSWssh3cGUd4pl%2BX7J7j0A%2FH0MOVUB%2BKdthQ%3D%3D HTTP/1.1" 200 0
+2021-02-02 03:11:02,821 INFO    Thread-14 :13795 [upload_job.py:push():131] Uploaded file /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/requirements.txt
+2021-02-02 03:11:02,860 DEBUG   Thread-12 :13795 [connectionpool.py:_make_request():393] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/ahmadkhan242/SNR_NS_0_50000_dropout_2/22k2jhj6/wandb-summary.json?Expires=1612302062&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=DmZzfI%2BsjOSKVrN0FQxEzPK5Kutub6cY%2BOfznKxfm4fgtGrBeb4IwH9R%2F5hfN6dnq2ZDVHdXJuRtgIgwZ7exZDDCgTFe%2FYlguymrVguiqGRiNLtZgm4fNVPympUqOkwHTJjkzX5nKiD66jLsoyDQcARJHvC0dqIZ393%2FEeuFPT0i8MungDKi0alaRgINjD6SXAJxQRSW0oJ5iTdHWUOVpNHB0dKmYJ2IC%2BsTPnHj2FsDCAZiQZBZx1BbVP3Db0wioeBNQE0l0QxNauIwJN6RtrPw5fF6ocvq8DSjW%2BCK%2FuHwIUextigdKamQUe2U2vD3LTCGTUbpeQccoBOe0HZFDQ%3D%3D HTTP/1.1" 200 0
+2021-02-02 03:11:02,861 INFO    Thread-12 :13795 [upload_job.py:push():131] Uploaded file /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/files/wandb-summary.json
+2021-02-02 03:11:03,097 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: poll_exit
+2021-02-02 03:11:03,098 DEBUG   SenderThread:13795 [sender.py:send():117] send: request
+2021-02-02 03:11:03,098 DEBUG   SenderThread:13795 [sender.py:send_request():126] send_request: poll_exit
+2021-02-02 03:11:03,098 INFO    SenderThread:13795 [file_pusher.py:join():175] waiting for file pusher
+2021-02-02 03:11:03,098 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: get_summary
+2021-02-02 03:11:03,099 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: sampled_history
+2021-02-02 03:11:03,100 DEBUG   HandlerThread:13795 [handler.py:handle_request():55] handle_request: shutdown
+2021-02-02 03:11:03,100 INFO    HandlerThread:13795 [handler.py:finish():274] shutting down handler
+2021-02-02 03:11:03,598 INFO    WriterThread:13795 [datastore.py:close():258] close: /home/iiitd/Desktop/Ahmad/doa2/wandb/run-20210202_025549-22k2jhj6/run-22k2jhj6.wandb
+2021-02-02 03:11:04,098 INFO    SenderThread:13795 [sender.py:finish():756] shutting down sender
+2021-02-02 03:11:04,098 INFO    SenderThread:13795 [file_pusher.py:finish():170] shutting down file pusher
+2021-02-02 03:11:04,098 INFO    SenderThread:13795 [file_pusher.py:join():175] waiting for file pusher
+2021-02-02 03:11:04,099 INFO    MainThread:13795 [internal.py:handle_exit():139] Internal process exited

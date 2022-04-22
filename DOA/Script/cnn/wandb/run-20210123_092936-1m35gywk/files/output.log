@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/scipy/io/matlab/mio.py", line 39, in _open_file
+    return open(file_like, mode), True
+FileNotFoundError: [Errno 2] No such file or directory: './SNR_NS_15_50000.mat'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "train.py", line 42, in <module>
+    df1 = sio.loadmat("./SNR_NS_15_50000.mat")
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/scipy/io/matlab/mio.py", line 216, in loadmat
+    with _open_file_context(file_name, appendmat) as f:
+  File "/home/iiitd/anaconda3/lib/python3.7/contextlib.py", line 112, in __enter__
+    return next(self.gen)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/scipy/io/matlab/mio.py", line 19, in _open_file_context
+    f, opened = _open_file(file_like, appendmat, mode)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/scipy/io/matlab/mio.py", line 45, in _open_file
+    return open(file_like, mode), True
+FileNotFoundError: [Errno 2] No such file or directory: './SNR_NS_15_50000.mat'

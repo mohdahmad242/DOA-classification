@@ -1,0 +1,34 @@
+300000
+GeForce GTX 1080 Ti
+Epoch 1 - Traningloss: -1031.7501233810497
+Validationloss: -1121.9181611659162
+Traceback (most recent call last):
+  File "pretraining.py", line 158, in <module>
+    train()
+  File "pretraining.py", line 129, in train
+    output = unet(inputs.float().cuda())
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/doa1/AttRCNN_UNet.py", line 143, in forward
+    x5 = self.RCNN3(x4)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/doa1/AttRCNN_UNet.py", line 75, in forward
+    x1 = self.RCNN(x)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/doa1/AttRCNN_UNet.py", line 61, in forward
+    x1 = self.conv(x+x1)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/batchnorm.py", line 113, in forward
+    self.num_batches_tracked = self.num_batches_tracked + 1
+KeyboardInterrupt

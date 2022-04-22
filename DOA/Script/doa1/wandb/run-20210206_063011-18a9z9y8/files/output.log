@@ -1,0 +1,25 @@
+GeForce GTX 1080 Ti
+Traceback (most recent call last):
+  File "train.py", line 188, in <module>
+    train()
+  File "train.py", line 145, in train
+    enn = autoencoder(features.float())
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/container.py", line 117, in forward
+    input = module(input)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/doa1/auto.py", line 98, in forward
+    cnn1_out = self.cnn1(a)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/Desktop/Ahmad/doa1/cnn1.py", line 107, in forward
+    x5 = self.dropout(x5)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/modules/dropout.py", line 58, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/nn/functional.py", line 973, in dropout
+    else _VF.dropout(input, p, training))
+RuntimeError: CUDA out of memory. Tried to allocate 100.00 MiB (GPU 0; 10.91 GiB total capacity; 10.04 GiB already allocated; 33.38 MiB free; 10.05 GiB reserved in total by PyTorch)

@@ -1,0 +1,17 @@
+GeForce GTX 1080 Ti
+Traceback (most recent call last):
+  File "pretraining.py", line 162, in <module>
+    train()
+  File "pretraining.py", line 130, in train
+    for features, labels in train_loader:
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 363, in __next__
+    data = self._next_data()
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 403, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/torch/utils/data/_utils/fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "pretraining.py", line 75, in __getitem__
+    return self.x[index], self.y[index]
+IndexError: index 216949 is out of bounds for dimension 0 with size 50000

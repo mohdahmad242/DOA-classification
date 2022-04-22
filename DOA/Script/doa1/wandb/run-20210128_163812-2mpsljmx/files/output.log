@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "train.py", line 41, in <module>
+    df1 = sio.loadmat("../datasets/doa1/SNR_NS_0_50000_1.mat")
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/scipy/io/matlab/mio.py", line 218, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/scipy/io/matlab/mio5.py", line 292, in get_variables
+    res = self.read_var_array(hdr, process)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/scipy/io/matlab/mio5.py", line 252, in read_var_array
+    return self._matrix_reader.array_from_header(header, process)
+KeyboardInterrupt

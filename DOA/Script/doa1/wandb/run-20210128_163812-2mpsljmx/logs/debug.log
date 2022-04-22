@@ -1,0 +1,57 @@
+2021-01-28 16:38:12,225 INFO    MainThread:28862 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-28 16:38:12,225 INFO    MainThread:28862 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-28 16:38:12,225 INFO    MainThread:28862 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-28 16:38:12,226 INFO    MainThread:28862 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-28 16:38:12,226 INFO    MainThread:28862 [wandb_init.py:_log_setup():318] Logging user logs to /home/iiitd/Desktop/Ahmad/doa1/wandb/run-20210128_163812-2mpsljmx/logs/debug.log
+2021-01-28 16:38:12,226 INFO    MainThread:28862 [wandb_init.py:_log_setup():319] Logging internal logs to /home/iiitd/Desktop/Ahmad/doa1/wandb/run-20210128_163812-2mpsljmx/logs/debug-internal.log
+2021-01-28 16:38:14,629 INFO    MainThread:28862 [wandb_run.py:_console_start():1308] atexit reg
+2021-01-28 16:38:14,630 INFO    MainThread:28862 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.REDIRECT
+2021-01-28 16:38:14,630 INFO    MainThread:28862 [wandb_run.py:_redirect():1178] Redirecting console.
+2021-01-28 16:38:14,630 INFO    MainThread:28862 [redirect.py:install():205] install start
+2021-01-28 16:38:14,641 INFO    MainThread:28862 [redirect.py:install():220] install stop
+2021-01-28 16:38:14,641 INFO    MainThread:28862 [redirect.py:install():205] install start
+2021-01-28 16:38:14,644 INFO    MainThread:28862 [redirect.py:install():220] install stop
+2021-01-28 16:38:14,644 INFO    MainThread:28862 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-01-28 16:38:19,198 INFO    MainThread:28862 [wandb_run.py:_atexit_cleanup():1278] got exitcode: 255
+2021-01-28 16:38:19,198 INFO    MainThread:28862 [wandb_run.py:_restore():1250] restore
+2021-01-28 16:38:19,198 INFO    MainThread:28862 [redirect.py:uninstall():224] uninstall start
+2021-01-28 16:38:19,198 ERROR   stderr    :28862 [redirect.py:_pipe_relay():131] problem in pipe relay
+Traceback (most recent call last):
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/wandb/sdk/lib/redirect.py", line 129, in _pipe_relay
+    cb(name, data)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 664, in _console_callback
+    self._backend.interface.publish_output(name, data)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 151, in publish_output
+    self._publish_output(o)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 156, in _publish_output
+    self._publish(rec)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 455, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2021-01-28 16:38:19,198 INFO    MainThread:28862 [redirect.py:_stop():279] _stop: stdout
+2021-01-28 16:38:19,219 INFO    MainThread:28862 [redirect.py:_stop():285] _stop closed: stdout
+2021-01-28 16:38:19,219 INFO    stdout    :28862 [redirect.py:_pipe_relay():121] relay done saw last write: stdout
+2021-01-28 16:38:19,219 INFO    stdout    :28862 [redirect.py:_pipe_relay():137] relay done done: stdout
+2021-01-28 16:38:19,219 INFO    MainThread:28862 [redirect.py:_stop():291] _stop joined: stdout
+2021-01-28 16:38:19,219 INFO    MainThread:28862 [redirect.py:_stop():293] _stop rd closed: stdout
+2021-01-28 16:38:19,219 INFO    MainThread:28862 [redirect.py:uninstall():228] uninstall done
+2021-01-28 16:38:19,219 INFO    MainThread:28862 [redirect.py:uninstall():224] uninstall start
+2021-01-28 16:38:19,220 INFO    MainThread:28862 [redirect.py:_stop():279] _stop: stderr
+2021-01-28 16:38:19,220 INFO    MainThread:28862 [redirect.py:_stop():285] _stop closed: stderr
+2021-01-28 16:38:19,220 INFO    stderr    :28862 [redirect.py:_pipe_relay():121] relay done saw last write: stderr
+2021-01-28 16:38:19,220 INFO    stderr    :28862 [redirect.py:_pipe_relay():137] relay done done: stderr
+2021-01-28 16:38:19,220 INFO    MainThread:28862 [redirect.py:_stop():291] _stop joined: stderr
+2021-01-28 16:38:19,220 INFO    MainThread:28862 [redirect.py:_stop():293] _stop rd closed: stderr
+2021-01-28 16:38:19,220 INFO    MainThread:28862 [redirect.py:uninstall():228] uninstall done
+2021-01-28 16:38:19,220 INFO    MainThread:28862 [wandb_run.py:_restore():1250] restore
+2021-01-28 16:38:24,952 ERROR   MainThread:28862 [wandb_run.py:_atexit_cleanup():1296] Problem finishing run
+Traceback (most recent call last):
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 1286, in _atexit_cleanup
+    self._on_finish()
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 1437, in _on_finish
+    self._backend.interface.publish_telemetry(self._telemetry_obj)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 182, in publish_telemetry
+    self._publish(rec)
+  File "/home/iiitd/anaconda3/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 455, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
